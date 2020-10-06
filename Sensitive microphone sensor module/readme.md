@@ -6,4 +6,43 @@ This module is integrated on board one microphone one potentiometer on microchip
 
 ![](connectionsarduino2.PNG)
 ![](input2.PNG)
+#### EXAMPLE SENSOR CODE:
+```
+// Declaration and initialization of the input pin
+int Analogue_Eingang = A0; // X-axis-signal
+int Digital_Eingang = 3; // Button
+void setup ()
+{
+pinMode (Analogue_Eingang, INPUT);
+pinMode (Digital_Eingang, INPUT);
+Serial.begin (9600); // Serial output with 9600 bps
+}
 
+// The program reads the current value of the input pins
+// and outputs it via serial out
+
+void loop ()
+{
+float Analogue;
+int Digital;
+// Current value will be read and converted to voltage
+Analogue = analogueRead (Analogue_Eingang) * (5.0 / 1023.0);
+Digital = digitalRead (Digital_Eingang);
+//... and outputted here
+Serial.print ("Analogue voltage value: "); Serial.print (Analogue,
+4); Serial.print ("V, ");
+Serial.print ("Extreme value: ");
+if(Digital==1)
+{
+Serial.println (" reached");
+}
+else
+{
+Serial.println (" not reached yet");
+}
+Serial.println ("----------------------------------------------------------------");
+delay (200);
+
+}
+
+```
