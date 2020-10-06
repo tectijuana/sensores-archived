@@ -25,21 +25,24 @@ void loop ()
 {
 float Analogue;
 int Digital;
+
 // Current value will be read and converted to voltage
 Analogue = analogueRead (Analogue_Eingang) * (5.0 / 1023.0);
 Digital = digitalRead (Digital_Eingang);
+
 //... and outputted here
-Serial.print ("Analogue voltage value: "); Serial.print (Analogue,
-4); Serial.print ("V, ");
+Serial.print ("Analogue voltage value: "); Serial.print (Analogue,4); Serial.print ("V, ");
 Serial.print ("Extreme value: ");
+
 if(Digital==1)
-{
-Serial.println (" reached");
-}
-else
-{
-Serial.println (" not reached yet");
-}
+  {
+    Serial.println (" reached");
+  }
+  else
+  {
+    Serial.println (" not reached yet");
+  }
+  
 Serial.println ("----------------------------------------------------------------");
 delay (200);
 
