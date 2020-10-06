@@ -9,7 +9,7 @@
 |  	|  	|  	|  	|  	|
 |  	|  	|  	|  	|  	|
 
-```
+```Arduino
 EXAMPLE SENSOR CODE:
 int led = 13; //Define the LED pin
 int buttonpin = 3; //Define the push button pin
