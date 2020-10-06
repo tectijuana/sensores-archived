@@ -1,4 +1,4 @@
-#Magnetic Hall Sensor
+![] (HallMagnetic.png)
 
 | Pic 	| Sensor 	| Función 	| URL 	| Colaborador 	|
 |-	|-	|-	|-	|-	|
