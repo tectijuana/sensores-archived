@@ -2,7 +2,7 @@
 
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
-![](LMHSENSOR.jpg) | Linear Magnetic Hall Sensor | Detecta campo magenetico | ![MAS INFO](https://arduinomodules.info/ky-024-linear-magnetic-hall-module/) | Erik Geovanny Osorio Lopez
+![](LMHSENSOR.jpg) | Linear Magnetic Hall Sensor | Detecta campo magenetico | [MAS INFO](https://arduinomodules.info/ky-024-linear-magnetic-hall-module/) | Erik Geovanny Osorio Lopez
 
 # DESCRIPTION 
 The magnetic sensor known as KY 0 24. This is a module itself so let's get started.
