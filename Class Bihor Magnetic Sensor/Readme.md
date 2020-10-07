@@ -1,2 +1,3 @@
 # Class BihorMagnetic Sensor
-![](cooltext364833552088827 (1).png)
+
+![](cooltext364833552088827.png)
