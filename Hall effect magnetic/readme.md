@@ -3,4 +3,4 @@
 
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
-![Hall effect magnetic](https://arduinomodules.info/wp-content/uploads/KY-003_Fritzing_custom_part_image-130x240.png) | Hall effect magnetic | The KY-003 Hall Magnetic Sensor consists of a 3144EUA-S sensitive Hall-effect switch for high-temperature operation, a 680Ω resistor and a LED. Compatible with popular electronics platforms like Arduino and Raspberry Pi. | [Sitio](https://arduinomodules.info/ky-003-hall-magnetic-sensor-module/) | Giezy Martínez De La Cruz
+![Hall effect magnetic](https://arduinomodules.info/wp-content/uploads/KY-003_Fritzing_custom_part_image-130x240.png) | Hall effect magnetic | The KY-003 Hall Magnetic Sensor consists of a 3144EUA-S sensitive Hall-effect switch for high-temperature operation, a 680Ω resistor and a LED. Compatible with popular electronics platforms like Arduino and Raspberry Pi. | [Más información](https://arduinomodules.info/ky-003-hall-magnetic-sensor-module/) | Giezy Martínez De La Cruz
