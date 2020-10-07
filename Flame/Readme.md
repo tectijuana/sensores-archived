@@ -4,8 +4,9 @@
 
 ![](FlameConect.PNG)
 
+The flame sensor known KY 0 26. This is the module itself.
 
-##EXAMPLE SENSOR CODE:
+## EXAMPLE SENSOR CODE:
 ```ARDUINO
 int led = 13; // define the LED pin
 int digitalPin = 2; // KY-026 digital interface
