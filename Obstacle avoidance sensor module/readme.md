@@ -1,5 +1,7 @@
-# Sensor de obstaculos
-
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/tectijuana/sensores/master/Obstacle%20avoidance%20sensor%20module/sensor_obtaculos_img.png">
+</p>
+ 
 El Sensor de obstaculos KY-032 es un modulo que posee la habilidad de detectar obstáculos que se encuentran en su camino, 
 su implementación es muy sencilla ya que tiene un rango de detección desde los 2 hasta los 40 cm, se compone de un transmisor y receptor, 
 un led indicador, dos resistencias smd, un integrado 74hc00d, un mini jumper puente corto, dos potenciometros de ajuste (uno para determinar el nivel de umbral, 
