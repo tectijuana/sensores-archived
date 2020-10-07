@@ -2,7 +2,7 @@
 
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
-![](FSENSOR.jpg) | Flame Sensor | Detecta la luz intraroja emitida por el fuego | https://arduinomodules.info/ky-026-flame-sensor-module/#:~:text=KY-026%20Flame%20Sensor%20Module%20for%20Arduino%20detects%20infrared%20light,used%20in%20fire%20detection%20systems. | Erik Geovanny Osorio Lopez
+![](FSENSOR.jpg) | Flame Sensor | Detecta la luz intraroja emitida por el fuego | [MAS INFO](https://arduinomodules.info/ky-026-flame-sensor-module/#:~:text=KY-026%20Flame%20Sensor%20Module%20for%20Arduino%20detects%20infrared%20light,used%20in%20fire%20detection%20systems.) | Erik Geovanny Osorio Lopez
 
 # DESCRIPTION
 The flame sensor known KY 0 26. This is the module itself.
