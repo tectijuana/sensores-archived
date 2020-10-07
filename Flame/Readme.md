@@ -4,14 +4,14 @@ PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
 ![](FSENSOR.jpg) | Flame Sensor | Detecta la luz intraroja emitida por el fuego | [MAS INFO](https://arduinomodules.info/ky-026-flame-sensor-module/#:~:text=KY-026%20Flame%20Sensor%20Module%20for%20Arduino%20detects%20infrared%20light,used%20in%20fire%20detection%20systems.) | Erik Geovanny Osorio Lopez
 
-# DESCRIPTION
+## DESCRIPTION
 **The flame sensor known KY 0 26. This is the module itself.
 This module has integrated on board AI flame sensor, one
 potentiometer one microchip 60 resistors and two led the resistor r1
 used in this module is thank you ohms the resistor R two is 100 kilo
 ohms. There is these there are three is 150 ohms, there is Easter r
 four is one kilo on their resistor R five is Wankel arm and the resistor
-R six is 100 kilo ohms
+R six is 100 kilo ohms.
 
 The main reason for using the resistor is to limit current circulating
 inside the module. In other words, to prevent the current from
@@ -50,8 +50,9 @@ digital pin with the 0 sign. So let's talk about the signal. This module
 gives two signals, we can connect the pin of the analogue signal with
 any analogue port and the pin of the digital signal with any digital
 port of different microcontroller boards like Arduino or Raspberry
-Pi.
+Pi.v 
 
+## EXAMPLE CONNECTION  
 ![](flamArd.png)
 
 ## EXAMPLE SENSOR CODE:
