@@ -2,8 +2,6 @@
 
 ![](FSENSOR.jpg)
 
-![](FlameConect.PNG)
-
 The flame sensor known KY 0 26. This is the module itself.
 This module has integrated on board AI flame sensor, one
 potentiometer one microchip 60 resistors and two led the resistor r1
@@ -50,6 +48,8 @@ gives two signals, we can connect the pin of the analogue signal with
 any analogue port and the pin of the digital signal with any digital
 port of different microcontroller boards like Arduino or Raspberry
 Pi.
+
+![](FlameConect.PNG)
 
 ## EXAMPLE SENSOR CODE:
 ```ARDUINO
