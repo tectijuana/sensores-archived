@@ -1,6 +1,6 @@
 ![](FlameSensor.gif)
 
-![](FSENSOR.JPG)
+![](FSENSOR.jpg)
 | Pic 	| Sensor 	| Función 	| URL 	| Colaborador 	|
 |-	|-	|-	|-	|-	|
 |  	| 	|  	|  	|  	|
