@@ -1,4 +1,4 @@
-![] (HallMagnetic.png)
+![](HallMagnetic.png)
 
 | Pic 	| Sensor 	| Función 	| URL 	| Colaborador 	|
 |-	|-	|-	|-	|-	|
