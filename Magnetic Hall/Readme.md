@@ -1,19 +1,13 @@
 ![](LMAGNETICHALL.png)
 
-| Pic 	| Sensor 	| Función 	| URL 	| Colaborador 	|
-|-	|-	|-	|-	|-	|
-|  	| 	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
 
-#FOTO
+#FOTO DE MAGNETIC HALL SENSOR
 
 ![](LMHSENSOR.jpg)
 
-```Arduino
+
+
+```Arduino Uno
 EXAMPLE SENSOR CODE:
 int led = 13; //Define the LED pin
 int buttonpin = 3; //Define the push button pin
