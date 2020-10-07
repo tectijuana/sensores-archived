@@ -10,7 +10,7 @@
 |  	|  	|  	|  	|  	|
 |  	|  	|  	|  	|  	|
 
-´´´´ARDUINO
+```ARDUINO
 EXAMPLE SENSOR CODE:
 int led = 13; // define the LED pin
 int digitalPin = 2; // KY-026 digital interface
@@ -43,4 +43,4 @@ Serial.println(analogueVal); // print analogue value to serial
 
 delay(100);
 
-´´´´
+```
