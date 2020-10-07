@@ -2,8 +2,11 @@
 
 ![](FSENSOR.jpg)
 
+![](FlameConect.PNG)
+
+
+##EXAMPLE SENSOR CODE:
 ```ARDUINO
-EXAMPLE SENSOR CODE:
 int led = 13; // define the LED pin
 int digitalPin = 2; // KY-026 digital interface
 int analoguePin = A0; // KY-026 analogue interface
