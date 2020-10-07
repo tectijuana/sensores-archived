@@ -1,7 +1,8 @@
 ![](LMAGNETICHALL.png)
 
-
-![](LMHSENSOR.jpg)
+PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
+------------ | -------------| -------------| -------------| -------------
+![](LMHSENSOR.jpg) | Linear Magnetic Hall Sensor | Detecta campo magenetico | N/A | Erik Geovanny Osorio Lopez
 
 # DESCRIPTION 
 The magnetic sensor known as KY 0 24. This is a module itself so let's get started.
