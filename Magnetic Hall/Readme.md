@@ -40,36 +40,8 @@ gives two signals, we can connect the pin of the analogue signal with
 any analogue board and the pain of the digital signal with any digital
 port of different microcontroller boards like Arduino or Raspberry
 Pi.
+## EXAMPLE CONNECTION TO ARDUINO
+![](LMHSAC.png)
 
 # EXAMPLE SENSOR CODE:
-```Arduino Uno
-
-int led = 13; //Define the LED pin
-int buttonpin = 3; //Define the push button pin
-int val; //Define a numeric variable
-void setup()
-{
-
-pinMode(led,OUTPUT);
-pinMode(buttonpin,INPUT);
-
-}
-void loop()
-{
-
-val = digitalRead(buttonpin); // check the state
-
-of the button
-
-if(val==HIGH) // if button is pressed, turn LED
-
-on
-
-{
-digitalWrite(led,HIGH);
-}
-else
-{
-digitalWrite(led,LOW);
-
-```
+![](LMHSARD.PNG)
