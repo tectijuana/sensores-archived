@@ -2,6 +2,8 @@
 ## Sensor Touch.
 
 El sensor capacitivo es simplemente un condensador que detecta cuando una persona lo pulsa. El circuito integrado ya preparado para Arduino dispone de todos los componentes para un funcionamiento correcto.
+
+
 ![enter image description here](https://i2.wp.com/www.drouiz.com/wp-content/uploads/2016/03/sensor-capacitivo-arduino.jpg?resize=300,300&ssl=1)
 
 ### Características del Sensor Touch Analógico.
