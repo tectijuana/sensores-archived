@@ -10,7 +10,7 @@
 |  	|  	|  	|  	|  	|
 
 #FOTO
-![](LMHSENSOR.png)
+![](LMHSENSOR.jpg)
 
 ```Arduino
 EXAMPLE SENSOR CODE:
