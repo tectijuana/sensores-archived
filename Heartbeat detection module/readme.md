@@ -1,8 +1,12 @@
-## Sensor de detección de ritmo cardiaco
+# Sensor de detección de ritmo cardiaco
 
 El sensor de ritmo cardíaco es un dispositivo de “plug and play”, puede ser utilizado para obtener fácilmente una lectura del ritmo cardíaco en tiempo real. 
 Una de las ventajas de este tipo de dispositivos es que el software es de código abierto lo que permite obtener gráficamente el 
 ritmo cardíaco en tiempo real mediante Processing si se está utilizando la tarjeta Arduino.
+
+<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/tectijuana/sensores/master/Heartbeat%20detection%20module/Sensor%20KY-039.webp">
+</p>
 
 #### ¿Como Funciona?
 El sensor funciona con un sensor de ritmo cardíaco óptico, donde tiene una etapa de amplificación y un filtro para el ruido, 
@@ -11,7 +15,9 @@ lo cual hace que su señal de salida sea confiable y estable. El consumo de corr
 Está basado en un LED emisor y un sensor receptor de intensidad, la cantidad de luz reflejada por el dedo cuando hay paso de corriente sanguínea define 
 la salida del sensor. Por lo que es posible visualizar gráficamente o numéricamente la información del mismo.
 
-El monitor de pulso funciona de la siguiente manera: el LED es el lado luminoso del dedo y el fototransistor del otro lado del dedo, 
+*El monitor de pulso funciona de la siguiente manera:*
+
+El LED es el lado luminoso del dedo y el fototransistor del otro lado del dedo, 
 el fototransistor utilizado para obtener el flujo emitido, cuando la presión sanguínea pulsa con el dedo cuando la resistencia del 
 fototransistor ser ligeramente cambiado.
 
@@ -38,7 +44,7 @@ otra luz diferente a la del led llegue ya que la señal del latido del corazón 
 
 ```javascript
  
-int senal = A0 ;  //Conectar en el pin analogico A0
+int senal = A0 ;  //Conectar en el pin analogico A0 
 int valor;
 
 
@@ -58,3 +64,4 @@ void loop()
   }
 }
 ```
+
