@@ -2,7 +2,7 @@
 
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
-![FSENSOR.jpg] | Flame Sensor | Detecta la luz intraroja emitida por el fuego | N/A | Erik Geovanny Osorio Lopez
+![](FSENSOR.jpg) | Flame Sensor | Detecta la luz intraroja emitida por el fuego | N/A | Erik Geovanny Osorio Lopez
 
 # DESCRIPTION
 The flame sensor known KY 0 26. This is the module itself.
