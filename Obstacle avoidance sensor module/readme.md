@@ -6,6 +6,10 @@ un led indicador, dos resistencias smd, un integrado 74hc00d, un mini jumper pue
 es decir el valor mínimo de señal que ha de estar presente para detectar y el otro para modificar la frecuencia de emisión del transmisor) 
 y un header macho de angulo de 4 pines.
 
+<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/tectijuana/sensores/master/Obstacle%20avoidance%20sensor%20module/ky-032.png">
+</p>
+
 #### ¿Como funciona?
 Este sensor funciona con una precisión increíble y mediante el infrarrojo tiene la capacidad de detectar cualquier tipo de obstáculo que se presente. 
 Su función básicamente se basa en la captación de luz exterior/ambiental. En su interior posee un par de receptores y transmisores que permiten que este sensor 
