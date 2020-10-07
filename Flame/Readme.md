@@ -2,6 +2,7 @@
 
 ![](FSENSOR.jpg)
 
+# DESCRIPTION
 The flame sensor known KY 0 26. This is the module itself.
 This module has integrated on board AI flame sensor, one
 potentiometer one microchip 60 resistors and two led the resistor r1
