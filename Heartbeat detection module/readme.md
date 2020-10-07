@@ -1,4 +1,6 @@
-# Sensor de detección de ritmo cardiaco
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/tectijuana/sensores/master/Heartbeat%20detection%20module/sensor_cardiaco_img.png">
+</p>
 
 El sensor de ritmo cardíaco es un dispositivo de “plug and play”, puede ser utilizado para obtener fácilmente una lectura del ritmo cardíaco en tiempo real. 
 Una de las ventajas de este tipo de dispositivos es que el software es de código abierto lo que permite obtener gráficamente el 
