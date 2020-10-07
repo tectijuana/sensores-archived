@@ -9,6 +9,9 @@
 |  	|  	|  	|  	|  	|
 |  	|  	|  	|  	|  	|
 
+#FOTO
+![](LMHSENSOR.png)
+
 ```Arduino
 EXAMPLE SENSOR CODE:
 int led = 13; //Define the LED pin
