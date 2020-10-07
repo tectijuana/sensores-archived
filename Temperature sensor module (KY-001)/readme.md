@@ -6,3 +6,6 @@ input a temperature sensor called Dallas 18 B 20. With single bass
 technology, a resistor and a led the resistor used in this module is 4.7
 kilo ohm and the main reason for using their resistor is to low mid
 current circulating inside the module.
+
+
+![](sensortemp.png)
