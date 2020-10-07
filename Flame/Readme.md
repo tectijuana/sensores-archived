@@ -1,14 +1,6 @@
 ![](FlameSensor.gif)
 
 ![](FSENSOR.jpg)
-| Pic 	| Sensor 	| Función 	| URL 	| Colaborador 	|
-|-	|-	|-	|-	|-	|
-|  	| 	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|
 
 ```ARDUINO
 EXAMPLE SENSOR CODE:
