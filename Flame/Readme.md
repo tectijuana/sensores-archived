@@ -52,7 +52,7 @@ any analogue port and the pin of the digital signal with any digital
 port of different microcontroller boards like Arduino or Raspberry
 Pi.
 
-![](FlameConect.PNG)
+![](flamArd.png)
 
 ## EXAMPLE SENSOR CODE:
 
