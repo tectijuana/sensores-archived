@@ -1,7 +1,7 @@
 ![](LMAGNETICHALL.png)
 
 
-#FOTO DE MAGNETIC HALL SENSOR
+
 
 ![](LMHSENSOR.jpg)
 
