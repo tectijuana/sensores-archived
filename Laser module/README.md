@@ -18,8 +18,7 @@ Este módulo tiene integrado un transmisor laser y una interfaz digital, además
 **Diagrama de conexión KY-005**
 Conectar Señal (S) al pin 13 del arduino y Ground (-) a GND. El pin central no es utilizado. 
 
-<a><div align="center"><img width="550px" src="http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/Conexion-768x953.png
-" /> </a></div>
+<a><div align="center"><img width="550px" src="http://cursoarduino.proserquisa.com/wp-content/uploads/2016/10/Conexion-768x953.png" /> </a></div>
 
 
 <a><div align="center"><img width="550px" src="https://steemitimages.com/p/BRWJ2YmdUFozvi1sxh8WM3WmJcrGQJ5NYRN4n4U2WjkWJ85k?format=match&mode=fit&width=640" /> </a></div>
