@@ -1,2 +1,2 @@
 ![](p1.png) 
-![](keyswitchmodule2.png)
+![](keyswitchmodule2.PNG)
