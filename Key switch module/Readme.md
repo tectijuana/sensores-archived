@@ -30,7 +30,9 @@ talk about the signal. This module gives a digital signal so we can
 connect the pain of the signal with any digital port of different
 microcontroller boards like Arduino or Raspberry Pi
 
-![](p3.PNG)
+PIC1 | PIC2 |
+------------ | -------------|
+![](p3.PNG) | ![](p4.PNG)
 
 ## EXAMPLE SENSOR CODE:
 int led = 13; //Define the LED pin
