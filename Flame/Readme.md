@@ -4,58 +4,99 @@ PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
 ![](FSENSOR.jpg) | Flame Sensor | Detecta la luz intraroja emitida por el fuego | [MAS INFO](https://arduinomodules.info/ky-026-flame-sensor-module/#:~:text=KY-026%20Flame%20Sensor%20Module%20for%20Arduino%20detects%20infrared%20light,used%20in%20fire%20detection%20systems.) | Erik Geovanny Osorio Lopez
 
+![](pic2f.PNG)
+
 ## DESCRIPTION
-**The flame sensor known KY 0 26. This is the module itself.
-This module has integrated on board AI flame sensor, one
-potentiometer one microchip 60 resistors and two led the resistor r1
-used in this module is thank you ohms the resistor R two is 100 kilo
-ohms. There is these there are three is 150 ohms, there is Easter r
-four is one kilo on their resistor R five is Wankel arm and the resistor
-R six is 100 kilo ohms.
+Es un módulo de sensor que se utiliza para detectar llamas La sensibilidad espectral del sensor está
+optimizada para detectar las emisiones de las llamas. La señal de salida en ‘DO’ pasa a nivel alto cuando
+se detecta una llama. El umbral de conmutación se puede ajustar por medio de un potenciómetro preajustado.
+En el pin ‘AO’ se encuentra disponible una señal analógica de salida.
 
-The main reason for using the resistor is to limit current circulating
-inside the module. In other words, to prevent the current from
-burning our module, the LED l one lights up to show if the module is
-working properly or not. Now, I will show how these components
-are connected together. There we have the sensor itself and of
-course, the six resistors and the two LEDs on the right you can see
-all the piece of the module icon on this board. We have in black, the
-flow of the ground, we have in the red, the flow of the voltage, we
-have in a light green, the flow of the analogueue signal and of course
-we have in green, the flow of the digital signal the flame sensor is
-used to detect fires or other light sources that have a wavelength of
-760 nanometres to thousand hundred nanometres.
-Near infrared ray flame detector, also known as a visual flame
-detectors employ flame recognition technology to confirm fire by
-analyzing near infrared radiation using a charge coupled device. A
-near infrared sensor is especially able to monitor flame phenol Mia
-without too much he drains from water or water vapor. Viral electric
-sensor operating at this wavelength can be relatively cheap. Multiple
-channel or big cell array sensor monitoring flames in the near
+- Sensibilidad espectral típica: 720-1100 nm
+- Angulo típico de detección: 60°
 
-infrared band are arguably the most reliable technology vailable for
-the detection of fires, light emission from a fire form an image of the
-flame at a particular instant digital image processing can be utilized
-to recognize flame through analyzes of a video created from the near
-infrared images. This module can detect the flame, but can also take
-the usual light.
-The sensitivity of this sensor is adjustable and also has a stable
-performance. These sensors are used for shorter range fire detection
-as well. The sensor begins to detect flame at a distance of 0.8 meters.
-If the flame intensity is high, the detection distress will increase Let's
-talk about the pins. The pins in this module are four, we have the
-ground pin with G sign, we have the voltage pin with the plus sign,
-we have the analogue pin with a 0 sign. And of course we have the
-digital pin with the 0 sign. So let's talk about the signal. This module
-gives two signals, we can connect the pin of the analogue signal with
-any analogue port and the pin of the digital signal with any digital
-port of different microcontroller boards like Arduino or Raspberry
-Pi.v 
+## COMPONENTES:
+- 1 x Elegoo Uno R3 1 x cable USB
+- 1 x Modulo sensor de llama 4 x Cables F-M
 
-## EXAMPLE CONNECTION  
-![](flamArd.png)
+## EJEMPLO DE CONCECCION ARDUINOñ
+![](flamArd.png) | ![](pic3f.PNG)
+
 
 ## EXAMPLE SENSOR CODE:
+Programa de control del puerto digital
 
-![](CARDFLAME.PNG)
+//define el puerto del LED int Led = 13;
+
+//define el puerto del interruptor int buttonpin = 13;
+
+//define digital variable val int val;
+
+void setup()
+
+{
+
+//define el LED como una salida PinMode (Led, OUTPUT);
+
+//define el interruptor como una salida pinMode(buttonpin,INPUT);
+
+}
+
+void loop()
+
+{
+
+//Lee el valor de la interfaz digital 3 asignada a val val=digitalRead(buttonpin);
+
+// cuando el sensor del interruptor tenga señal, el LED destellará if(val==HIGH)
+
+{
+
+digitalWrite(Led,HIGH);
+
+}
+
+else
+
+{
+
+digitalWrite(Led,LOW);
+
+}
+
+}
+
+(2) Simulación de los procedimientos de control de boca
+
+// Selecciona el pin de entrada para el potenciómetro int sensorPin = A0;
+
+// Selecciona el pin para el LED int ledPin = 13;
+
+
+// Variable para almacenar el valor que viene del sensor intsensorValue =0;
+
+void setup()
+
+{
+
+
+pinMode(ledPin,OUTPUT); Serial.begin(9600);
+
+}
+
+void loop()
+
+
+
+{
+
+sensorValue = analogRead(sensorPin); digitalWrite(ledPin, HIGH); delay(sensorValue); digitalWrite(ledPin,
+
+LOW); delay(sensorValue); Serial.println(sensorValue, DEC);
+
+}
+
+![](pic4.PNG)
+
+
 
