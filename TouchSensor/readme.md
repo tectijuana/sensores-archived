@@ -17,6 +17,10 @@ El sensor detecta cuando se le toca con la mano (o cualquier parte del cuerpo) g
 
 ### Ejemplo de programación de sensor touch.
 
+**Imagen de ejemplo.**
+
+![](https://github.com/tectijuana/sensores/blob/master/TouchSensor/touch3.JPG)
+
 **Encender LED con tocar el sensor.**
 
 El programa es realmente sencillo simplemente se va a encender un LED al pulsar sobre el sensor, este dispositivo es un pulsador es decir solo funciona mientras se pulsa a diferencia de un interruptor que permanece en un estado.
