@@ -15,6 +15,11 @@ The whole magnetic sensor known as KY 003. This is a module itself. So let's get
 There we have the sensor itself and of course led as one other resistor r1 on the right you can see how the pins of the module are connected all these board. So, we have internet the flow of the voltage, we have in black of a flow of the ground. And of course, we have in green the flow of the signal, this module It is used to detect the magnetic field.
 
 ## Especificación
+El sensor magnético de salón KY-003 consta de un interruptor de efecto Hall sensible 3144EUA-S para operación a alta temperatura, una resistencia de 680o y un LED. Compatible con plataformas electrónicas populares como Arduino y Raspberry Pi.
+
+| Voltaje | temperatura | Dimensiones |
+--- | --- | --- 
+4.5V a 24V | -40 oC a 85 oC [-x oF a x oF] | 18,5 mm x 15 mm [0,728 pulgadas x 0,591 pulgadas]
 
 ## Diagrama de conexión
 
