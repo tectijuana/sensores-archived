@@ -5,11 +5,11 @@
 *El Modulo KY-028 Sensor Temperatura Digital los permite medir la temperatura a través de un termistor  NTC, en el cual el proceso de acondicionamiento de los datos le permitirá al sensor adecuar una señal de trabajo operable. Esta construido de un termistor NTC, un comparador lm393, seis resistencias smd, dos led indicadores, un trimput y un header macho de angulo 4 pines.*
 
 ### **¿Cómo funciona?**
-*El sensor temperatura (KY-028) tiene 3 componentes principales en su placa de circuito. Primero, la unidad del sensor en la parte frontal del módulo que mide el área físicamente y envía una señal analógica a la segunda unidad, el amplificador. El amplificador amplifica la señal, de acuerdo con el valor resistente del potenciómetro, y envía la señal a la salida analógica del módulo. **El siguiente video muestra el uso del Modulo KY-028 Sensor de Temperatura Digital con Arduino:**
+*El sensor temperatura (KY-028) tiene 3 componentes principales en su placa de circuito. Primero, la unidad del sensor en la parte frontal del módulo que mide el área físicamente y envía una señal analógica a la segunda unidad, el amplificador. El amplificador amplifica la señal, de acuerdo con el valor resistente del potenciómetro, y envía la señal a la salida analógica del módulo. **El siguiente video muestra el uso del Modulo KY-028 Sensor de Temperatura Digital con Arduino:***
 
 
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/rst6QthpigU/0.jpg)](http://www.youtube.com/watch?v=rst6QthpigU)
 
 ### **Especificaciones Técnicas Y Características**
 + *Salida analógica: medición directa de la unidad de sensor*
