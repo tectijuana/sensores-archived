@@ -35,35 +35,67 @@ Gauss
 Programa de control del puerto digital
 //define el puerto del LED int Led = 13;
 //define el puerto del interruptor int buttonpin = 13;
+
 //define la variable digital val int val;
+
 void setup()
+
 {
+
 //define el LED como una salida PinMode (Led, OUTPUT);
+
 //define el interruptor como un puerto de salida
+
 pinMode(buttonpin,INPUT);
+
 }
+
 void loop()
+
 {
+
 //Lee el valor de la interfaz digital 3 asignada a val val=digitalRead(buttonpin);
+
 // cuando el sensor o interruptor tenga señal, el LED destellará if(val==HIGH)
+
 {
+
 digitalWrite(Led,HIGH);
+
 }
+
 else
+
 {
+
 digitalWrite(Led,LOW);
+
 }
+
 }
+
 (2) Simulación de los procedimientos de control de boca
+
 // Selecciona el pin de entrada para el potenciómetro int sensorPin = A0;
+
 // Selecciona el pin para el LED int ledPin = 13;
+
 // variable para almacenar el valor que indica el sensor int sensorValue = 0;
+
 void setup()
+
 {
+
 pinMode(ledPin,OUTPUT); Serial.begin(9600);
+
 }
+
 void loop(){
+
 sensorValue =analogRead(sensorPin); digitalWrite(ledPin, HIGH); delay(sensorValue);
+
 digitalWrite(ledPin, LOW); delay(sensorValue); Serial.println(sensorValue, DEC);
+
 }
+
 ![](pic3lmh.PNG)
