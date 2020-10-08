@@ -3,7 +3,9 @@
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
 ![](LMHSENSOR.jpg) | Linear Magnetic Hall Sensor | Detecta campo magenetico | [MAS INFO](https://arduinomodules.info/ky-024-linear-magnetic-hall-module/) | Erik Geovanny Osorio Lopez
+
 ![](pic1lmh.PNG)
+
 # DESCRIPCIÓN 
 El Módulo de Sensor Hall Magnético Lineal sirve para detectar la presencia de un campo magnético cerca
 del sensor. Variables tales como la fuerza del campo, polaridad y posición de la magneto en relación al
