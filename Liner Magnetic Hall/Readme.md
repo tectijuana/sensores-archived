@@ -3,7 +3,7 @@
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
 ![](LMHSENSOR.jpg) | Linear Magnetic Hall Sensor | Detecta campo magenetico | [MAS INFO](https://arduinomodules.info/ky-024-linear-magnetic-hall-module/) | Erik Geovanny Osorio Lopez
-
+![](pic1lmh.PNG)
 # DESCRIPCIÓN 
 El Módulo de Sensor Hall Magnético Lineal sirve para detectar la presencia de un campo magnético cerca
 del sensor. Variables tales como la fuerza del campo, polaridad y posición de la magneto en relación al
@@ -29,7 +29,41 @@ Gauss
 4x Cables F-M 
 
 ## EJEMPLO DE CONCECCIÓN CON ARDUINO:
-![](LMHSAC.png)
+![](LMHSAC.png) | ![](pic2lmh.PNG)
 
-# EXAMPLE SENSOR CODE:
-![](LMHSARD.PNG)
+## CODIGO DE EJEMPLO Y RESULTADO:
+Programa de control del puerto digital
+//define el puerto del LED int Led = 13;
+//define el puerto del interruptor int buttonpin = 13;
+//define la variable digital val int val;
+void setup()
+{
+//define el LED como una salida PinMode (Led, OUTPUT);
+//define el interruptor como un puerto de salida
+pinMode(buttonpin,INPUT);
+}
+void loop()
+{
+//Lee el valor de la interfaz digital 3 asignada a val val=digitalRead(buttonpin);
+// cuando el sensor o interruptor tenga señal, el LED destellará if(val==HIGH)
+{
+digitalWrite(Led,HIGH);
+}
+else
+{
+digitalWrite(Led,LOW);
+}
+}
+(2) Simulación de los procedimientos de control de boca
+// Selecciona el pin de entrada para el potenciómetro int sensorPin = A0;
+// Selecciona el pin para el LED int ledPin = 13;
+// variable para almacenar el valor que indica el sensor int sensorValue = 0;
+void setup()
+{
+pinMode(ledPin,OUTPUT); Serial.begin(9600);
+}
+void loop(){
+sensorValue =analogRead(sensorPin); digitalWrite(ledPin, HIGH); delay(sensorValue);
+digitalWrite(ledPin, LOW); delay(sensorValue); Serial.println(sensorValue, DEC);
+}
+![](pic3lmh.PNG)
