@@ -27,7 +27,7 @@ Conecte la línea de alimentación (media) y la tierra (-) a +5 y GND respectiva
 ![Diagrama arduino](https://arduinomodules.info/wp-content/uploads/Arduino_KY-003_Keyes_Hall_hagnetic_sensor_module_bb.png)
 
 ## Código
-El boceto KY-003 Arduino iluminará el LED en el pin 13 cuando se detecte un campo magnético.
+El sketch KY-003 Arduino iluminará el LED en el pin 13 cuando se detecte un campo magnético.
 
 ```C++
 int led = 13;//LED pin
