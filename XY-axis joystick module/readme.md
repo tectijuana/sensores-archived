@@ -21,7 +21,7 @@ El módulo Joystick KY-023 permite capturar los movimientos de tu dedo, de tal f
 
 ![](Joystick.PNG)
 
-***Codigo**
+***Codigo***
 
 ```java
 // Arduino pin numbers
