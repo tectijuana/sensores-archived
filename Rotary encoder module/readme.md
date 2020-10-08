@@ -24,6 +24,7 @@ En cada posición del codificador, ambos interruptores se abren o se cierran. Ca
 ## Especificación
 
 ## Diagrama de conexión
+![diagrama](https://circuits4you.com/wp-content/uploads/2016/05/Encoder-Arduino-Circuit.png)
 
 
 
