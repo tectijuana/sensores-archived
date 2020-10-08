@@ -22,7 +22,7 @@ There we have the sensor itself and of course led as one other resistor r1 on th
 
 ## Código
 
-```c++
+```c
 int led = 13;//LED pin
 int sensor = 3; //sensor pin
 int val; //numeric variable
