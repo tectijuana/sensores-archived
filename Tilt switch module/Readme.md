@@ -28,3 +28,5 @@ sensor, it's tilted in that way that the ball shorts to conduct the sensor
 turns on. Even that the sensor detects changes when it's tilted, it is
 actually very basic and cannot measure the angle of the tilt. Let's talk
 about the pins. The pins in this module
+
+![](p7.PNG)
