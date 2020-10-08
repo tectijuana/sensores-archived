@@ -22,6 +22,9 @@ El sensor magnético de salón KY-003 consta de un interruptor de efecto Hall se
 4.5V a 24V | -40 oC a 85 oC [-x oF a x oF] | 18,5 mm x 15 mm [0,728 pulgadas x 0,591 pulgadas]
 
 ## Diagrama de conexión
+Connect the Power line (middle) and ground (-) to +5 and GND respectively. Connect signal (s) to pin 3 on the Arduino.
+
+![Diagrama arduino](https://arduinomodules.info/wp-content/uploads/Arduino_KY-003_Keyes_Hall_hagnetic_sensor_module_bb.png)
 
 
 
