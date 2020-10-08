@@ -19,7 +19,8 @@ En el pin ‘AO’ se encuentra disponible una señal analógica de salida.
 - 1 x Elegoo Uno R3 1 x cable USB
 - 1 x Modulo sensor de llama 4 x Cables F-M
 
-## EJEMPLO DE CONCECCION ARDUINOñ
+## EJEMPLO DE CONCECCION ARDUINO:
+------------ | -------------|
 ![](flamArd.png) | ![](pic3f.PNG)
 
 
