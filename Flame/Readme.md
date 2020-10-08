@@ -20,6 +20,8 @@ En el pin ‘AO’ se encuentra disponible una señal analógica de salida.
 - 1 x Modulo sensor de llama 4 x Cables F-M
 
 ## EJEMPLO DE CONCECCION ARDUINO:
+
+PIC1 | PIC2 |
 ------------ | -------------|
 ![](flamArd.png) | ![](pic3f.PNG)
 
