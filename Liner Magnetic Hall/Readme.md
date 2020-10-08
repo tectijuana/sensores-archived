@@ -24,9 +24,9 @@ fuerza del campo magnético. El rango de sensibilidad se la salida es de 2.5 –
 Gauss
 
 ## COMPONENTES REQUERIDOS:
-1x Elegoo Uno R3
-1x Módulo de Sensor Hall Magnético Lineal 1x Cable USB
-4x Cables F-M 
+-1x Elegoo Uno R3
+-1x Módulo de Sensor Hall Magnético Lineal 1x Cable USB
+-4x Cables F-M 
 
 ## EJEMPLO DE CONCECCIÓN CON ARDUINO:
 ![](LMHSAC.png) | ![](pic2lmh.PNG)
