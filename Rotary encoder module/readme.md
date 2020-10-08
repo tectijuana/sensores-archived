@@ -22,11 +22,44 @@ En cada posición del codificador, ambos interruptores se abren o se cierran. Ca
 - Si ambos interruptores están abiertos,girar el codificador en el sentido de las agujas del reloj o en el sentido contrario a las agujas del reloj, una posición hará que ambos interruptores se cierren.
 
 ## Especificación
-
+ Voltaje | Corriente | Posiciones | Pulso por revolución | Dimensiones 
+ ---| ---| ---| ---| ---
+ 5v| 10mA| 12(cada 30°)| 20| 20 x 30 x 30 mm
+ 
 ## Diagrama de conexión
 ![diagrama](https://circuits4you.com/wp-content/uploads/2016/05/Encoder-Arduino-Circuit.png)
 
-
-
 ## Código
+```c++
+#define encoder0PinA  2  //CLK Output A Do not use other pin for clock as we are using interrupt
+#define encoder0PinB  4  //DT Output B
+#define Switch 5 // Switch connection if available
+ 
+volatile unsigned int encoder0Pos = 0;
+ 
+void setup() { 
+ 
+  pinMode(encoder0PinA, INPUT); 
+  digitalWrite(encoder0PinA, HIGH);       // turn on pullup resistor
+  pinMode(encoder0PinB, INPUT); 
+  digitalWrite(encoder0PinB, HIGH);       // turn on pullup resistor
+  attachInterrupt(0, doEncoder, RISING); // encoder pin on interrupt 0 - pin2
+  Serial.begin (9600);
+  Serial.println("start");                // a personal quirk
+} 
+ 
+void loop(){
+// do some stuff here - the joy of interrupts is that they take care of themselves
+  Serial.print("Position:");
+  Serial.println (encoder0Pos, DEC);  //Angle = (360 / Encoder_Resolution) * encoder0Pos
+}
+ 
+void doEncoder() {
+  if (digitalRead(encoder0PinB)==HIGH) {
+    encoder0Pos++;
+  } else {
+    encoder0Pos--;
+  }
+}
+```
 
