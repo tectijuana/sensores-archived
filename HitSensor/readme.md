@@ -19,31 +19,42 @@ El sensor funciona con cualquier microcontrolador con entradas digitales, inclui
 * Conector de 3 pines
 * Dimensiones: 28 x 15 mm
 * Peso: 1,5 g
+### Ejemplo de experimento. 
 
-### Ejemplo.
+**Encender un LED cuando detecte un golpe**
 
-    int Led = 13 ; // definir interfaz LED
-    int Shock = 3 //   definir la interfaz del sensor de percusión
-    int val ; // definir variables numéricas val
-     
-    void setup ()
-    {
-      pinMode (Led, OUTPUT) ; // definir LED como interfaz de salida
-      
-      pinMode (Shock, INPUT) ; // definir la interfaz de salida del sensor de golpe.
+El modulo sensor de golpe debe ser conectado a un circuito muy simple que constara de un LED conectado al PIN 13 del Arduino, el cual, parpadeara en el momento que el modulo detecte un golpe, de lo contrario el LED permanecerá encendido.
+
+**Conexion.**
+
+![enter image description here](https://github.com/tectijuana/sensores/blob/master/HitSensor/hit.png)
+
+    int Led = 5;
+    int Shock = 11;
+    int val;
+    
+    void setup(){
+    
+    pinMode (Led, OUTPUT);
+    pinMode (Shock, INPUT);
+    
     }
-    void loop ()
+    
+    void loop()
     {
-      val = digitalRead (Shock) ; // a la interfaz digital de lectura se le asigna un valor de 3 val
-      
-      if (val == HIGH) // When the percussion when the sensor detects a signal, LED flashes
-
-      {
-        digitalWrite (Led, LOW);
-      }
-      else
-      {
-        digitalWrite (Led, HIGH);
-      }
+    
+    val = digitalRead(Shock);
+    
+    if (val == HIGH){
+    
+    digitalWrite(Led, LOW);
+    
+    }
+    else{
+    
+    digitalWrite(Led, HIGH)
+    
+    }
+    
     }
 
