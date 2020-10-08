@@ -1,5 +1,0 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5470369.png" width="505" height="97" alt="Laser module" /></a>
-<br />Image by <a href="https://cooltext.com">Cool Text: Free Logos and Buttons</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3648379352">Create An Image Just Like This</a>
-
-Los Diodos láser, emiten luz por el principio de emisión estimulada, la cual surge cuando un fotón induce a un electrón que se encuentra en un estado excitado a pasar al estado de reposo, este proceso esta acompañado con la emisión de un fotón, con la misma frecuencia y fase del fotón estimulante. Para que el numero de fotones estimulados sea mayor que el de los emitidos de forma espontánea, para que se compensen las perdidas, y para que se incremente la pureza espectral, es necesario por un lado tener una fuerte inversión de portadores, la que se logra con una polarización directa de la unión, y por el otro una cavidad resonante, la cual posibilita tener una trayectoria de retroalimentación positiva facilitando que se emitan mas fotones de forma estimulada y se seleccione ciertas longitudes de onda haciendo mas angosto al espectro emitido.
-
