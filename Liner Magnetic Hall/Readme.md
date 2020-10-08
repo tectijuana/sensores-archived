@@ -31,6 +31,9 @@ Gauss
 - 4x Cables F-M 
 
 ## EJEMPLO DE CONCECCIÓN CON ARDUINO:
+
+PIC1 | PIC2 |
+------------ | -------------|
 ![](LMHSAC.png) | ![](pic2lmh.PNG)
 
 ## CODIGO DE EJEMPLO Y RESULTADO:
