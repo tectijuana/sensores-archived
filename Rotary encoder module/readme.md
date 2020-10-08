@@ -4,7 +4,7 @@
 
 PIC | SENSOR | FUNCIÓN | URL | COLABORADOR
 ------------ | -------------| -------------| -------------| -------------
-![Hall effect magnetic](https://arduinomodules.info/wp-content/uploads/KY-003_Fritzing_custom_part_image-130x240.png) | Hall effect magnetic |  interruptor que se encenderá / apagará en presencia de un campo magnético. | [Más información](https://arduinomodules.info/ky-003-hall-magnetic-sensor-module/) | Giezy Martínez De La Cruz
+![Rotary encoder](https://microjpm.com/_files/200002168-184e5194a4/ky040%20encoder.jpg) | Hall effect magnetic |  Es un dispositivo de entrada giratorio(como una perilla)que proporciona una indicación de cuánto se ha girado la perilla y en qué dirección está girando. | [Más información](https://circuits4you.com/2016/05/13/rotary-encoder-arduino-ky-040/#:~:text=%20Arduino%20Rotary%20Encoder%20Module%20KY-040%20%201,and%20Z.%20A%20and%20B%20are...%20More%20) | Giezy Martínez De La Cruz
 
 ## Descripción
 
