@@ -12,6 +12,9 @@ El sensor detecta cuando se le toca con la mano (o cualquier parte del cuerpo) g
 
 ### Diagrama del cableado
 
+![](https://github.com/tectijuana/sensores/blob/master/TouchSensor/touch.JPG)
+
+
 ### Ejemplo de programación de sensor touch.
 
 **Encender LED con tocar el sensor.**
