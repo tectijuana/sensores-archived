@@ -14,7 +14,7 @@ Un codificador giratorio o "eje" es un dispositivo de medición angular. Se util
 
 Los encoders giratorios tienen dos o tres salidas A, B y Z. A y B se utilizan para determinar la dirección de rotación y contar el número de pulsos dará la posición de rotación. Z está disponible en encoders de grado industrial. Es pulso de posición cero. Sólo da un pulso en una revolución.
 
-Un codificador giratorio tiene un número fijo de posiciones por revolución (PPR). El módulo Keyes KY-040 que tengo tiene treinta de estas posiciones. En un lado del interruptor hay tres pines. Normalmente se denominan A(1), B(3) y C(2). En el caso del KY-040,se orientan como se muestra. Dentro del codificador hay dos interruptores. Una vez que el Switch conecta el pin A(1) al pin C(2) y el otro Switch conecta el pin B(3) con C(1).
+Un codificador giratorio tiene un número fijo de posiciones por revolución (PPR). El módulo Keyes KY-040 tiene treinta de estas posiciones. En un lado del interruptor hay tres pines. Normalmente se denominan A(1), B(3) y C(2). En el caso del KY-040,se orientan como se muestra. Dentro del codificador hay dos interruptores. Una vez que el Switch conecta el pin A(1) al pin C(2) y el otro Switch conecta el pin B(3) con C(1).
 
 En cada posición del codificador, ambos interruptores se abren o se cierran. Cada movimiento angular hace que estos interruptores cambien de estado de la siguiente manera:
 
