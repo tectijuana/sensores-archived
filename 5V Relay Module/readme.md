@@ -4,45 +4,11 @@
 ![](modulo.png)
 
 
-The relay module known as KY 0 19. This is a module itself. So let's
-get started. Today's video is brought to you by all our GVS and an
-online store where you can find shirt jeans and call accessories that
-fit your needs. All the products are made in Italy, they can be
-shipped worldwide, so don't waste your time start looking fancy
-today with their stock. For more information, go to RGV SM sharp
-dot net or check it out at the link on the video description. This
-module is integrated on board. One led one resistor One diet and one
-transistor. The resistor used in this module is 150 M. And the main
-reason for using the resistor is to limit currency collating inside the
-module. The LED lights up to show if the module is working or not.
-Now, I will show how these components are connected together.
-There we have the relay itself and we can see the LED l one, the
-resistor r1, the transistor q1 and of course, the diodes The one on the
-right you can see how the piece of the module I connected on this
-board, we have inlet the flow of the voltage we have in black, the
-flow of the ground and of course we have in green the flow of a
-signal relays are switches that open and close secrets electro
-mechanically or electronically. The relays control one electrical
-circuit by opening and closing contacts in another circuit. As relayed
-diagrams show when a relay contacts is normally open, there is an
-open contact owner relay it's not energized. When the relay contact is
-normally closed, there is a closed contact when you lay it's not
-energized. In either case, applying electrical current to the contact
-will change their state. relays are generally used
+El módulo de relé conocido como KY 0 19. Este es un módulo en sí mismo. Este módulo está integrado a bordo. Uno llevó una resistencia Una dieta y un transistor. La resistencia que se usa en este módulo es de 150 M. Y la razón principal para usar la resistencia es limitar la clasificación de la moneda dentro del módulo. El LED se enciende para mostrar si el módulo está funcionando o no. Ahora, mostraré cómo estos componentes están conectados entre sí. Ahí tenemos el relé en sí y podemos ver el LED l uno, la resistencia r1, el transistor q1 y por supuesto, los diodos El de la derecha puedes ver como la pieza del módulo que conecté en esta placa, tenemos entrada el flujo del voltaje lo tenemos en negro, el flujo del suelo y por supuesto tenemos en verde el flujo de una señal. Los relés son interruptores que abren y cierran secretos electromecánica o electrónicamente. Los relés controlan un circuito eléctrico abriendo y cerrando contactos en otro circuito. Como muestran los diagramas de relés, cuando los contactos de un relé están normalmente abiertos, hay un relé de propietario de contacto abierto que no está energizado. Cuando el contacto del relé está normalmente cerrado, hay un contacto cerrado cuando no está energizado. En cualquier caso, la aplicación de corriente eléctrica al contacto cambiará su estado. los relés se utilizan generalmente
 
 ![](modulo2.png)
 
-to switch smaller gardens in the console to quit and do not usually
-control power consuming devices. Now the less relays can control
-larger voltages and emperors by having an amplifying effect because
-of some voltage applied to her lace coil case out in a large voltage
-being switched by the contacts. Let's talk about the pins. The pins in
-this module are three, we have the ground pin with a minus sign, the
-voltage pin is in the middle. And of course we have the pin of the
-signal with the S sign. So let's talk about the signal. This module
-takes a digital signal so we can connect the pain of the signal with
-any digital port of different microcontroller boards like Arduino or
-Raspberry Pi.
+para cambiar jardines más pequeños en la consola para dejar de fumar y no suelen controlar los dispositivos que consumen energía. Ahora, los menos relés pueden controlar voltajes y emperadores más grandes al tener un efecto de amplificación debido a que se aplica algo de voltaje a la caja de la bobina de encaje en un voltaje grande que se conmuta mediante los contactos. Hablemos de los pines. Los pines de este módulo son tres, tenemos el pin de tierra con un signo menos, el pin de voltaje está en el medio. Y por supuesto tenemos el pin de la señal con el signo S. Así que hablemos de la señal. Este módulo toma una señal digital para que podamos conectar el dolor de la señal con cualquier puerto digital de diferentes placas de microcontroladores como Arduino o Raspberry Pi.
 
 EXAMPLE SENSOR CODE:
 
