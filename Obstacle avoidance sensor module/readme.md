@@ -33,6 +33,14 @@ robots minisumos y es compatible con arduino y microcontroladores que los propor
 - Tamaño: 41 x 18 x 13 mm
 - Peso: 6 gr
 
+
+#### Diagrama de Conexión
+
+<p align="center">
+  <img width="460" height="300" src="https://raw.githubusercontent.com/tectijuana/sensores/master/Obstacle%20avoidance%20sensor%20module/KY-032_diagram.png">
+</p>
+
+#### Código ejemplo
 ```javascript
 
 void setup() {
