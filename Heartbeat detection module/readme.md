@@ -42,7 +42,7 @@ otra luz diferente a la del led llegue ya que la señal del latido del corazón 
 - Dimensiones: 25 x 12 x 12 mm
 
 
-#### Diagrama de conección
+#### Diagrama de conexión
 <p align="center">
   <img src="https://raw.githubusercontent.com/tectijuana/sensores/master/Heartbeat%20detection%20module/ky-039.jpg">
 </p>
