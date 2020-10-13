@@ -31,14 +31,7 @@ about the pins. The pins in this module
 
 ![](p7.PNG)
 
-are three, we have the ground pin with a minus sign, the voltage
-being is in the middle. And of course we have the pin of the signal
-with the S sign. So let's talk about the signal. This module gives a
 
-
-digital signal so we can connect the pins of the signal with any
-digital ports of different microcontroller boards, like Arduino or
-Raspberry Pi.
 
 
 PIC1 | PIC2 |
