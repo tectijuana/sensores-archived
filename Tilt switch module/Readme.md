@@ -4,16 +4,8 @@
 
 ## Descripcion
 
-The tilt switch module known as KY 0 20. This is a module itself. So
-let's get started. Today's video is brought to you by all our gv s and
-an online store where you can find shirts, jeans and cool accessories
-that fit your needs. All the products are made in Italy, they can be
-shipped worldwide, so don't waste your time start looking fancy
-today with their stock. For more information, go to RGV SM sharp
-dot net or check it out at the link on the video description. This
-module has integrated on board, a tilt switch, and one resistor, the
-resistor using this module it's on and the main reason for using the
-resistor is to limit currency collating inside the module.
+
+The tilt switch module known as KY 0 20. This is a module itself.This module has built-in on board, a tilt switch and a resistor, the resistor that this module uses is on and the main reason to use the resistance is to limit the currency classification within the module.
 
 In other words to prevent current from burning our modal. Now, I
 will show how these components are connected together. There we
