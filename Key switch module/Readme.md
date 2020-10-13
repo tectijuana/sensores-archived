@@ -26,9 +26,7 @@ force the button up. The force that is needed to press a button is
 hundred 80 to 230 gam. This module has three pins. The pins in this
 module are the ground pin with a minus sign, the voltage pin in the
 middle and of course the pain of the signal with an S sign. So let's
-talk about the signal. This module gives a digital signal so we can
-connect the pain of the signal with any digital port of different
-microcontroller boards like Arduino or Raspberry Pi
+talk about the signal. 
 
 PIC1 | PIC2 |
 ------------ | -------------|
