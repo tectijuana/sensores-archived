@@ -25,8 +25,7 @@ automatically in his normal state because of the spring inside, who
 force the button up. The force that is needed to press a button is
 hundred 80 to 230 gam. This module has three pins. The pins in this
 module are the ground pin with a minus sign, the voltage pin in the
-middle and of course the pain of the signal with an S sign. So let's
-talk about the signal. 
+middle and of course the pain of the signal with an S sign.
 
 PIC1 | PIC2 |
 ------------ | -------------|
