@@ -20,7 +20,7 @@ El módulo KY-010 Photo Interrupter consta de un emisor / detector óptico en la
 
 *Conexión con Arduino*
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fleantec.es%2Ftienda%2Fmodulo-de-interruptores-de-fotos-ky-010-photo-interrupter%2F&psig=AOvVaw2zvXD71ZOVH_LOlV9Nrou6&ust=1602624324894000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODHk4P_r-wCFQAAAAAdAAAAABAZ)
+![](https://arduinomodules.info/wp-content/uploads/Arduino_KY-010_Keyes_Photo_interrupter_module_connection-diagram.png)
 
 *Código* 
 
