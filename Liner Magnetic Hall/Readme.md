@@ -16,11 +16,14 @@ En el pin ‘AO’ se encuentra disponible una señal analógica de salida.
 ## Factores de diseño – Tipos magnéticos
 Unipolar: Solo un polo sur operará el sensor. El sensor enciende cuando censa un polo sur (+) y se apaga
 cuando el mismo ya no está.
+
 Bipolar: La salida del sensor depende del polo. Un polo sur (+) activa el sensor; un polo norte (-) lo
 desactiva. Es posible que el sensor encienda y apague permaneciendo en un nivel Gauss positivo.
+
 Enclavamiento: Las especificaciones son estrictas en cuanto al enclavamiento. Algunas veces se les
 diseña para asegurarse que cuando un polo sur (+) se retire del sensor, el mismo permanezca enclavado
 hasta ver el polo opuesto (-).
+
 Omni polar: El sensor se diseña para operar de forma lineal Radiométrica: La salida es proporcional a la
 fuerza del campo magnético. El rango de sensibilidad se la salida es de 2.5 – 3.75 mV por unidad de
 Gauss
