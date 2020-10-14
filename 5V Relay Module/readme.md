@@ -11,7 +11,7 @@ Antes de continuar con el circuito para impulsar el relé, debemos considerar do
 
 ![](modulo2.png)
 
-###**Aplicaciones de la retransmisión**###
+### **Aplicaciones de la retransmisión**
 
 + De uso común en circuitos de conmutación.
 + Para proyectos de domótica para cambiar cargas de CA
