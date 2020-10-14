@@ -9,7 +9,7 @@
 
 
 
-[![Como Usar magic light cup con Arduino](http://img.youtube.com/vi/PT-30OaJF-M/0.jpg)](http://www.youtube.com/watch?v=pCK6prSq8aw)
+[![Como Usar magic light cup con Arduino](http://img.youtube.com/vi/PT-30OaJF-M/0.jpg)](https://www.youtube.com/watch?v=PT-30OaJF-M&t=1s)
 
 ### **Especificaciones Técnicas Y Características**
 + *Voltaje de alimentación: 3.3 a 5 volts*
