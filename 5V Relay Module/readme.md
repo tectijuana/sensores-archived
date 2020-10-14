@@ -4,11 +4,19 @@
 ![](modulo.png)
 
 
-El módulo de relé conocido como KY 0 19. Este es un módulo en sí mismo. Este módulo está integrado a bordo. Uno llevó una resistencia Una dieta y un transistor. La resistencia que se usa en este módulo es de 150 M. Y la razón principal para usar la resistencia es limitar la clasificación de la moneda dentro del módulo. El LED se enciende para mostrar si el módulo está funcionando o no. Ahora, mostraré cómo estos componentes están conectados entre sí. Ahí tenemos el relé en sí y podemos ver el LED l uno, la resistencia r1, el transistor q1 y por supuesto, los diodos El de la derecha puedes ver como la pieza del módulo que conecté en esta placa, tenemos entrada el flujo del voltaje lo tenemos en negro, el flujo del suelo y por supuesto tenemos en verde el flujo de una señal. Los relés son interruptores que abren y cierran secretos electromecánica o electrónicamente. Los relés controlan un circuito eléctrico abriendo y cerrando contactos en otro circuito. Como muestran los diagramas de relés, cuando los contactos de un relé están normalmente abiertos, hay un relé de propietario de contacto abierto que no está energizado. Cuando el contacto del relé está normalmente cerrado, hay un contacto cerrado cuando no está energizado. En cualquier caso, la aplicación de corriente eléctrica al contacto cambiará su estado. los relés se utilizan generalmente
+### **Cómo utilizar un rel** ###
+Los relés son los dispositivos de conmutación más utilizados en electrónica.
+
+Antes de continuar con el circuito para impulsar el relé, debemos considerar dos parámetros importantes del relé. Una vez que es el voltaje de disparo , este es el voltaje requerido para encender el relé que debe cambiar el contacto de Común-> NC a Común-> NO. Nuestro relé aquí tiene un voltaje de activación de 5 V, pero también puede encontrar relés de valores de 3 V, 6 V e incluso 12 V, así que seleccione uno según el voltaje disponible en su proyecto. El otro parámetro es su Voltaje y Corriente de Carga , esta es la cantidad de voltaje o corriente que el terminal NC, NO o Común del relé podría soportar, en nuestro caso para DC es máximo de 30V y 10A. Asegúrese de que la carga que está usando esté dentro de este rango.
 
 ![](modulo2.png)
 
-para cambiar jardines más pequeños en la consola para dejar de fumar y no suelen controlar los dispositivos que consumen energía. Ahora, los menos relés pueden controlar voltajes y emperadores más grandes al tener un efecto de amplificación debido a que se aplica algo de voltaje a la caja de la bobina de encaje en un voltaje grande que se conmuta mediante los contactos. Hablemos de los pines. Los pines de este módulo son tres, tenemos el pin de tierra con un signo menos, el pin de voltaje está en el medio. Y por supuesto tenemos el pin de la señal con el signo S. Así que hablemos de la señal. Este módulo toma una señal digital para que podamos conectar el dolor de la señal con cualquier puerto digital de diferentes placas de microcontroladores como Arduino o Raspberry Pi.
+###Aplicaciones de la retransmisión###
++ De uso común en circuitos de conmutación.
++ Para proyectos de domótica para cambiar cargas de CA
++ Para controlar (encendido / apagado) cargas pesadas en un tiempo / condición predeterminados
++ Se utiliza en circuitos de seguridad para desconectar la carga del suministro en caso de falla
++ Se utiliza en la electrónica de automóviles para controlar indicadores de motores de vidrio, etc.
 
 EXAMPLE SENSOR CODE:
 
