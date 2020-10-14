@@ -10,6 +10,16 @@
 
 Este sensor funciona para evitar que la corriente queme nuestro módulo, el LED se enciende para mostrar si el módulo está funcionando correctamente o no. 
 
+### **Especificaciones**
+
+El módulo de sensor de temperatura KY-001 consta de un sensor de temperatura digital de bus único DS18B20, un LED y una resistencia. Compatible con plataformas electrónicas populares como Arduino, Raspberry Pi y Esp8266.
+
+|    Tensión de funcionamiento    |       3,0 V a 5,5 V      |
+|:---------:|:------------------:|
+|  Rango de medición de la temperatura  |    -55°C a 125°C (-57 ° F a 257 ° F)   |
+|  Rango de precisión de medición | 0,5°C |
+| Dimensiones |  18,5 mm x 15 mm [0,728 pulgadas x 0,591 pulgadas]              |
+
 ![](senstemp2.png)
 
 EXAMPLE SENSOR CODE:
