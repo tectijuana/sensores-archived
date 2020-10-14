@@ -3,6 +3,10 @@
 
 ![](modulo.png)
 
+### **Cómo Funciona un rel** ###
+
+Tiene tres terminales de alto voltaje (NC, C y NO) que se conectan al dispositivo que desea controlar. El otro lado tiene tres pines de bajo voltaje (tierra, Vcc y señal) que se conectan al Arduino.
+
 
 ### **Cómo utilizar un rel** ###
 Los relés son los dispositivos de conmutación más utilizados en electrónica.
@@ -22,25 +26,38 @@ Antes de continuar con el circuito para impulsar el relé, debemos considerar do
 EXAMPLE SENSOR CODE:
 
 ``` 
-int relay = 10; //Pin 10
-void setup()
-{
-pinMode(relay,OUTPUT);
-the port attribute as output
+#include <math.h>
+
+int pinOut = 10;
+
+double Thermistor(int RawADC) {
+ double Temp;
+ Temp = log(10000.0*((1024.0/RawADC-1))); 
+ Temp = 1 / (0.001129148 + (0.000234125 + (0.0000000876741 * Temp * Temp ))* Temp );
+ Temp = Temp - 273.15;          
+ Temp = (Temp * 9.0)/ 5.0 + 32.0; 
+ return Temp;
 }
-void loop()
-{
-digitalWrite(relay,HIGH);
-relay ON
-// [NO] is connected to feed
-// [NC] is not connected to feed
-delay(1000);
-// turn the
-// Define
-digitalWrite(relay,LOW);
-// turn
-the relay OFF
-// [NO] is not connected to feed
-// [NC] is connected to feed
-delay(1000);
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(10, OUTPUT);
+}
+
+void loop() {             
+  int val;                
+  double temp;            
+  val=analogRead(0);      
+  temp=Thermistor(val);   
+  Serial.print("Temperature = ");
+  Serial.print(temp);   
+  Serial.println(" F");
+  if (temp >= 150){
+    digitalWrite(pinOut, LOW);
+  }
+  else {
+    digitalWrite(pinOut, HIGH);
+  }
+  delay(500);            
+}
 ``` 
