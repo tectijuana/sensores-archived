@@ -99,7 +99,7 @@ LOW); delay(sensorValue); Serial.println(sensorValue, DEC);
 
 }
 
-![](pic4.PNG)
+![](pic4f.PNG)
 
 
 
