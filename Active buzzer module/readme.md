@@ -1,5 +1,5 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5471573.png" width="712" height="118" alt="Spaced Out" /></a>
-<br />Image by <a href="https://cooltext.com">Cool Text: Logo and Button Generator</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3653064648">Create Your Own Logo</a>
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5471905.png" width="704" height="65" alt="Active buzzer module" /></a>
+<br />Image by <a href="https://cooltext.com">Cool Text: Free Logos and Buttons</a> - <a href="https://cooltext.com/Edit-Logo?LogoID=3654253427">Create An Image Just Like This</a>
 
 Active Buzzer Module KY-012 Arduino módulo, produce un sonido de un solo tono cuando la señal es alta. Para producir diferentes tonos utilice el  KY-006 Passive Buzzer module.
 
@@ -17,5 +17,6 @@ Active Buzzer Module KY-012 Arduino módulo, produce un sonido de un solo tono c
 
  KY-012 Active Buzzer module Consiste en un zumbador piezoeléctrico activo, genera un sonido de aproximadamente 2.5kHz cuando la señal es alta.
 
+![](file:///home/alien64/Im%C3%A1genes/oooo.png)
 
 ![](https://arduinomodules.info/wp-content/uploads/Arduino_KY-012_Keyes_Active_buzzer_module_connection_diagram.png)
