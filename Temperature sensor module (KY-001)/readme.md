@@ -1,8 +1,8 @@
 ![](Temperaturesensormodule.png)
 
-Vamos a hablar sobre el sensor de temperatura conocido como KY 001. Este es un módulo en sí. Así que comencemos.
-Este módulo tiene integrado en la entrada un sensor de temperatura llamado Dallas 18 B 20. Con tecnología de bajo único, una resistencia y un led, la resistencia utilizada en este módulo es de 4,7 kilo ohmios y la razón principal para usar su resistencia es la baja corriente media que circula dentro del módulo.
+### **¿Qué es?** 
 
+*Módulo de sensor de temperatura Arduino Keyes KY-001, permite la medición de la temperatura ambiente mediante un bus serie digital. *
 
 ![](sensortemp.png)
 
