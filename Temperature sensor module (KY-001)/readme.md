@@ -6,9 +6,9 @@
 
 ![](sensortemp.png)
 
+### **¿Como Funciona?** 
 
-En otras palabras, para evitar que la corriente queme nuestro módulo, el LED se enciende para mostrar si el módulo está funcionando correctamente o no. Ahora, mostraré cómo estos componentes están conectados entre sí. Ahí tenemos el sensor en sí y por supuesto, la luz LED y
-Ahí está usted Sir r1 en tercer itube Para ver cómo se conectan los pines de los módulos en esta placa. Entonces, tenemos internet el flujo del voltaje en negro con el flujo de tierra. Y en verde el flujo del letrero de este módulo es suyo para medir la temperatura con un sensor como el Dallas ds 18 b 20, que tiene un rango de temperatura de menos 55 puertas Celsius a más calibre 125 Celsius o menos 67 grados Fahrenheit a 257.
+Este sensor funciona para evitar que la corriente queme nuestro módulo, el LED se enciende para mostrar si el módulo está funcionando correctamente o no. 
 
 ![](senstemp2.png)
 
