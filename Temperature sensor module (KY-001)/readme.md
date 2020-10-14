@@ -2,7 +2,7 @@
 
 ### **¿Qué es?** 
 
-*Módulo de sensor de temperatura Arduino Keyes KY-001, permite la medición de la temperatura ambiente mediante un bus serie digital. *
+*Módulo de sensor de temperatura Arduino Keyes KY-001, permite la medición de la temperatura ambiente mediante un bus serie digital.*
 
 ![](sensortemp.png)
 
