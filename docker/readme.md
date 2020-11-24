@@ -3,7 +3,7 @@ https://aws.amazon.com/greengrass/
 
 Esta imagen ejecuta el software Greengrass Core dentro de un contenedor Docker.
 
-_AWS IoT Greengrass es un software que extiende las capacidades de la nube de AWS a los dispositivos locales. Esto permite que los dispositivos recopilen y analicen datos más cerca de la fuente de información, reaccionen de forma autónoma a eventos locales y se comuniquen de forma segura entre sí en redes locales.
+_AWS IoT Greengrass es un software que extiende las capacidades de la nube de AWS a los dispositivos locales. Esto permite que los dispositivos recopilen y analicen datos más cerca de la fuente de información, reaccionen de forma autónoma a eventos locales y se comuniquen de forma segura entre sí en redes locales._
 
 _Esta imagen se puede ejecutar en cualquier plataforma que admita contenedores Docker. La imagen se superpone a las imágenes base de amazonlinux: 2, alpine-x86-64, alpine-armv7l y alpine-aarch64. La imagen de Greengrass puede admitir la ejecución de AWS Lambdas escrito en Python-3.7, Nodejs-12.xy Java-8._
 
