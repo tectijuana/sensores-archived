@@ -18,7 +18,11 @@ https://circuitpython.org/board/raspberry_pi_pico/
 
 
 > Instalar el Editor sencillo llamado MU-Editor
->
+ https://codewith.mu
+ 
+ ![](https://codewith.mu/img/en/mu.gif)
+ 
+## Blink en CircuitPython
 
 ```python
 
@@ -38,5 +42,7 @@ while True:
 ```
 
 Y hará blink la Raspberry Pico.
+
+![](https://www.okdo.com/wp-content/uploads/2021/02/raspberry-pi-pico-blinking-led.gif?resize=1239%2C865)
 
 
