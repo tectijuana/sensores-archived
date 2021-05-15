@@ -8,12 +8,12 @@ Las Raspberry PICO (2020), se cargó Circuit-Python usando las recomendaciones d
 
 https://circuitpython.org/board/raspberry_pi_pico/
 
+ ![](RPicoWithRun-Ground-Cable.jpg)
 1. Se pone un cable en pin RUN mas Tierra haciendo corto.
 2. Conecta el cable MicroUSB a la Computadora
-3. ![](RPicoWithRun-Ground-Cable.jpg)
-4. Presiona el boton BootSEL y no soltarlo
-5. Soltamos la tierra del cable antes mencionado
-6. Solamos el boton BootSEL
+3. Presiona el boton BootSEL y no soltarlo
+4. Soltamos la tierra del cable antes mencionado
+5. Solamos el boton BootSEL
 
 > Arrastrar (drago/drop) el archivo descargado UF2 a el "Pico Drive" presente el en explorador y esperamos 1 minuto aprox.
 
