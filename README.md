@@ -32,3 +32,5 @@
 ![](imagenes/3.jpg)
 
 ![](imagenes/4.jpg)
+
+![](https://www.influxdata.com/wp-content/uploads/Built-on-InfluxDB-purple-400px.png)
