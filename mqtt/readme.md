@@ -1,3 +1,5 @@
+![](images/mqttnube.png)
+
 # ¿Qué es MQTT?
 MQTT (Message Queuing Telemetry Transport), es un protocolo de mensajería ligero de publicación/suscripción diseñado para telemetría M2M (máquina a máquina) en entornos de bajo ancho de banda. Está basado en la pila TCP/IP como base para la comunicación. En el caso de MQTT cada conexión se mantiene abierta y se "reutiliza" en cada comunicación. Es una diferencia, por ejemplo, a una petición HTTP 1.0 donde cada transmisión se realiza a través de conexión. MQTT es un protocolo controlado por eventos, donde no hay transmisión de datos periódica o continua. Así se mantiene el volumen de transmisión al mínimo. Un cliente sólo publica cuando hay información para enviar, y un bróker sólo envía información a los suscriptores cuando llegan nuevos datos.
 
