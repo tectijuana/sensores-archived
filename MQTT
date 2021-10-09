@@ -1,0 +1,90 @@
+
+# Sentencias de Linux para instalar mosquitto
+
+sudo apt-update 
+sudo apt-get mosquitto
+apt-get install mosquitto-client
+
+etiquetas:
+	-h :host 
+	-p :puerto 
+	-u :usuario
+	-P :contraseña
+	-t :topico 
+	-m :mensaje 
+	
+## Comprobar que Mosquitto sirve de manera local
+
+Con dos terminales bastan para comprobar su funcionamiento
+
+### Terminal 1
+En la terminal 1, el usuario debe escribir en la terminal
+
+	mosquitto_sub -h localhost -p 1883 -t "prueba"
+	
+La terminal quedará en espera para que alguien publique un mensaje
+
+### Terminal 2
+En la terminal 2, el usuario debe escribir en la terminal
+
+	mosquitto_pub -h localhost -p 1883 -t "prueba" -m "Hola servidor MQTT"
+	
+En la terminal 1 se arrojará el mensaje Hola servidor MQTT
+	
+# OPCIONAL (Establecer contraseña)
+Sin contraseña, cualquier persona con la IP del servidor, puede acceder a cambiar la información.
+  
+  ### Primero debemos detener el servicio de mosquitto
+
+  	sudo service mosquitto stop
+  
+  ### Acceder a la carpeta de mosquitto
+  	cd /etc/mosquitto
+
+  ### Crear un archivo de texto
+
+	  cd /etc/mosquitto
+	  sudo nano password.txt
+  
+  ### En el archivo, poner:
+  usuario:contrasenia
+  ### en usuario:contrasenia puedes sustituir a tu gusto las credenciales, pero debe salir de esa manera
+  juan:123
+  
+  ### para agregar más usuarios: 
+	cd /etc/mosquitto
+	sudo nano password.txt 
+	usuarionuevo:contraseña
+
+### luego se encripta la información
+
+	mosquitto_passwd -U password.txt
+  
+  ### sentencias extra en la config de mosquitto (en la carpeta de mosquitto):
+  	sudo nano mosquitto.conf
+	allow_anonymous false
+	password_file /etc/mosquitto/pass.txt
+  
+### para iniciar el broker con la conf editada
+
+	sudo mosquitto -c /etc/mosquitto/mosquitto.conf
+	sudo service mosquitto start
+### por si no les permite ingresar con usuario
+	sudo service mosquitto stop
+	sudo service mosquitto start
+	
+### Terminal 1
+En la terminal 1, el usuario debe escribir en la terminal
+
+	mosquitto_sub -h localhost -p 1883 -t "prueba" -u juan -P 123 
+	
+La terminal quedará en espera para que alguien publique un mensaje
+
+### Terminal 2
+En la terminal 2, el usuario debe escribir en la terminal
+
+	mosquitto_pub -h localhost -p 1883 -t "prueba" -u juan -P 123 -m "Hola servidor MQTT"
+	
+En la terminal 1 se arrojará el mensaje Hola servidor MQTT y rechazará conexiones que no tengan el usuario juan con contraseña 123
+	
+	
