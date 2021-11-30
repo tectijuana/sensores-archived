@@ -1,1 +1,29 @@
 ![Titulo](cooltext399015526829374.png)
+
+
+## Sobre Raspberry Pi Pico
+
+Las Raspberry Pi son una especie de mini computadora (Single Board Computers, SBC), similares a los microcontroladores, pero mucho mas capaces. 
+Originalmente se concibieron como una herramienta para enseñar a las personas sobre como funcionan las computadoras, a través de proyectos que varían en complejidad, sin embargo, a través del tiempo, se convirtieron en algo más, usandose en ambientes industriales, profesionales.
+
+Ejemplos de cosas que se pueden hacer con una Raspberry:
+- Controladores de robots
+- Crear servidores web
+- Monitoreo de clima
+
+Una de las versiones mas recientes en el mercado de Raspberry Pi, es la Pico.
+Es una SBC con un costo muy bajo (lanzó en 4 USD). Utiliza el microchip RP2040, cuenta con 264KB de RAM y 2MB de memoria no volátil
+Se diseñó con el fin de cumplir el objetivo que las Pi originales tenían: ser una herramienta de enseñanza, ya que las especificaciones son muy limitadas. Se puede programar con los lenguajes de C, Micropython y Circuitpython.
+
+## Sobre sensores
+
+Un sensor es una pieza de hardware que tiene el objetivo de detectar eventos o cambios en el ambiente, captando la información, y luego pasarla a otros dispositivos para cumplir un objetivo
+
+## KY-015 / DHT11 Temperature-Humidity sensor
+
+Es un sensor que es capaz de detectar temperatura y humedad, que cuenta con las siguientes características operacionales:
+- Voltaje: 3.3V to 5V
+- Rango de temperatura a detectar: 32ºF a 122ºF( 0ºC a 50ºC)
+- Certeza de medición de temperatura: ±2ºC
+- Rango de humedad a detectar: 20% to 90% RH
+- Dimensiones: .75in X 1.77in (2cm x 4.5cm)
