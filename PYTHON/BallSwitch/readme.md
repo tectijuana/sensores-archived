@@ -1,1 +1,1 @@
-# Sensor de inclinación (KY-020 Ball Switch)
+![](sensores/PYTHON/BallSwitch/titulo.png)
