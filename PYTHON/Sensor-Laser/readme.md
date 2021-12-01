@@ -24,4 +24,7 @@ El Raspberry Pico viene con un bootloader que permite grabar el programa que ela
 | CARACTERÍSTICAS	 | VALORES |
 | ------------- | ------------- |
 | Microcontrolador  | RP2040 diseñado por Raspberry Pi en Reino Unido, Doble núcleo Cortex M0+ con velocidad de hasta 133 Mhz, Aceleración por hardware de punto flotante |
-| Contenido de la celda  | Contenido de la celda  |
+| Memoria RAM  | 264 KB de SRAM  |
+| Memoria Flash  | 2 MB de memoria flash (QSPI)  |
+| Conectividad USB  | 	Periférico USB integrado con capacidad de comportarse como HOST o DEVICE  |
+| Pines de IO  | 	26 pines de entrada / salida de propósito general  |
