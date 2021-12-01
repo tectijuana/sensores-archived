@@ -1,1 +1,1 @@
-![](sensores/PYTHON/BallSwitch/titulo.png)
+![](titulo.png)
