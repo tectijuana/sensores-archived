@@ -11,6 +11,7 @@ _El modulo KY-012 integra un zumbador activo, este incorpora un oscilador simple
 ## Especificaciones y caracteristicas
 
 | Voltaje de funcionamiento | 3.3V a 5V               |
+|---------------------------|-------------------------|
 | Corriente máxima          | 30 mA / 5 V             |
 | Frecuencia de resonancia  | 2500 Hz ± 300 Hz        |
 | Salida de sonido mínima   | 85 dB a 10 cm           |
