@@ -27,3 +27,11 @@ Es un sensor que es capaz de detectar temperatura y humedad, que cuenta con las 
 - Certeza de medición de temperatura: ±2ºC
 - Rango de humedad a detectar: 20% to 90% RH
 - Dimensiones: .75in X 1.77in (2cm x 4.5cm)
+
+
+## Descripción del trabajo
+Vamos a hacer un circuito simple, utilizando la Raspberry Pi Pico y un sensor de temperatura-humedad DHT11. También vamos a hacer uso de un display OLED I2C de 16x2.
+El objetivo del proyecto es sencillo: crear un circuito que sea capaz de leer la temperatura y humedad ambiente con el sensor, y desplegar esos valores en el display. Para esto, el Pi Pico se va a encargar de recibir los valores del sensor, correr un script continuamente para detectar la entrada, darle formato a los datos, y por último, darles salida con el OLED.
+
+## Diagrama del circuito
+![Diagrama](PROY.png)
