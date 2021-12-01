@@ -34,4 +34,4 @@ Vamos a hacer un circuito simple, utilizando la Raspberry Pi Pico y un sensor de
 El objetivo del proyecto es sencillo: crear un circuito que sea capaz de leer la temperatura y humedad ambiente con el sensor, y desplegar esos valores en el display. Para esto, el Pi Pico se va a encargar de recibir los valores del sensor, correr un script continuamente para detectar la entrada, darle formato a los datos, y por último, darles salida con el OLED.
 
 ## Diagrama del circuito
-![Diagrama](PROY.png)
+![Diagrama](PROY.PNG)
