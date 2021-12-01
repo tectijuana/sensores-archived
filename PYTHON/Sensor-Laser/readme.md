@@ -30,3 +30,6 @@ El Raspberry Pico viene con un bootloader que permite grabar el programa que ela
 | Pines de IO  | 	26 pines de entrada / salida de propósito general  |
 | Pines Analógicos  | 	16 pines  |
 | Pines PWM  | 		3 canales con 12 bits de resolución  |
+
+
+# KY-008 Laser Emit
