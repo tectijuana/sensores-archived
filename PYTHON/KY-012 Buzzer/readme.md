@@ -24,6 +24,9 @@ _El modulo KY-012 integra un zumbador activo, este incorpora un oscilador simple
   - KY-012 Buzzer
   - 2x wires (Conectores)
 
+### Conexion de pines
+
+
 ### Codigo
 
 ```
