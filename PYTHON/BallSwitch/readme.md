@@ -1,2 +1,2 @@
 ![](titulo.png)
-##¿Qué es KY-020?
+## ¿Qué es KY-020 Ball Switch?
