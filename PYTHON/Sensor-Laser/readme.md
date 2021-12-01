@@ -28,3 +28,5 @@ El Raspberry Pico viene con un bootloader que permite grabar el programa que ela
 | Memoria Flash  | 2 MB de memoria flash (QSPI)  |
 | Conectividad USB  | 	Periférico USB integrado con capacidad de comportarse como HOST o DEVICE  |
 | Pines de IO  | 	26 pines de entrada / salida de propósito general  |
+| Pines Analógicos  | 	16 pines  |
+| Pines PWM  | 		3 canales con 12 bits de resolución  |
