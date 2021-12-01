@@ -23,7 +23,7 @@ El Raspberry Pico viene con un bootloader que permite grabar el programa que ela
 
 | CARACTERÍSTICAS	 | VALORES |
 | ------------- | ------------- |
-| Microcontrolador  | RP2040 diseñado por Raspberry Pi en Reino Unido
-Doble núcleo Cortex M0+ con velocidad de hasta 133 Mhz
-Aceleración por hardware de punto flotante  |
+| Microcontrolador  | RP2040 diseñado por Raspberry Pi en Reino Unido  |
+                    | Doble núcleo Cortex M0+ con velocidad de hasta 133 Mhz  |
+                    | Aceleración por hardware de punto flotante  |
 | Contenido de la celda  | Contenido de la celda  |
