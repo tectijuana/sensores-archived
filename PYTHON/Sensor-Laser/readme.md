@@ -11,7 +11,7 @@ Hay que aclarar que no se trata de una tarjeta que rivalice de ninguna forma con
 
 Con estas características el Raspberry Pi Pico busca posicionarse como una importante alternativa para correr MicroPython y así unirse a otros microcontroladores que han sido sumamente exitosos en el mercado educativo y de hobby. Sin embargo, como ya estamos acostumbrados por este fabricante, la relación de precio / prestaciones es grandiosa.
 
-# # ¿Cómo se programa?
+# ¿Cómo se programa?
 
 La tarjeta viene con dos opciones para programarse:
 
