@@ -1,4 +1,4 @@
-![Titulo](cooltext399081232772162.gif)
+![Titulo](Cool Text - Sensor de obstaculos 399103065313578.png)
 
 
 ## Raspberry Pi Pico
