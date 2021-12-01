@@ -1,6 +1,6 @@
 # KY-012 Buzzer    
 
-<img src="https://uelectronics.com/wp-content/uploads/2017/06/modulo-buzzer-activo-modelo-ky-V1.jpg" width="100">
+<img src="https://uelectronics.com/wp-content/uploads/2017/06/modulo-buzzer-activo-modelo-ky-V1.jpg" width="250">
 
 
 ### ¿Qué es Sensor Zumbador Activo Módulo KY-012 ?
@@ -26,7 +26,17 @@ _El modulo KY-012 integra un zumbador activo, este incorpora un oscilador simple
 
 ### Conexion de pines
 
+El sensor esta compuesto por 3 pines:
+  - Tierra 
+  - Sin conexion
+  - Datos
+
+
 <img src="image_2021-11-30_194343.png" width="250">
+
+Para conectarlos a la placa tenemos lo siguiente:
+  - Tierra la onectamos al pin 6
+  - Datos lo conectamos al pin 7
 
 <img src="image_2021-11-30_194439.png" width="250">
 
