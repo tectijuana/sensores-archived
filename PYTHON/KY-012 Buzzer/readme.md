@@ -26,6 +26,9 @@ _El modulo KY-012 integra un zumbador activo, este incorpora un oscilador simple
 
 ### Conexion de pines
 
+![Pines de sensor](image_2021-11-30_194343.png)
+
+![Pines de sensor](image_2021-11-30_194439.png)
 
 ### Codigo
 
