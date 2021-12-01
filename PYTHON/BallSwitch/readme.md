@@ -8,9 +8,8 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 
 ## Especificaciones y caracteristicas
 
-|                           |                   |
-|---------------------------|-------------------|
 | Voltaje de funcionamiento | 3.3V a 5V         |
+|---------------------------|-------------------|
 | Tipo de salida            | Digital           |
 | Dimensiones               | 23mm x 16mm x 5mm |
 | Vida Mecanica             | 100.000 ciclos    |
