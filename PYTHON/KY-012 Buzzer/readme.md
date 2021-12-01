@@ -1,4 +1,6 @@
-# KY-012 Buzzer    <img src="https://uelectronics.com/wp-content/uploads/2017/06/modulo-buzzer-activo-modelo-ky-V1.jpg" width="60">
+# KY-012 Buzzer    
+
+<img src="https://uelectronics.com/wp-content/uploads/2017/06/modulo-buzzer-activo-modelo-ky-V1.jpg" width="100">
 
 
 ### ¿Qué es Sensor Zumbador Activo Módulo KY-012 ?
