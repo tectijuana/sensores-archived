@@ -1,8 +1,8 @@
 ![](FlameSensorTitulo.gif)
 
-###Descripción
 
-###Especificaciones
+#**Especificaciones**
+
 | Voltaje de operación          | 3.3 a 5.5  V                                                        |
 |-------------------------------|---------------------------------------------------------------------|
 | Corriente de Operación        | 15 mA                                                               |
