@@ -1,1 +1,0 @@
-![](FlameSensorTitulo.gif)
