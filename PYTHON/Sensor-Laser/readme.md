@@ -41,3 +41,7 @@ El Sensor Laser Módulo KY-008 es un emisor de luz láser  de color rojo que cue
 Este módulo es útil para determinar la distancia de un objeto o la detección o alarma de movimiento en caso de ser necesario. Es útil para trabajos con Arduino, Esp8266 ya que es fácil de conectar ; ya que cuenta con 3 pines de los cuales solo se trabaja con 2 (Vcc y GND). El cual tiene un alcance de 1.5m a 2m.
 
 ![alt text](https://http2.mlstatic.com/D_NQ_NP_628198-MLM46724374994_072021-O.web)
+
+# Circuito:
+![alt text]()
+
