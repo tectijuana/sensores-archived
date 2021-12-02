@@ -1,4 +1,4 @@
-![](FlameSensorTitulo)
+![](FlameSensorTitulo.gif)
 #Descripción
 #Especificaciones
 | Voltaje de operación          | 3.3 a 5.5  V                                                        |
