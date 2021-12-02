@@ -5,7 +5,6 @@
 ###Especificaciones
 
 | Voltaje de operación          | 3.3 a 5.5  V                                                        |
-|-------------------------------|---------------------------------------------------------------------|
 | Corriente de Operación        | 15 mA                                                               |
 | Rango de detección            | 760 nm a 1100 nm                                                    |
 | Ángulo de detección           | 60°                                                                 |
