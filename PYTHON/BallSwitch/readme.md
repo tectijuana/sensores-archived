@@ -25,3 +25,4 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 codigo prueba
 ```
 
+## Diagrama
