@@ -6,14 +6,9 @@
 
 
 ## Sensores
-<div style="text-align: justify"> Un sensor es un dispositivo que detecta el cambio en el entorno y responde a alguna salida en el otro sistema. Un sensor convierte un fenómeno físico en un voltaje analógico medible (o, a veces, una señal digital) convertido en una pantalla legible para humanos o transmitida para lectura o procesamiento adicional.
+<div style="text-align: justify"> Un sensor es un dispositivo que detecta el cambio en el entorno y responde a alguna salida en el otro sistema. Un sensor convierte un fenómeno físico en un voltaje analógico medible (o, a veces, una señal digital) convertido en una pantalla legible para humanos o transmitida para lectura o procesamiento adicional.</div>
 
-Uno de los sensores más conocidos es el micrófono, que convierte la energía del sonido en una señal eléctrica que puede amplificarse, transmitirse, grabarse y reproducirse.
-
-Los sensores se usan en nuestra vida cotidiana. Por ejemplo, el termómetro de mercurio común es un tipo de sensor muy antiguo utilizado para medir la temperatura. Usando mercurio coloreado en un tubo cerrado, se basa en el hecho de que este producto químico tiene una reacción constante y lineal a los cambios de temperatura.
-
-Al marcar el tubo con valores de temperatura, podemos mirar el termómetro y ver cuál es la temperatura. La precisión es algo limitada debido al tamaño visual de las marcas de escala, pero es suficiente para el propósito previsto. </div>
-
+<div style="text-align: justify"> Uno de los sensores más conocidos es el micrófono, que convierte la energía del sonido en una señal eléctrica que puede amplificarse, transmitirse, grabarse y reproducirse.</div>
 
 ## Sensor de obstaculos
 <div style="text-align: justify"> El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  por medio de un transmisor y receptor; que trabajando en conjunto captan la luz y realizando una diferencia de luz detectan el obstáculo en un rango entre 2 a 40 cm. </div>
@@ -30,7 +25,5 @@ Al marcar el tubo con valores de temperatura, podemos mirar el termómetro y ver
 - Corriente:  ≥ 20 mA
 - Distancia de Detección:  2  a 40 cm
 - Temperatura de Operación :  -10 ℃   a  50 ℃
-- Interfaces de entrada/salida:  (- / + / S / EN)
-- Angulo Efectivo:  35°
 - Dimensiones: 41mm x 18mm x 13 mm
 - Peso: 6 g 
