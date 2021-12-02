@@ -2,9 +2,7 @@
 
 
 ## Raspberry Pi Pico
-<div style="text-align: justify"> La Raspberry Pi Pico es una tarjeta de desarrollo basada en el microcontrolador RP2040. Esta tarjeta ha sido diseñada para ser una plataforma de desarrollo muy flexible y de bajo costo. El RP2040 es un chip diseñado por Raspberry Pi que cuenta con dos núcleos ARM Cortex-M0+ que trabajan a 133 MHz, memoria Flash de 2 MB y con memoria RAM de 264 KB. La Raspberry Pi Pico tiene integrada una fuente de alimentación conmutada (SMPS, Switch Mode Power Supply) buck-boost que permite generar lo 3.3 V requeridos para alimentar al RP2040 a partir de un amplio rango de voltajes de entrada (de ~1.8 a 5.5 V). 
-
-La memoria Flash de la Raspberry Pi Pico puede programarse fácilmente por medio del puerto USB. Cuando la Raspberry Pi Pico es alimentada mientras está presionado el botón BOOTSEL, la tarjeta es reconocida como un dispositivo de almacenamiento masivo, y la memoria Flash puede reprogramarse simplemente copiando el archivo del programa desde una computadora Raspberry Pi, Window o MAC a la tarjeta Pico. </div>
+<div style="text-align: justify"> La Raspberry Pi Pico es una tarjeta de desarrollo basada en el microcontrolador RP2040. Esta tarjeta ha sido diseñada para ser una plataforma de desarrollo muy flexible y de bajo costo. El RP2040 es un chip diseñado por Raspberry Pi que cuenta con dos núcleos ARM Cortex-M0+ que trabajan a 133 MHz, memoria Flash de 2 MB y con memoria RAM de 264 KB. La Raspberry Pi Pico tiene integrada una fuente de alimentación conmutada (SMPS, Switch Mode Power Supply) buck-boost que permite generar lo 3.3 V requeridos para alimentar al RP2040 a partir de un amplio rango de voltajes de entrada (de ~1.8 a 5.5 V). </div>
 
 
 ## Sensores
@@ -18,7 +16,7 @@ Al marcar el tubo con valores de temperatura, podemos mirar el termómetro y ver
 
 
 ## Sensor de obstaculos
-<div style="text-align: justify"> El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  por medio de un transmisor y receptor ; que trabajando en conjunto captan la luz y realizando una diferencia de luz detectan el obstáculo en un rango entre 2 a 40 cm. </div>
+<div style="text-align: justify"> El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  por medio de un transmisor y receptor; que trabajando en conjunto captan la luz y realizando una diferencia de luz detectan el obstáculo en un rango entre 2 a 40 cm. </div>
 
 
 ### ¿Para qué sirve?
