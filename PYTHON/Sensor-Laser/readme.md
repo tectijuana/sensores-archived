@@ -42,6 +42,6 @@ Este módulo es útil para determinar la distancia de un objeto o la detección 
 
 ![alt text](https://http2.mlstatic.com/D_NQ_NP_628198-MLM46724374994_072021-O.web)
 
-# Circuito:
+# Diagrama del Circuito:
 ![alt text](https://github.com/tectijuana/sensores/blob/master/PYTHON/Sensor-Laser/Circuito.PNG?raw=true)
 
