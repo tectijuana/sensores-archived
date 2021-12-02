@@ -4,23 +4,27 @@
 ## Raspberry Pi Pico
 <div style="text-align: justify"> La Raspberry Pi Pico es una tarjeta de desarrollo basada en el microcontrolador RP2040. Esta tarjeta ha sido diseñada para ser una plataforma de desarrollo muy flexible y de bajo costo. El RP2040 es un chip diseñado por Raspberry Pi que cuenta con dos núcleos ARM Cortex-M0+ que trabajan a 133 MHz, memoria Flash de 2 MB y con memoria RAM de 264 KB. La Raspberry Pi Pico tiene integrada una fuente de alimentación conmutada (SMPS, Switch Mode Power Supply) buck-boost que permite generar lo 3.3 V requeridos para alimentar al RP2040 a partir de un amplio rango de voltajes de entrada (de ~1.8 a 5.5 V). 
 
-La memoria Flash de la Raspberry Pi Pico puede programarse fácilmente por medio del puerto USB. Cuando la Raspberry Pi Pico es alimentada mientras está presionado el botón BOOTSEL, la tarjeta es reconocida como un dispositivo de almacenamiento masivo, y la memoria Flash puede reprogramarse simplemente copiando el archivo del programa desde una computadora Raspberry Pi, Window o MAC a la tarjeta Pico.
+La memoria Flash de la Raspberry Pi Pico puede programarse fácilmente por medio del puerto USB. Cuando la Raspberry Pi Pico es alimentada mientras está presionado el botón BOOTSEL, la tarjeta es reconocida como un dispositivo de almacenamiento masivo, y la memoria Flash puede reprogramarse simplemente copiando el archivo del programa desde una computadora Raspberry Pi, Window o MAC a la tarjeta Pico. </div>
+
 
 ## Sensores
-Un sensor es un dispositivo que detecta el cambio en el entorno y responde a alguna salida en el otro sistema. Un sensor convierte un fenómeno físico en un voltaje analógico medible (o, a veces, una señal digital) convertido en una pantalla legible para humanos o transmitida para lectura o procesamiento adicional.
+<div style="text-align: justify"> Un sensor es un dispositivo que detecta el cambio en el entorno y responde a alguna salida en el otro sistema. Un sensor convierte un fenómeno físico en un voltaje analógico medible (o, a veces, una señal digital) convertido en una pantalla legible para humanos o transmitida para lectura o procesamiento adicional.
 
 Uno de los sensores más conocidos es el micrófono, que convierte la energía del sonido en una señal eléctrica que puede amplificarse, transmitirse, grabarse y reproducirse.
 
 Los sensores se usan en nuestra vida cotidiana. Por ejemplo, el termómetro de mercurio común es un tipo de sensor muy antiguo utilizado para medir la temperatura. Usando mercurio coloreado en un tubo cerrado, se basa en el hecho de que este producto químico tiene una reacción constante y lineal a los cambios de temperatura.
 
-Al marcar el tubo con valores de temperatura, podemos mirar el termómetro y ver cuál es la temperatura. La precisión es algo limitada debido al tamaño visual de las marcas de escala, pero es suficiente para el propósito previsto.
+Al marcar el tubo con valores de temperatura, podemos mirar el termómetro y ver cuál es la temperatura. La precisión es algo limitada debido al tamaño visual de las marcas de escala, pero es suficiente para el propósito previsto. </div>
+
 
 ## Sensor de obstaculos
-El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  por medio de un transmisor y receptor ; que trabajando en conjunto captan la luz y realizando una diferencia de luz detectan el obstáculo en un rango entre 2 a 40 cm.
+<div style="text-align: justify"> El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  por medio de un transmisor y receptor ; que trabajando en conjunto captan la luz y realizando una diferencia de luz detectan el obstáculo en un rango entre 2 a 40 cm. </div>
+
 
 ### ¿Para qué sirve?
 
-El Sensor de Obstáculos KY-032 es útil para detectar obstáculos en proyectos como seguidores de línea, robot minisumos; es compatible con Arduino y microcontroladores que los proporcione una alimentación de 5 volts.
+<div style="text-align: justify"> El Sensor de Obstáculos KY-032 es útil para detectar obstáculos en proyectos como seguidores de línea, robot minisumos; es compatible con Arduino y microcontroladores que los proporcione una alimentación de 5 volts. </div>
+
 
 ### Especificación y Características
 
@@ -31,4 +35,4 @@ El Sensor de Obstáculos KY-032 es útil para detectar obstáculos en proyectos 
 - Interfaces de entrada/salida:  (- / + / S / EN)
 - Angulo Efectivo:  35°
 - Dimensiones: 41mm x 18mm x 13 mm
-- Peso: 6 g </div>
+- Peso: 6 g 
