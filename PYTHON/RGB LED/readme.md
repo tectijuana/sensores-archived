@@ -18,6 +18,12 @@ EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados po
 | Temperatura de funcionamiento | -40°C a +85°C         |
 | Peso                          | 2 g                   |
 
+### Pines
+* R: pin de luz roja (PWM a 5V).
+* G: pin de luz verde (PWM a 5V).
+* B: pin de luz azul (PWM a 5V).
+* -: Cátodo común (0V).
+
 ### Código (Este no es el código, solo es una prueba de como colocar uno)
 ```c#
 int Numero1, Numero2;
