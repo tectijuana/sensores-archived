@@ -24,9 +24,9 @@ El Sensor de Obstáculos KY-032 es útil para detectar obstáculos en proyectos 
 
 ### ESPECIFICACIÓN Y CARACTERÍSTICAS
 
-Voltaje de Trabajo: 3.3 V a 5 V
-Corriente:  ≥ 20 mA
-Distancia de Detección:  2  a 40 cm
++ Voltaje de Trabajo: 3.3 V a 5 V
+- Corriente:  ≥ 20 mA
+* Distancia de Detección:  2  a 40 cm
 Temperatura de Operación :  -10 ℃   a  50 ℃
 Interfaces de entrada/salida:  (- / + / S / EN)
 Angulo Efectivo:  35°
