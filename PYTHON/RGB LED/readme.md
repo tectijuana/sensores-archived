@@ -10,12 +10,13 @@ El Sensor Led RGB Módulo KY-016 en un modulo que consta de un LED RGB de 5 mm y
 EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados por ejemplo a la iluminación, sistemas de representación visual y control de iluminación.
 
 ### Especificaciones y características
-* Voltaje de funcionamiento: 3.3 V a 5 V
-* Led: RGB de cátodo común
-* Diámetro del LED RGB: 5 mm
-* Dimensiones: 19 mm x 15 mm x 15 mm
-* Temperatura de funcionamiento: -40°C a +85°C
-* Peso: 2 g
+| Voltaje de funcionamiento     | 3.3 V a 5 V           |
+|-------------------------------|-----------------------|
+| Led                           | RGB de cátodo común   |
+| Diámetro del LED RGB          | 5 mm                  |
+| Dimensiones                   | 19 mm x 15 mm x 15 mm |
+| Temperatura de funcionamiento | -40°C a +85°C         |
+| Peso                          | 2 g                   |
 
 ### Código (Este no es el código, solo es una prueba de como colocar uno)
 ```c#
