@@ -1,4 +1,4 @@
-<div style="text-align: center"> ![Titulo](cooltext399102852286274.gif) </div>
+![Titulo](cooltext399102852286274.gif)
 
 
 ## Raspberry Pi Pico
