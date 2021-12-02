@@ -1,5 +1,9 @@
 ![](FlameSensorTitulo.gif)
+
+
 ![image](https://user-images.githubusercontent.com/84551683/144337625-5a13127a-45c0-4b88-8bbd-fa1683a9e33a.png)
+
+
 ## MARCO TEÓRICO
 ![image](https://user-images.githubusercontent.com/84551683/144338034-a61dfa98-91cd-4006-b2b9-e0e6b39f7c42.png)
 
