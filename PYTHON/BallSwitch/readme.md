@@ -18,3 +18,10 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 | Vida Mecanica             | 100.000 ciclos    |
 | Temperatura ambiente      | -25C  a 105 C     |
 | Peso                      | 4g                |
+
+## Codigo 
+
+```phyton
+codigo prueba
+```
+
