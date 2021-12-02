@@ -24,7 +24,7 @@ EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados po
 * B: pin de luz azul (PWM a 5V).
 * -: Cátodo común (0V).
 
-![](RGB_LED_pines.png)
+![](LED_RGB_pines.png)
 
 ### Código (Este no es el código, solo es una prueba de como colocar uno)
 ```c#
