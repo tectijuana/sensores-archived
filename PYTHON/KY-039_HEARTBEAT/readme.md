@@ -1,7 +1,10 @@
 ![Cool Text - Heartbeat](https://user-images.githubusercontent.com/84552885/144182471-1ec67c0d-5d3b-406d-b996-ce061eb44e61.png)
 
-#Sensor: KY-039 heartbeat
+![Sensor](https://user-images.githubusercontent.com/84552885/144518236-99b46ddd-8424-484c-a571-a5388afdd4f6.jpg)
 
+
+
+## Sensor: KY-039 Heartbeat
 
 ### ¿Qué es el Detector de Ritmo Cardíaco? 💓
 
