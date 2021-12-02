@@ -22,7 +22,7 @@ El Sensor de Obstáculos  KY-032 es un módulo capaz de detectar obstrucciones  
 
 El Sensor de Obstáculos KY-032 es útil para detectar obstáculos en proyectos como seguidores de línea, robot minisumos; es compatible con Arduino y microcontroladores que los proporcione una alimentación de 5 volts.
 
-### ESPECIFICACIÓN Y CARACTERÍSTICAS
+### Especificación y Características
 
 - Voltaje de Trabajo: 3.3 V a 5 V
 - Corriente:  ≥ 20 mA
