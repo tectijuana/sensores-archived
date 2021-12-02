@@ -26,6 +26,7 @@ EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados po
 
 ![](LED_RGB_pines.png)
 
+# Código
 ### Código (Este no es el código, solo es una prueba de como colocar uno)
 ```c#
 int Numero1, Numero2;
