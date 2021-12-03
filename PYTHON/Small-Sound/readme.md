@@ -9,3 +9,18 @@ Este Sensor KY 038 puede detectar sonido, consiste en el funcionamiento de un de
 Este sensor la señal que nos entrega es digital y analógica, lo cual nos permite decidir cuál utilizar según nuestras necesidades. Si necesitamos saber el valor del sensor, podremos utilizar directamente la salida analógica para conseguir los datos. Sino, podemos utilizar la salida digital, la cual se activa o se desactiva según si el sensor llega a medir la intensidad del sonido que le configuremos, mediante la definición de la sensibilidad del sensor.
 
 ![](Imagen.PNG)
+
+# Especificaciones tecnicas 
+
+| Voltaje de funcionamiento     | 5V DC                               |
+|-------------------------------|-------------------------------------|
+|Distancia máxima de inducción  | 0.5 metros                          |
+|Chip principal                 |  LM393                              |
+|Micrófono                      | Electret                            |
+|Gama de frecuencias            | 100 – 10.000 Hz                     |
+|Sensibilidad                   | – 46 ± 2,0, (0dB = 1V / Pa) a 1K Hz |
+|La sensibilidad mínima a ruido | 58 dB                               | 
+|Dimensiones                    | 36 x 15 x 15 mm                     | 
+| Peso                          | 4g                                  |
+
+
