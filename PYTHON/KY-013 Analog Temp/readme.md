@@ -32,3 +32,7 @@ Este modulo tiene 3 pines los cuales son Output, VCC, GND, representados en la s
 Dentro de este diagrama se encontrara conectado en un protoboard una Pi Pico y un sensor DS18B20, se representa de color naranja todo cable de datos que conecte entre el sensor y la placa controladora, mientras que los otros 2 cables representan las conexiones electricas de alimentación, siendo tipico el rojo para el voltaje y el negro para la tierra.
 
 ![](images/Diagrama.png)
+
+Hay que tener en cuenta que este diagrama se ha hecho en base al componente que viene en la caja, ya que si este viene solo (como esta en este diagrama) se tiene que agregar una resistencia de 4.7k ohm y conectarla entre el pin de datos y el pin de voltaje como se muestra a continuación.
+
+![](images/Diagrama1.png)
