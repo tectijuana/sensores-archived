@@ -15,7 +15,8 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Diagramas
-![Image 18](https://user-images.githubusercontent.com/79487256/144523109-d0257b82-60ba-4cde-81f8-fe50723e613e.png)
+
+![1 1](https://user-images.githubusercontent.com/79487256/144535156-f3b5fcfe-6b14-4d8b-9186-60a15f3dce23.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,40 +61,33 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
-# Librerias
-import time
-import board
-import busio
-import adafruit_ads1x15.ads1115 as ADS
-from adafruit_ads1x15.analog_in import AnalogIn
-import RPi.GPIO as GPIO
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-
-# GPIO 24
-Button_PIN = 24
-GPIO.setup(Button_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
-
-delayTime = 0.2
-# Crear el Bus I2C
-i2c = busio.I2C(board.SCL, board.SDA)
-
-# Crear el objeto ADC usando el bus I2C
-ads = ADS.ADS1115(i2c)
-
-# Crear una entrada de un solo extremo en los canales
-chan0 = AnalogIn(ads, ADS.P0)
-chan1 = AnalogIn(ads, ADS.P1)
-chan2 = AnalogIn(ads, ADS.P2)
-chan3 = AnalogIn(ads, ADS.P3)
-
-
+from machine import Pin, ADC
+import utime
+ 
+xAxis = ADC (Pin (27))
+yAxis = ADC (Pin (26))
+button = Pin (16,Pin.IN, Pin.PULL_UP)
+ 
 while True:
-    # Los valores actuales se registran
-    x = '%.2f' % chan0.voltage
-    y = '%.2f' % chan1.voltage
+    xValue = xAxis.read_u16()
+    yValue = yAxis.read_u16()
+    buttonValue = button.value ()
+    xStatus = "middle"
+    yStatus = "middle"
+    buttonStatus = "not pressed"
+    if xValue <= 600:
+        xStatus = "left"
+    elif xValue >= 60000:
+        xStatus = "right"
+    if yValue <= 600:
+        yStatus = "up"
+    elif yValue >= 60000:
+        yStatus = "down"
+    if buttonValue == 0:
+        buttonStatus = "pressed"
+    print ("X: " + xStatus + ", Y: " + yStatus + " -- button " + buttonStatus)
+    utime.sleep(0.1)
 ```
-
 
 ## COMO EJECUTAR 
 ``` sudo python3 KY023-RPi.py ```
