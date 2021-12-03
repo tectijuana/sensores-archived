@@ -26,7 +26,7 @@ import RPi.GPIO as GPIO
 import time
    
 GPIO.setmode(GPIO.BCM)
-GPIO_PIN = 24
+GPIO_PIN = 27
 GPIO.setup(GPIO_PIN, GPIO.IN)
    
 print("Sensor-test [press ctrl+c para finalizar]")
