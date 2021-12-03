@@ -43,6 +43,7 @@ Un buzzer pasivo no dispone de electrónica interna, por lo que tenemos que prop
 ```python
 #Reproducir una canción con passive buzzer en Raspberry Pi Pico
 #Chavez Duarte Fernando 18212160
+#Revisado por Aquino Villegas Daniel
 
 from machine import Pin, PWM
 from utime import sleep
