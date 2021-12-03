@@ -54,6 +54,6 @@ Sin conexion
 
 Datos
 
-# Codio
+# Codigo
 
 https://github.com/tectijuana/sensores/blob/master/PYTHON/Sensor-Laser/lasertripbeam.py
