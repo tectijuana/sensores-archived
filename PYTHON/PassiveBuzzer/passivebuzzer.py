@@ -1,5 +1,6 @@
 #Reproducir una canción con passive buzzer en Raspberry Pi Pico
 #Chavez Duarte Fernando 18212160
+#Revisado por Aquino Villegas Daniel 18212144
 
 from machine import Pin, PWM
 from utime import sleep
