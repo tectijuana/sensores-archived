@@ -15,15 +15,6 @@ Es un dispositivo de “Plug and Play”, puede ser utilizado para obtener fáci
 ### ¿Para que funciona el KY-039? 🤔
 El KY-039 es una alternativa económica para medir el ritmo cardiaco y es compatible con diversas tarjetas de desarrollo como Arduino, Raspberry, ESP82, entre otras.
 
-### ESPECIFICACIONES TÉCNICAS. 🛠️
-- Modelo: KY-039
-- Voltaje: 3.3V a 5 V
-- Tipo de Salida: Analógica
-- Peso: 4 g
-- Dimensiones: 25mm x 12mm x 12 mm
-![especificaciones](https://user-images.githubusercontent.com/84552885/144518932-31882899-35d0-49bf-b599-68196264bbb7.jpg)
-
-
 
 ### ¿Cómo funciona el sensor de pulso cardíaco? 👷🏻‍♂️
 El monitor de pulso funciona de la siguiente manera: el LED es el lado luminoso del dedo y el fototransistor del otro lado del dedo, el fototransistor utilizado para obtener el flujo emitido, cuando la presión sanguínea pulsa con el dedo cuando la resistencia del fototransistor ser ligeramente cambiado.
