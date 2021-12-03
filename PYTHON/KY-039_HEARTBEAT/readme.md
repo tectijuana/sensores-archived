@@ -22,3 +22,24 @@ El monitor de pulso funciona de la siguiente manera: el LED es el lado luminoso 
 Cuando el pulso de la presión arterial pasa por el dedo la corriente de la base del fototransistor se modifica ligeramente, debido a que la cantidad de luz que puede atravesar el dedo disminuye, lo que significa una salida por el puerto análogo diferente.
 
 Es muy importante tener en cuenta que es prioritario que se mantenga lo más alejado de la luz parásita, es decir de la luz externa por ejemplo la iluminación del hogar, por eso se recomienda usar algún sistema que sirva de escudo al fototransistor y que evite que otra luz diferente a la del led llegue ya que la señal del latido del corazón es muy débil y la luz ambiente añadirá un ruido considerable.
+
+
+# Ficha técnica
+
+![especificaciones2](https://user-images.githubusercontent.com/84552885/144528044-c6614b33-9539-4ea0-94e0-90f8653f49fa.png)
+
+### ESPECIFICACIONES TÉCNICAS. 🛠️
+- Modelo: KY-039
+- Voltaje: 3.3V a 5 V
+- Tipo de Salida: Analógica
+- Peso: 4 g
+- Dimensiones: 25mm x 12mm x 12 mm
+
+
+Este modulo tiene tres pins: GND, Vcc+ y Signal. El pinout es el siguiente:
+![pinout](https://user-images.githubusercontent.com/84552885/144520684-b4e05b62-5744-4e6f-b4cc-1fb168c87ea8.jpg)
+
+
+El esquema del sensor de latido KY-039 es el siguiente:
+![esquema](https://user-images.githubusercontent.com/84552885/144524203-ce1c1c5a-6114-4392-82a1-ada1da1588a7.jpg)
+https://www.thegeekpub.com/wp-content/uploads/2019/07/KY-039-heartbeat-sensor-schematic.jpg
