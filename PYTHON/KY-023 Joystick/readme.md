@@ -57,6 +57,7 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+```
 #!/usr/bin/python
 # coding=utf-8
 
@@ -90,5 +91,4 @@ while True:
     #current values are recorded
     x = '%.2f' % chan0.voltage
     y = '%.2f' % chan1.voltage
-
-
+```
