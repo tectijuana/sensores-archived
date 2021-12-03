@@ -1,4 +1,5 @@
 ![](RGB_LED_titulo.png)
+### KY-016 RGB LED
 
 ![](RGB_LED_imagen.jpg)
 
@@ -9,9 +10,16 @@ El Sensor Led RGB Módulo KY-016 en un modulo que consta de un LED RGB de 5 mm y
 ### ¿Para que sirve el KY-016?
 EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados por ejemplo a la iluminación, sistemas de representación visual y control de iluminación.
 
+### ¿Cómo funciona el KY-016?
+Genera todo tipo de colores con el uso de un microcontrolador o bien con tarjetas de Arduino. Te recomendamos utilizar las tarjetas de Arduino ya que estas placas cuenta con pines “PWM” los cuales te permiten modificar los valores para obtener diferentes combinaciones de color.
+
+# Diagrama
+
+# Tablas técnicas
 ### Especificaciones y características
-| Voltaje de funcionamiento     | 3.3 V a 5 V           |
+| Característica                | Valor                 |
 |-------------------------------|-----------------------|
+| Voltaje de funcionamiento     | 3.3 V a 5 V           |
 | Led                           | RGB de cátodo común   |
 | Diámetro del LED RGB          | 5 mm                  |
 | Dimensiones                   | 19 mm x 15 mm x 15 mm |
@@ -19,12 +27,13 @@ EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados po
 | Peso                          | 2 g                   |
 
 ### Pines
-* R: pin de luz roja (PWM a 5V).
-* G: pin de luz verde (PWM a 5V).
-* B: pin de luz azul (PWM a 5V).
-* -: Cátodo común (0V).
-
 ![](LED_RGB_pines.png)
+| Pin     | Propiedad                   |
+|---------|-----------------------------|
+| R       | pin de luz roja (PWM a 5V)  |
+| G       | pin de luz verde (PWM a 5V) |
+| B       | pin de luz azul (PWM a 5V)  |
+| -       | Cátodo común (0V)           |
 
 # Código
 ### Código (Este no es el código, solo es una prueba de como colocar uno)
