@@ -20,9 +20,16 @@ Su funcionamiento es como el de un interruptor, ya que tiene dos posiciones de s
 
 **NOTA:** El dispositivo contiene mercurio el cual es altamente toxico, uso delicado.
 
+Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la siguiente tabla para **conectar una resistencia en el pin del LED**.
+| Voltaje | Resistencia |
+|---------|-------------|
+| 3.3v    | 120 ohms    |
+| 5v      | 220 ohms    |
+
 ## Asignación de pines
 ![](Pinout.jpg)
 
 ## Diagrama
+![](Diagrama.jpg)
 
 ## Código
