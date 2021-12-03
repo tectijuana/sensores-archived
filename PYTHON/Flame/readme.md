@@ -13,6 +13,8 @@ El Módulo KY-026 es un Sensor de Flama que por medio de un LED receptor infrarr
 ### ¿Cómo funciona el Sensor de Flama?
 El sensor de llama KY-026 está equipado con un fotodiodo que es sensible al rango espectral de luz creado por una llama abierta. El sensor de llama detecta longitudes de onda que van desde 760 nm hasta 1100 nm en el espectro infrarrojo. Después de detectar una llama, la línea de salida digital (DO) se volverá ALTA. La salida analógica (AO) proporcionará una medición directa de la lectura.
 
+## TABLAS TÉCNICAS
+
 ### Especificaciones y Características
 
 | Voltaje de operación          | 3.3 a 5.5  V                                                        |
@@ -24,3 +26,6 @@ El sensor de llama KY-026 está equipado con un fotodiodo que es sensible al ran
 | Ajuste de sensibilidad        | Si                                                                  |
 | Distancia de detección máxima | 1 metro  (puede ser mayor,  dependiendo de la magnitud de la llama) |
 | Dimensiones                   | 15 mm x 36 mm                                                       |
+
+## DIAGRAMAS
+![](FlameDiagrama.png)
