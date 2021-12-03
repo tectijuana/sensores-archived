@@ -1,4 +1,6 @@
 #Cuevas Oliva Josue Emanuel 18212164
+#Revisado por Aquino Villegas Daniel 
+#Fallo: Solo detecta flama en todo momento
 
 from machine import Pin
 import utime
