@@ -9,7 +9,7 @@
 
 ![](images/Modulo_temp.png)
 
-### Marco Teórico
+### Datos Técnicos
 
 - El módulo DS18B20 utiliza un bus sencillo. El rango de la fuente de poder de 3.0 V a 5.5 V sin fuente de poder para tiempo de espera.
 
