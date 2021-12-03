@@ -27,3 +27,6 @@
 - Temperatura de Operación :  -10 ℃   a  50 ℃
 - Dimensiones: 41mm x 18mm x 13 mm
 - Peso: 6 g 
+
+## Diagrama
+
