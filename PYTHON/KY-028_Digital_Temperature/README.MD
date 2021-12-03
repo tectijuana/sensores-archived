@@ -6,6 +6,8 @@
 
 # Sensor KY-028 Digital Temperature
 
+## ¿Qué es?
+
 ## Funcionamiento
 
 ## Ficha técnica 
@@ -15,3 +17,5 @@
 ## ¿Qué se busca hacer?
 
 ## Diagrama
+
+## Código
