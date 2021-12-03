@@ -30,9 +30,9 @@ El sensor de llama KY-026 está equipado con un fotodiodo que es sensible al ran
 ## DIAGRAMAS
 ![](FlameDiagrama.png)
 
-##Codigo
+## CÓDIGO
 
-''' python
+´´´ python
 #Cuevas Oliva Josue Emanuel 18212164
 
 from machine import Pin
@@ -49,3 +49,4 @@ while True:
        print("No Flame")
        utime.sleep(1)
 utime.sleep(0.1)
+´´´
