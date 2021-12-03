@@ -21,3 +21,34 @@ Este módulo consta de una resistencia de 10 kΩ y un sensor de resorte que env�
 | Pin 1        | +V     |
 | Pin 6        | GND    |
 <img src="https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-031%20Tap%20Module/imagenes/2021-12-02%2019_57_16-Untitled%20Sketch.fzz_%20-%20Fritzing%20-%20%5BBreadboard%20View%5D.png" alt="KY-031" style="height: 300px; width:500px;"/>
+
+## Codigo
+
+```import RPi. GPIO  as  GPIO
+import time
+   
+GPIO.setmode (GPIO.BCM) 
+   
+GPIO_PIN = 24
+GPIO.setup (GPIO_PIN, GPIO.IN) 
+   
+print ("Sensor test [press CTRL+C to exit the test]")
+   
+
+def outputFunction(null) :
+    print("Signal detected")
+   
+GPIO.add_event_detect(GPIO_PIN, GPIO.FALLING, callback= outputFunction ,  bouncetime=100)  
+   
+try:
+    while True:
+        time.sleep (1) 
+   
+except KeyboardInterrupt:
+    GPIO.cleanup ()
+```
+## Como ejecutarlo
+```sudo python3 KY031-RPi.py
+```
+
+    
