@@ -16,6 +16,6 @@
 
 ## ¿Qué se busca hacer?
 
-## Diagrama
+## Diagrama.
 
 ## Código
