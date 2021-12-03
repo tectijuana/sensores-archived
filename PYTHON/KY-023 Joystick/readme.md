@@ -49,3 +49,9 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 | +V | 3.3V [Pin 1] |
 | GND | Ground [Pin 6] |
 
+| RASPBERRY PI | SENSOR |
+| ---| --- |
+| GPIO 3 [Pin 5] | SCL |
+| Gpio 2 [Pin 3] | SDA |
+
+
