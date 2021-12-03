@@ -14,6 +14,18 @@ El Zumbador Buzzer Pasivo Módulo KY-006 es un sensor piezoeléctrico el cual pu
 Un buzzer pasivo no dispone de electrónica interna, por lo que tenemos que proporcionar una señal eléctrica para conseguir el sonido deseado. En oposición, un buzzer activo dispone de un oscilador interno, por lo que únicamente tenemos que alimentar el dispositivo para que se produzca el sonido. En resumen, un buzzer pasivo puede producir sonido a diferentes frecuencias mientras que el buzzer activo suena en una frecuencia fija.
 
 
+
+## DIAGRAMAS
+
+* GND -----> Pin 38
+* VCC ------> Pin 36
+*  SEÑAL---> Pin 4
+
+***Nota: Parece ser que el componente del KY-006 en fritzing tiene los pines diferentes al Pinout que se muestra más abajo (tiene el pin de GND invertido con el de Señal). Verificar los pines del KY-006 que se encuentra en la caja y realizar las conexiones en base a la lista de arriba.***
+
+![](DiagramaPassiveBuzzer.png)
+
+
 ## TABLAS TÉCNICAS
 
 ### Especificaciones
