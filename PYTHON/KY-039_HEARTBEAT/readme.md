@@ -66,4 +66,57 @@ _**El diagrama fue realizado en Fritzing, no encontré la librería para el sens
 ## Sensor y salidas: 
 ![especificaciones](https://user-images.githubusercontent.com/84552885/144535290-da95c082-2b38-4ca0-ba67-40b458e6e175.jpg)
 
+# Código
 
+
+```python
+# Aquino Villegas Daniel 18212144
+# No logré que arroje valor
+
+
+import machine
+import time
+
+factor = 0.75
+maximo = 0.0
+minimoEntreLatidos = 300
+valorAnterior = 500
+valorverdadero = 0
+
+sensor = machine.ADC(27)
+
+print('iniciando mediciones')
+
+while True:
+    valorticks = time.ticks_ms()
+    valorverdadero =  valorverdadero + (time.ticks_ms() - (valorticks - 1))
+    
+    
+    tiempoLPM = valorverdadero
+    entreLatidos = valorverdadero
+    
+    valorLeido = sensor.read_u16()
+    
+    valorFiltrado = factor * valorAnterior + (1 - factor) * valorLeido
+    cambio = valorFiltrado - valorAnterior
+    
+    valorAnterior = valorFiltrado
+    
+
+     
+    if((cambio >= maximo) & (valorverdadero > entreLatidos + minimoEntreLatidos)):
+        maximo = cambio
+        entreLatidos = valorverdadero
+        latidos = latidos + 1
+
+    
+    
+    maximo = maximo *0.97
+    
+    if (valorverdadero >= tiempoLPM + 15000):
+        print('Latidos por minuto: ')
+        print(latidos * 4)
+        latidos = 0;
+        tiempoLMP = valorverdadero
+        
+    time.sleep_ms(50)
