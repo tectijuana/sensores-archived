@@ -45,3 +45,9 @@ Este módulo es útil para determinar la distancia de un objeto o la detección 
 # Diagrama del Circuito:
 ![alt text](https://github.com/tectijuana/sensores/blob/master/PYTHON/Sensor-Laser/Circuito.PNG?raw=true)
 
+# Conexion de pines
+El sensor esta compuesto por 3 pines:
+
+Tierra
+Sin conexion
+Datos
