@@ -26,7 +26,7 @@ Por lo tanto las salidas tienen como función:
 - Salida Analógica: medición directa de la unidad de sensor
 
 ## Ficha técnica 
-<center>
+ <center>
   
 |            Característica              |         Valor       |
 |----------------------------------------|---------------------|
