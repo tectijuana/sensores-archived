@@ -22,3 +22,7 @@
 - Este modulo tiene 3 pines los cuales son Output, VCC, GND, representados en la siguiente imagen
 
 ![](images/Modulo_temperatura.png)
+
+- El esquema de este sensor es el siguiente:
+
+![](images/Esquema.png)
