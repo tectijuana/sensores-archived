@@ -43,6 +43,7 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 | KY-053 A0 | VRx |
 
 | SENSOR | RASPBERRY PI |
+| --- | --- |
 | VRy | A1 |
 | VRx | A0 |
 | +V | 3.3V [Pin 1] |
