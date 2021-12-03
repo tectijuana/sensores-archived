@@ -7,7 +7,7 @@
 - Precisión típica: 0.5°C
 - Solución: 9-12Bit, dependiendo del programación
 
-![](images/Modulo.png)
+![](images/Modulo_temp.png)
 
 ### Marco Teórico
 
