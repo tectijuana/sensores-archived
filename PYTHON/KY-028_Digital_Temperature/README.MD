@@ -5,8 +5,10 @@ La Raspberry Pi Pico es una placa con microcontrolador creada por la fundación 
 
 La Rapsberry Pi Pico se caracteriza por las diversas aplicaciones en las que se pueda usar y por su accesible precio, teniendo en cuenta las características que nos ofrece, permitiéndonos así, hacer uso de ella en diversos proyectos escolares o personales.
 
+
 # Sensores
 Un sensor es un dispositivo que está capacitado para detectar acciones o estímulos externos y responder en consecuencia. Estos aparatos pueden transformar las magnitudes físicas o químicas en magnitudes eléctricas.
+
 
 # Sensor KY-028 Digital Temperature
 
