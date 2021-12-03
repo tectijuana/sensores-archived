@@ -12,3 +12,21 @@ El Módulo KY-023 Sensor JoyStick es un dispositivo electromecánico consta de d
 
 Este elemento te permite controlar y manejar determinados aparatos electrónicos. Normalmente se utilizan para proyectos robóticos en el cual se necesitan para la movilidad analógica de las articulaciones de un brazo robótico. El Módulo Joystick, es más utilizado para proyectos de robótica y control de dispositivos RF(Radio Frecuencia)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Diagramas
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Tablas técnicas
+
+| ESPECIFICACIÓN Y CARACTERÍSTICAS |
+| :--- |
+| Módulo: JoyStick biaxial XY (KY-023) |
+| Voltaje de alimentación: 3.3 V a 5V |
+| Salida: Analógica(X,Y) y Digital(Z) |
+| Número de potenciómetros: 2 de 10Kohm. |
+| Pulsador central normalmente abierto. |
+| Dimensiones: 40mm x 26mm  x 32 mm |
+| Peso: 14 g |
