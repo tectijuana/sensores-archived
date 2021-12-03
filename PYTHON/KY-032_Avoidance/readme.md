@@ -30,4 +30,41 @@
 
 ## Diagrama
 
-!(cooltext399102852286274.gif)
+![Diagrama](KY-032_D.png)
+
+### Código
+
+El programa lee el estado actual del pin del sensor y emite en la consola en serie si el detector de obstáculos se encuentra actualmente frente a un obstáculo o no.
+
+````python
+# Los modulos necesarios se importan y se configuran
+import RPi. GPIO  as  GPIO
+import time
+ 
+GPIO.setmode (GPIO.BCM) 
+ 
+# Aquí se declara el pin de entrada al que está conectado el sensor.
+GPIO_PIN = 24
+GPIO.setup (GPIO_PIN, GPIO.IN , pull_up_down = GPIO.PUD_UP) 
+ 
+# Se define la pausa entre salida (en segundos)
+pausa  =  0.5
+ 
+print ("Sensor test [push CTRL+C to stop the test]") 
+ 
+# Loop de programa principal
+ try:
+    while True:
+        if GPIO.input(GPIO_PIN) == True:
+            print ("Sin obstaculo") 
+        else:
+            print ("Obstaculo detectado") 
+        print ("---------------------------------------")
+ 
+        # Reset + Retraso
+        time.sleep (pausa) 
+ 
+# Poner en orden una vez finalizado el programa
+except KeyboardInterrupt:
+    GPIO.cleanup ()
+````
