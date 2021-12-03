@@ -32,7 +32,7 @@ El sensor de llama KY-026 está equipado con un fotodiodo que es sensible al ran
 
 ## CÓDIGO
 
-´´´ python
+´´´python
 #Cuevas Oliva Josue Emanuel 18212164
 
 from machine import Pin
