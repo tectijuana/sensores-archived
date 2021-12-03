@@ -6,6 +6,8 @@
 
 ## Sensor: KY-039 Heartbeat
 
+# Marco teórico
+
 ### ¿Qué es el Detector de Ritmo Cardíaco? 💓
 
 El Detector de Ritmo Cardíaco KY-039 es un sensor óptico de pulsos cardíacos por medio de la huella digital utiliza un LED infrarrojo brillante (IR) y un fototransistor para detectar el pulso del dedo, un LED rojo flashea con cada pulso.
@@ -41,5 +43,7 @@ Este modulo tiene tres pins: GND, Vcc+ y Signal. El pinout es el siguiente:
 
 
 El esquema del sensor de latido KY-039 es el siguiente:
+
 ![esquema](https://user-images.githubusercontent.com/84552885/144524203-ce1c1c5a-6114-4392-82a1-ada1da1588a7.jpg)
+
 https://www.thegeekpub.com/wp-content/uploads/2019/07/KY-039-heartbeat-sensor-schematic.jpg
