@@ -11,3 +11,13 @@ Este módulo consta de una resistencia de 10 kΩ y un sensor de resorte que env�
 | **Voltage de operacion** | 3.3 a 5V |
 |----------------------|----------|
 | **Output Type**          | Digital  |
+
+<img src="https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-031%20Tap%20Module/imagenes/Modulo-KY-031.png" alt="KY-031" style="height: 769px; width:773px;"/>
+
+## Como configurarlo
+| Raspberry Pi | Sensor |
+|--------------|--------|
+| Pin 18       | Señal  |
+| Pin 1        | +V     |
+| Pin 6        | GND    |
+<img src="https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-031%20Tap%20Module/imagenes/2021-12-02%2019_57_16-Untitled%20Sketch.fzz_%20-%20Fritzing%20-%20%5BBreadboard%20View%5D.png" alt="KY-031" style="height: 300px; width:500px;"/>
