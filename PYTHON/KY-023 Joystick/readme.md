@@ -69,4 +69,4 @@ while True:
 
 ## COMO EJECUTAR 
 ```python
-sudo python3 KY023-RPi.py ```
+pi@raspberrypi~ python KY-023_Joystick.py```
