@@ -47,3 +47,23 @@ El esquema del sensor de latido KY-039 es el siguiente:
 ![esquema](https://user-images.githubusercontent.com/84552885/144524203-ce1c1c5a-6114-4392-82a1-ada1da1588a7.jpg)
 
 https://www.thegeekpub.com/wp-content/uploads/2019/07/KY-039-heartbeat-sensor-schematic.jpg
+
+
+## Modo de conexión 
+
+| Pico   | KY-039 Heartbeat |
+|--------|------------------|
+| Pin 38 | GND              |
+| Pin 36 | 3.3V a 5V        |
+| Pin 27 | Señal analógica  |
+
+# Diagrama
+![diagrama](https://user-images.githubusercontent.com/84552885/144535107-c9c8e5ff-9f4b-484d-97ae-09cdf2db0908.png)
+
+
+_**El diagrama fue realizado en Fritzing, no encontré la librería para el sensor. Encontré uno similar y le coloque etiquetas para identificar cada parte**_
+
+## Sensor y salidas: 
+![especificaciones](https://user-images.githubusercontent.com/84552885/144535290-da95c082-2b38-4ca0-ba67-40b458e6e175.jpg)
+
+
