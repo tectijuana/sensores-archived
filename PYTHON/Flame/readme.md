@@ -28,6 +28,7 @@ El sensor de llama KY-026 está equipado con un fotodiodo que es sensible al ran
 | Dimensiones                   | 15 mm x 36 mm                                                       |
 
 ## DIAGRAMAS
+
 ![](FlameDiagrama.png)
 
 ## CÓDIGO
