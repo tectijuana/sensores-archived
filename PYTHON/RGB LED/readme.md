@@ -14,6 +14,13 @@ EL modulo KY-016 es utilizado en diversos proyectos de electrónica aplicados po
 Genera todo tipo de colores con el uso de un microcontrolador o bien con tarjetas de Arduino. Te recomendamos utilizar las tarjetas de Arduino ya que estas placas cuenta con pines “PWM” los cuales te permiten modificar los valores para obtener diferentes combinaciones de color.
 
 # Diagrama
+### Conexión
+* R: Pin 21
+* G: Pin 22
+* -: Pin 23
+* B: Pin 24
+
+![](RGB_LED.jpg)
 
 # Tablas técnicas
 ### Especificaciones y características
@@ -36,11 +43,19 @@ Genera todo tipo de colores con el uso de un microcontrolador o bien con tarjeta
 | -       | Cátodo común (0V)           |
 
 # Código
-### Código (Este no es el código, solo es una prueba de como colocar uno)
-```c#
-int Numero1, Numero2;
-for (int i = 0; i<10; i++)
-  {
-  Console.WriteLine("Hola mundo");
-  }
+```python
+from machine import Pin
+import time
+
+led_pins = [16,17,18] # Pines en donde esta el cableado del RGB
+leds = [Pin(led_pins[0],Pin.OUT),Pin(led_pins[1],Pin.OUT),
+        Pin(led_pins[2],Pin.OUT)] # matriz de control de pines
+delay_t = 0.1 # segundos de espera entre cambios
+while True: # loop infinito
+    for led in leds: # loop entre cada led
+        led.high() # led encendido
+        time.sleep(delay_t) # espera
+        led.low() # led low
+        time.sleep(delay_t) # espera
+
 ```
