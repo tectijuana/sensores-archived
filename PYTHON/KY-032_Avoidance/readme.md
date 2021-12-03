@@ -50,7 +50,7 @@ GPIO.setup (GPIO_PIN, GPIO.IN , pull_up_down = GPIO.PUD_UP)
 # Se define la pausa entre salida (en segundos)
 pausa  =  0.5
  
-print ("Sensor test [push CTRL+C to stop the test]") 
+print ("Prueba del sensor [presione CTRL + C para detener la prueba]") 
  
 # Loop de programa principal
  try:
