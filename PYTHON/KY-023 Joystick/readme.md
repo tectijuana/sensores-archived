@@ -31,3 +31,20 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 | Pulsador central normalmente abierto. |
 | Dimensiones: 40mm x 26mm  x 32 mm |
 | Peso: 14 g |
+
+## Como conectar correctamente.
+
+| RASPBERRY PI | SENSOR |
+| ---| --- |
+| GPIO 24 [Pin 18] | button |
+| 3.3V [Pin 1] | +V |
+| ground [pin 6] | GND |
+| KY-053 A1 | VRy |
+| KY-053 A0 | VRx |
+
+| SENSOR | RASPBERRY PI |
+| VRy | A1 |
+| VRx | A0 |
+| +V | 3.3V [Pin 1] |
+| GND | Ground [Pin 6] |
+
