@@ -55,6 +55,8 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 | Gpio 2 [Pin 3] | SDA |
 
 
+## Código
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ```
@@ -91,3 +93,7 @@ while True:
     x = '%.2f' % chan0.voltage
     y = '%.2f' % chan1.voltage
 ```
+
+
+## COMO EJECUTAR 
+``` sudo python3 KY023-RPi.py ```
