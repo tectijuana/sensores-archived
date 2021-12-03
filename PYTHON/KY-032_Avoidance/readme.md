@@ -30,3 +30,4 @@
 
 ## Diagrama
 
+!(cooltext399102852286274.gif)
