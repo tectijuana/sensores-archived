@@ -66,11 +66,15 @@ while True:
     lcd.move_to(0,0)
     lcd.putstr("Temperatura: " + str(T) + chr (0xDF) + "C")
     lcd.move_to(0,1)
-    lcd.putstr("Temperatura: "+ str(H) +"%")
+    lcd.putstr("Humedad: "+ str(H) +"%")
     sleep(0.5)     
     
 ```
 
 ## Pruebas y ejecución
 Estos son los primeros resultados de la ejecución del código anterior
+![Evidencia1](E1.png)
 
+![Evidencia2](E2.png)
+
+![Evidencia3](E3.png)
