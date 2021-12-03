@@ -26,3 +26,4 @@ codigo prueba
 ```
 
 ## Diagrama
+![](diagrama.png)
