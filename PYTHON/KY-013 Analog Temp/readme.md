@@ -18,3 +18,7 @@
 - El sensor de temperatura posee un DPI programable puede ajustarse entre 9 y 12. La - temperatura propiamente dicha se representa mediante 12 bits y puede registrarse a una tasa máxima de una vez cada 750 milisegundos.
 
 - Cada DS18B20 contiene un número de serie único, de forma que puede haber múltiples chips DS18B20 en un bus.
+
+- Este modulo tiene 3 pines los cuales son Output, VCC, GND, representados en la siguiente imagen
+
+![](images/Modulo_temperatura.png)
