@@ -73,8 +73,8 @@ while True:
 
 ## Pruebas y ejecución
 Estos son los primeros resultados de la ejecución del código anterior
-![Evidencia1](E1.png)
+![Evidencia1](E1.jpg)
 
-![Evidencia2](E2.png)
+![Evidencia2](E2.jpg)
 
-![Evidencia3](E3.png)
+![Evidencia3](E3.jpg)
