@@ -44,3 +44,27 @@ Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una se
 
 
 ## Código
+````python
+int Led = 13 ;/ / definición del pin para el LED
+int buttonpin = 3; / / Definicion del pin para el sensor
+int val ;/ / definición de variables numericad
+void setup ()
+{
+pinMode (Led, OUTPUT) ;/
+pinMode (buttonpin, INPUT) ;
+}
+void loop ()
+{
+val = digitalRead (buttonpin) ;
+value of 3 to read val
+if (val == HIGH)
+signal, LED flashes
+{ 
+digitalWrite (Led, HIGH);
+}
+else
+{
+digitalWrite (Led, LOW);
+}
+}
+````
