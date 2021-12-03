@@ -1,3 +1,6 @@
+# Creador: Aquino Villegas Daniel 18212144
+# No logré hacer que arrojara datos
+
 import machine
 import time
 
