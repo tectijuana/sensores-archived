@@ -48,7 +48,4 @@ except KeyboardInterrupt:
     GPIO.cleanup ()
 ```
 ## Como ejecutarlo
-```sudo python3 KY031-RPi.py
-```
-
-    
+      sudo python3 KY031-RPi.py
