@@ -11,3 +11,7 @@
 ## Ficha técnica 
 
 # Descripción del trabajo
+
+## ¿Qué se busca hacer?
+
+## Diagrama
