@@ -49,5 +49,7 @@ Este módulo es útil para determinar la distancia de un objeto o la detección 
 El sensor esta compuesto por 3 pines:
 
 Tierra
+
 Sin conexion
+
 Datos
