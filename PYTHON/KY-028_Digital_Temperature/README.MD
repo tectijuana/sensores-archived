@@ -26,21 +26,21 @@ Por lo tanto las salidas tienen como función:
 - Salida Analógica: medición directa de la unidad de sensor
 
 ## Ficha técnica 
-<p align="center">
 |            Característica              |         Valor       |
 |----------------------------------------|---------------------|
 | Voltaje de funcionamiento              | 3.3V a  5V          |
 | Rango de medición de temperatura       | -55 °C / + 125 °C   |
 | Dimensiones                            | 38 x 15 x 14 mm     |
 | Peso                                   | 3g                  |
-</p>
+
   
 # Descripción del trabajo
 
 ## ¿Qué se busca hacer?
-
+Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una señal ALTA encendiendo el LED en el Arduino (pin 13). Se podrá girar el potenciómetro en sentido horario para aumentar el máximo de detección y en sentido antihorario para disminuirlo. La interfaz analógica devuelve un valor numérico que depende de la temperatura y la posición del potenciómetro.
 
 ## Diagrama
+
 
 
 ## Código
