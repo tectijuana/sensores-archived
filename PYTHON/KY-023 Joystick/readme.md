@@ -68,5 +68,5 @@ while True:
 ```
 
 ## COMO EJECUTAR 
-```python
+```
 pi@raspberrypi~ python KY-023_Joystick.py```
