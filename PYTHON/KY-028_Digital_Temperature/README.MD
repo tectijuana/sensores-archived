@@ -27,14 +27,12 @@ Por lo tanto las salidas tienen como función:
 
 ## Ficha técnica 
 <p align="center">
-  
 |            Característica              |         Valor       |
 |----------------------------------------|---------------------|
 | Voltaje de funcionamiento              | 3.3V a  5V          |
 | Rango de medición de temperatura       | -55 °C / + 125 °C   |
 | Dimensiones                            | 38 x 15 x 14 mm     |
 | Peso                                   | 3g                  |
-  
 </p>
   
 # Descripción del trabajo
