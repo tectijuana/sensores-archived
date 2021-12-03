@@ -19,7 +19,7 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 | Temperatura ambiente      | -25C  a 105 C     |
 | Peso                      | 4g                |
 
-## Codigo en MicroPython
+## Código en MicroPython
 
 ```phyton
 import RPi.GPIO as GPIO
