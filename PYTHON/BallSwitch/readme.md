@@ -26,4 +26,4 @@ codigo prueba
 ```
 
 ## Diagrama
-![](diagrama.png)
+![](diagrama.PNG)
