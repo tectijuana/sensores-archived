@@ -55,3 +55,40 @@ Este elemento te permite controlar y manejar determinados aparatos electrónicos
 | Gpio 2 [Pin 3] | SDA |
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#!/usr/bin/python
+# coding=utf-8
+
+import time
+import board
+import busio
+import adafruit_ads1x15.ads1115 as ADS
+from adafruit_ads1x15.analog_in import AnalogIn
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+
+Button_PIN = 24
+GPIO.setup(Button_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+
+delayTime = 0.2
+# Create the I2C bus
+i2c = busio.I2C(board.SCL, board.SDA)
+
+# Create the ADC object using the I2C bus
+ads = ADS.ADS1115(i2c)
+
+# Create single-ended input on channels
+chan0 = AnalogIn(ads, ADS.P0)
+chan1 = AnalogIn(ads, ADS.P1)
+chan2 = AnalogIn(ads, ADS.P2)
+chan3 = AnalogIn(ads, ADS.P3)
+
+
+while True:
+    #current values are recorded
+    x = '%.2f' % chan0.voltage
+    y = '%.2f' % chan1.voltage
+
+
