@@ -1,4 +1,5 @@
-# De Jesus Romero Luis Alfredo
+# De Jesus Romero Luis Alfredo 18212168
+# Revisado por Aquino Villegas Daniel 18212144
 
 from machine import Pin
 import time
