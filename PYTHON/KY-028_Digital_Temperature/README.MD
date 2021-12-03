@@ -18,6 +18,13 @@ El Modulo KY-028 Sensor Temperatura Digital nos permite medir la temperatura a t
 ## Funcionamiento
 Se puede utilizar el Modulo KY-028 Sensor Temperatura Digital para medir la temperatura ambiente, para la activación o desactivación de un sistema de un proceso, el monitoreo y el control de temperatura.
 
+El sensor temperatura (KY-028) tiene 3 componentes principales en su placa de circuito. Primero, la unidad del sensor en la parte frontal del módulo que mide el área físicamente y envía una señal analógica a la segunda unidad, el amplificador. La señal será amplificada y de acuerdo con el valor ajustado del potenciómetro, y enviará la señal a la salida analógica del módulo.
+El tercer componente es un comparador que apaga la salida digital y el LED si la señal cae por debajo de un valor específico.
+
+Por lo tanto las salidas tienen como función:
+- Salida Digital: al medir una temperatura que es más alta que el valor límite, se mostrará aquí; puede establecer el valor límite mediante un potenciómetro
+- Salida Analógica: medición directa de la unidad de sensor
+
 ## Ficha técnica 
 
 
