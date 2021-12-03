@@ -41,3 +41,28 @@ Los correspondientes pines en la Pi Pico son:
 Hay que tener en cuenta que este diagrama se ha hecho en base al componente que viene en la caja, ya que si este viene solo (como esta en este diagrama) se tiene que agregar una resistencia de 4.7k ohm y conectarla entre el pin de datos y el pin de voltaje como se muestra a continuación.
 
 ![](images/Diagrama1.png)
+
+# Código
+
+
+```python
+# Avila Jimenez David Alfredo
+# Se necesita testear el codigo
+
+import machine
+import onewire
+import ds18x20
+import time
+
+pin_modulo = machine.Pin(26)
+sensor = ds18x20.DS18X20(onewire.OneWire(pin_modulo))
+
+roms = sensor.scan()
+print("Buscando sensor!!")
+
+while True:
+    sensor.convert_temp()
+    time.sleep_ms(750)
+    for rom in roms:
+        print(sensor.read_temp(rom))
+    time.sleep(2)
