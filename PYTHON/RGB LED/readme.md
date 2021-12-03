@@ -44,6 +44,9 @@ Genera todo tipo de colores con el uso de un microcontrolador o bien con tarjeta
 
 # Código
 ```python
+
+#Revisado por Aquino Villegas Daniel 18212144
+
 from machine import Pin
 import time
 
