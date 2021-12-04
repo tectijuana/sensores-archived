@@ -64,6 +64,14 @@ Conexiones Raspberry Pi:
 
 ## Código
 ```
+# El programa lee los valores actuales en los pines de entrada y los mostrará en la terminal en [mV].
+# Ademas, el estado del pin digital se mostrará en el terminal para mostrar si el valor extremo fue
+# excedido o no.
+# Ejemplo:
+# Si aplaudes te mostrará los valores en la terminal y mostrará si los valores fueron excedidos o no,
+# en el caso de que no fuera excedido ajustaríamos los datos de ganancia para obtener el resultado deseado
+# así para que cada vez que detecte un aplauso, el sistema realice una acción.
+
 from Adafruit_ADS1x15 import ADS1x15
 from time import sleep
 
@@ -72,8 +80,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-# initialise variables
-delayTime = 0.5 # in Sekunden
+# inicializacion de variables
 # assigning the ADS1x15 ADC
 ADS1015 = 0x00 # 12-bit ADC
 ADS1115 = 0x01 # 16-bit
@@ -104,25 +111,24 @@ adc = ADS1x15(ic=ADS1115)
 Digital_PIN = 24
 GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 #############################################################################################################
-
 # loop principal
 
-# The program reads the current value of the input pin
-# and shows it at the terminal
+# El programa lee el valor actual del pin de entrada
+# y lo muestra en la terminal
 try:
  while True:
- #Current values will be recorded
- analog = adc.readADCSingleEnded(adc_channel_0, gain, sps)
- # Output at the terminal
- if GPIO.input(Digital_PIN) == False:
- print "Analog voltage value:", analog,"mV, ","extreme value: not reached"
- else:
- print "Analog voltage value:", analog, "mV, ", "extreme value: reached"
- print "---------------------------------------"
- sleep(delayTime)
- 
+    #Current values will be recorded
+    analog = adc.readADCSingleEnded(adc_channel_0, gain, sps)
+    # Output at the terminal
+    if GPIO.input(Digital_PIN) == False:
+    print "Analog voltage value:", analog,"mV, ","extreme value: not reached"
+    else:
+    print "Analog voltage value:", analog, "mV, ", "extreme value: reached"
+    print "---------------------------------------"
+    sleep(0.5)
+
 except KeyboardInterrupt:
- GPIO.cleanup()
+  GPIO.cleanup()
 
 ```
 
