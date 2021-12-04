@@ -40,7 +40,7 @@ Si bien en la imagen 3 se muestra un protoboard no es necesario.
 ![image](https://user-images.githubusercontent.com/84939760/144695219-109fa0bd-8e0f-42b6-8593-4372684578ee.png)
 
 ```python
-  import machine
+import machine
 import utime
  
 sensor_temp = machine.ADC(4)
@@ -51,4 +51,4 @@ while True:
     temperature = 27 - (reading - 0.706)/0.001721
     print(temperature)
     utime.sleep(2)                          
-    ```
+```
