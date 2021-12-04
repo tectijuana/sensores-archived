@@ -28,13 +28,13 @@ Datased: https://electropeak.com/learn/download/ky-037-datasheet/
 
 Los sensores de sonido KY-038 y KY-037 son muy similares, ya que ambos cuentan con un micrófono para la detección de sonidos, la única diferencia es la sensibilidad que tiene cada uno.
 
-<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 4.PNG"></p>
+<p align="center"><img src="KY-038 Sensor Microfono 4.PNG"></p>
 
 El ajuste de la sensibilidad es a través del trimpot, siendo que en forma horaria aumenta la sensibilidad y de lado contrario se reduce.
 
 
-<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 3.PNG"></p>
-<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 5.jng"></p>
+<p align="center"><src="KY-038 Sensor Microfono 3.PNG"></p>
+<p align="center"><src="KY-038 Sensor Microfono 5.jpg"></p>
 
 **ESPECIFICACIONES TÉCNICAS:**
 - Modelo: KY-038
