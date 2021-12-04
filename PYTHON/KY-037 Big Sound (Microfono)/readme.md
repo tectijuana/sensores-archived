@@ -118,13 +118,15 @@ GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 # y lo muestra en la terminal
 try:
  while True:
-    # Lee el pi
+    # Lee el pin de entrada
     analog = adc.readADCSingleEnded(adc_channel_0, gain, sps)
-    # Output at the terminal
+    # Salida de la terminal
+    # Si la señal Digital == 1
     if GPIO.input(Digital_PIN) == False:
-    print "Analog voltage value:", analog,"mV, ","extreme value: not reached"
+      print "Analogo (voltaje):", analog,"mV, ","valor extremo: no alcanzado"
     else:
-    print "Analog voltage value:", analog, "mV, ", "extreme value: reached"
+      print "Analogo (voltaje)", analog, "mV, ", "valor extremo: alcanzado"
+    
     print "---------------------------------------"
     sleep(0.5)
 
