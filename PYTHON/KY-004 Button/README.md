@@ -1,8 +1,8 @@
 ## Titulo
-![](Titulo.png)
+![](Titulobutton.png)
 
 ## Logo
-<img src="logo.jpg" width="300">
+<img src="logobutton.jpg" width="300">
 
 ___
 ## Introducción
@@ -39,7 +39,7 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 | 5v      | 220 ohms    |
 
 ## Asignación de pines
-![](pines.png)
+![](pinesbutton.jpg)
 
 ## Diagrama
 <img src="diagrama.png" width="500" height="500">
