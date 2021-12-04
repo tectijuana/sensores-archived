@@ -16,9 +16,10 @@ Un sensor es un dispositivo que está capacitado para detectar acciones o estím
 El Modulo KY-028 Sensor Temperatura Digital nos permite medir la temperatura a través de un termistor  NTC, en el cual el proceso de acondicionamiento de los datos le permitirá al sensor adecuar una señal de trabajo operable. Esta construido de un termistor NTC, un comparador LM393, dos led indicadores, un potenciometro.
 
 <center>
-  ![Sensor](AR0046-Sensor-KY-028-v1-1.jpg)
   
- </center>
+![Sensor](AR0046-Sensor-KY-028-v1-1.jpg)
+  
+</center>
 
 
 ## Funcionamiento
