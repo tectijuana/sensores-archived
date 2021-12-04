@@ -18,7 +18,7 @@ El módulo de sensor de temperatura para Arduino Keyes KY-001 permite la medici�
 | Rango de medición de temperatura | -55 ° C a 125 ° C |
 | Rango de precisión de medición | ± 0.5 ° C |
 | Dimensiones | 18.5mm x 15mm |
-| Resolución en Modo Termómetro : 9 a 12 bits |
+| Resolución en Modo Termómetro | 9 a 12 bits |
 | Interfaz | 1-Wire (OneWire) |
 | Peso | 2 gr |
 | Pines | GND, VCC y Señal |
