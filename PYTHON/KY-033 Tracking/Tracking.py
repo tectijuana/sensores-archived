@@ -1,68 +1,68 @@
 from machine import Pin, UART, I2C
 from ssd1306 import SSD1306_I2C
 
-#Import utime library to implement delay
+# Importar biblioteca utime para implementar retraso
 import utime, time
 
-#Oled I2C connection
+# Conexión Oled I2C
 i2c=I2C(0,sda=Pin(0), scl=Pin(1), freq=400000)
 oled = SSD1306_I2C(128, 64, i2c)
 
-#GPS Module UART Connection
+# Conexión UART del módulo GPS
 gps_module = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5))
 
-#print gps module connection details
+# Imprimir detalles de conexión del módulo gps
 print(gps_module)
 
-#Used to Store NMEA Sentences
+# Se utiliza para almacenar sentencias NMEA
 buff = bytearray(255)
 
 TIMEOUT = False
 
-#store the status of satellite is fixed or not
+# Almacenar el estado del satélite es fijo o no
 FIX_STATUS = False
 
-#Store GPS Coordinates
+# Almacenar coordenadas GPS
 latitude = ""
 longitude = ""
 satellites = ""
 gpsTime = ""
 
 
-#function to get gps Coordinates
+# Función para obtener coordenadas gps
 def getPositionData(gps_module):
     global FIX_STATUS, TIMEOUT, latitude, longitude, satellites, gpsTime
     
-    #run while loop to get gps data
-    #or terminate while loop after 5 seconds timeout
-    timeout = time.time() + 8   # 8 seconds from now
+    # Ejecutar while loop para obtener datos gps
+    # o terminar el ciclo while después de 5 segundos de tiempo de espera
+    timeout = time.time() + 8   # 8 segundos a partir de ahora
     while True:
         gps_module.readline()
         buff = str(gps_module.readline())
-        #parse $GPGGA term
-        #b'$GPGGA,094840.000,2941.8543,N,07232.5745,E,1,09,0.9,102.1,M,0.0,M,,*6C\r\n'
-        #print(buff)
+        # Analizar el término $ GPGGA
+        # b'$GPGGA,094840.000,2941.8543,N,07232.5745,E,1,09,0.9,102.1,M,0.0,M,,*6C\r\n'
+        # print(buff)
         parts = buff.split(',')
         
-        #if no gps displayed remove "and len(parts) == 15" from below if condition
+        # si no se muestra ningún gps, elimine "y len (partes) == 15" de abajo si la condición
         if (parts[0] == "b'$GPGGA" and len(parts) == 15):
             if(parts[1] and parts[2] and parts[3] and parts[4] and parts[5] and parts[6] and parts[7]):
                 print(buff)
-                #print("Message ID  : " + parts[0])
-                #print("UTC time    : " + parts[1])
-                #print("Latitude    : " + parts[2])
-                #print("N/S         : " + parts[3])
-                #print("Longitude   : " + parts[4])
-                #print("E/W         : " + parts[5])
-                #print("Position Fix: " + parts[6])
-                #print("n sat       : " + parts[7])
+                # print("Message ID  : " + parts[0])
+                # print("UTC time    : " + parts[1])
+                # print("Latitude    : " + parts[2])
+                # print("N/S         : " + parts[3])
+                # print("Longitude   : " + parts[4])
+                # print("E/W         : " + parts[5])
+                # print("Position Fix: " + parts[6])
+                # print("n sat       : " + parts[7])
                 
                 latitude = convertToDigree(parts[2])
-                # parts[3] contain 'N' or 'S'
+                # Las partes [3] contienen 'N' o 'S'
                 if (parts[3] == 'S'):
                     latitude = -latitude
                 longitude = convertToDigree(parts[4])
-                # parts[5] contain 'E' or 'W'
+                # Las partes [5] contienen 'E' o 'W'
                 if (parts[5] == 'W'):
                     longitude = -longitude
                 satellites = parts[7]
@@ -75,8 +75,8 @@ def getPositionData(gps_module):
             break
         utime.sleep_ms(500)
         
-#function to convert raw Latitude and Longitude
-#to actual Latitude and Longitude
+# Función para convertir latitud y longitud sin procesar
+# a la latitud y longitud reales
 def convertToDigree(RawDegrees):
 
     RawAsFloat = float(RawDegrees)
@@ -92,7 +92,7 @@ while True:
     
     getPositionData(gps_module)
 
-    #if gps data is found then print it on lcd
+    # Si se encuentran datos gps, imprímalos en lcd
     if(FIX_STATUS == True):
         print("fix......")
         oled.fill(0)
@@ -111,4 +111,3 @@ while True:
     if(TIMEOUT == True):
         print("Request Timeout: No GPS data is found.")
         TIMEOUT = False
-        
