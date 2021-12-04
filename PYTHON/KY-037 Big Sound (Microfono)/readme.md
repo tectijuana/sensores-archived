@@ -31,5 +31,8 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 
 <p align="center"><img src="KY-038 Sensor Microfono 2.jpg"></p>
 
-**El esquema del sensor de latido KY-037 es el siguiente:**
 Datased: https://electropeak.com/learn/download/ky-037-datasheet/
+## Materiales para testing
+- RaspBerry pi
+- KY-037 Big Sound Sensor
+- 2x wires (Conectores)
