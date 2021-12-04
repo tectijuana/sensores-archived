@@ -1,5 +1,7 @@
 
 # Importar los módulos importantes - Pin, ADC y Utime
+# Revisado por Aquino Villegas Daniel 18212144
+
 from machine import Pin, ADC
 import utime
 
