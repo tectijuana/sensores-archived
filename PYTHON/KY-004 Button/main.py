@@ -1,4 +1,4 @@
-#EJERCICIO: Realizar un montaje que sea necesario pulsar 2 Botones para que se encienda el led. - Medina Beltran Carlos Alberto 18212216
+#EJERCICIO: Realizar un montaje que sea necesario pulsar 1 boton para que se encienda el led. - Medina Beltran Carlos Alberto 18212216
 
 from machine import Pin
 import time
