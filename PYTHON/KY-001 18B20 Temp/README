@@ -40,7 +40,7 @@ Si bien en la imagen 3 se muestra un protoboard no es necesario.
 
 # Codigo
 
-```
+```python
 import os
 import glob
 import time
