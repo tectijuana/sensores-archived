@@ -3,6 +3,7 @@
 
 ## Logo
 <img src="logo.jpg" width="300">
+
 ___
 ## Introducción
 El Modulo KY-027 Sensor Magic Cup Light es un sensor que detecta vibraciones o inclinaciones en una superficie por medio de un interruptor de mercurio, entregando una salida digital que activa el regulador PWM y posee un LED que enciende cuando detecta dicha inclinación.
