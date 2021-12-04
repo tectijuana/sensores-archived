@@ -64,22 +64,20 @@ Conexiones Raspberry Pi:
 
 ## Código
 ```
-# No tengo forma de calarlo, asi que rezo para que funcione a la primera
-# This code is using the ADS1115 and the I2C Python Library for Raspberry Pi
-# This was published on the following link under the BSD license
-# [https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code]
 from Adafruit_ADS1x15 import ADS1x15
 from time import sleep
-# import needed modules
+
 import math, signal, sys, os
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
+
 # initialise variables
 delayTime = 0.5 # in Sekunden
 # assigning the ADS1x15 ADC
 ADS1015 = 0x00 # 12-bit ADC
 ADS1115 = 0x01 # 16-bit
+
 # choosing the amplifing gain
 gain = 4096 # +/- 4.096V
 # gain = 2048 # +/- 2.048V
@@ -106,9 +104,9 @@ adc = ADS1x15(ic=ADS1115)
 Digital_PIN = 24
 GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 #############################################################################################################
-# ########
-# main program loop
-# ########
+
+# loop principal
+
 # The program reads the current value of the input pin
 # and shows it at the terminal
 try:
@@ -122,6 +120,7 @@ try:
  print "Analog voltage value:", analog, "mV, ", "extreme value: reached"
  print "---------------------------------------"
  sleep(delayTime)
+ 
 except KeyboardInterrupt:
  GPIO.cleanup()
 
