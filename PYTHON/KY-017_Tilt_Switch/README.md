@@ -14,11 +14,15 @@ El KY-017 es el precursor de los ahora llamados acelerómetros utilizados en los
 ## ¿Cómo funciona?
 Este modulo consta de una resistencia de 680Ω y un LED que se enciende y se apaga cuando se detecta una inclinación, internamente el modulo cuenta con mercurio que cierra el circuito cuando se inclina el módulo. La clave para usar con éxito este interruptor está en la comprensión de los dos estados de funcionamiento:
 
-# Posición no Inclinado: 
+### Posición no Inclinado: 
 No inclinado significa que los contactos del interruptor se interconectan por la bola de mercurio. En este estado, la salida será baja y el LED se encenderá.
 
-# Posición Inclinada: 
+<img src="noinclinada.jpg" width="400">
+
+### Posición Inclinada: 
 Significa que la bola de mercurio no está conectada a los contactos del interruptor. En este estado, el LED está apagado, y la salida es ALTA.
+
+<img src="inclinada.jpg" width="400">
 
 ## Especificaciones
 - Voltaje de funcionamiento: 3.3 Volts  a 5 Volts
