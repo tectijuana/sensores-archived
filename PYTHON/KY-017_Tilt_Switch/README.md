@@ -33,6 +33,12 @@ Significa que la bola de mercurio no está conectada a los contactos del interru
 
 **NOTA:** El dispositivo contiene mercurio. Se recomienda un adecuado tratamiento para evitar romper la cobertura de vidrio y que el mercurio escape, ya que este elemento es contaminante y tóxico.
 
+Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la siguiente tabla para **conectar una resistencia en el pin del LED**.
+| Voltaje | Resistencia |
+|---------|-------------|
+| 3.3v    | 120 ohms    |
+| 5v      | 220 ohms    |
+
 ## Asignación de pines
 ![](pines.png)
 
