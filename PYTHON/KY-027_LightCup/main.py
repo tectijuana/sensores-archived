@@ -1,3 +1,4 @@
+# Codificado por Raul Alvarez Espinoza
 from machine import Pin
 import time
 
