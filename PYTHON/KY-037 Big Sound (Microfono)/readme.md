@@ -1,5 +1,7 @@
 ![1](https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png)
+
 ![KY-038 Sensor Microfono 1](https://user-images.githubusercontent.com/89493045/144693229-25d3b7ae-53d7-49a2-8389-6c5b4b6fb1e6.jpg)
+
 **Sensor: KY-037 Big Sound**
 # Información
 **¿Qué es el módulo KY-037?**
@@ -27,6 +29,7 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 - La sensibilidad mínima a ruido: 58 dB
 - Dimensiones: 36 x 15 x 15 mm
 - Peso: 4 g
+
 ![KY-038 Sensor Microfono 2](https://user-images.githubusercontent.com/89493045/144693234-335c253d-6ca0-499c-b89c-dc2603838877.jpg)
 
 **El esquema del sensor de latido KY-037 es el siguiente:**
