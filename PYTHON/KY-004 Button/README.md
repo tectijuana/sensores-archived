@@ -46,17 +46,17 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 
 ## Código
 ```python
-
 #EJERCICIO: Realizar un montaje que sea necesario pulsar 1 boton para que se encienda el led. - Medina Beltran Carlos Alberto 18212216
+# Revisado y corregido por Alarez Espinoza Raul - 18212141
 
 from machine import Pin
 import time
 
-button=Pin(2,Pin.IN)
-led=Pin(16,Pin.OUT)
+button=Pin(1, Pin.IN)
+led=Pin(12, Pin.OUT)
 
 while True:
     state=button.value()
     led.value(state)
-    time.sleep(0.5)
+    time.sleep(0.1)
 ```
