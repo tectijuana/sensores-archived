@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png">
+  <img src="https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png"> </p>
   
-  <img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg">
-</p>
+<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg"></p>
 **Sensor: KY-037 Big Sound**
 # Información
 **¿Qué es el módulo KY-037?**
