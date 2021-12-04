@@ -33,3 +33,15 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 ![](Diagrama.jpg)
 
 ## Código
+```python
+from machine import Pin
+import time
+
+Signal_Pin = Pin(20, Pin.IN)
+LED_Pin = Pin(21, Pin.IRQ_FALLING)
+
+while True:
+    print(Signal_Pin.value())
+    LED_Pin.value(Signal_Pin.value())
+    time.sleep(0.05)
+```
