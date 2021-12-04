@@ -19,7 +19,10 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 - Tiene un indicador LED de encendido
 - Tiene un LED que indica la salida del comparador
 
-# Ficha Técnica
+<p align="center"><img src="KY-038 Sensor Microfono 2.jpg"></p>
+
+Datased: https://electropeak.com/learn/download/ky-037-datasheet/
+
 **ESPECIFICACIONES TÉCNICAS:**
 - Modelo: KY-038
 - Voltaje de funcionamiento: 5V DC
@@ -32,9 +35,7 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 - Dimensiones: 36 x 15 x 15 mm
 - Peso: 4 g
 
-<p align="center"><img src="KY-038 Sensor Microfono 2.jpg"></p>
 
-Datased: https://electropeak.com/learn/download/ky-037-datasheet/
 ## Materiales para testing
 - RaspBerry pi
 - KY-037 Big Sound Sensor
