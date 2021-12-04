@@ -34,6 +34,6 @@ Este sensor la señal que nos entrega es digital y analógica, lo cual nos permi
 Este sensor se piuede utilizar para proyectos que requieran la detección de ruido, como ser alarmas o interruptores con detección de voz o sonido (un aplauso por ejemplo).
 
 ## Diagrama
-![](Diagrama.PNG)
+![](Diagrama1.PNG)
 ## Codigo
 
