@@ -1,5 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png"> </p>
+<p align="center"><img src="https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png"> </p>
   
 <p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg"></p>
 **Sensor: KY-037 Big Sound**
@@ -30,7 +29,7 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 - Dimensiones: 36 x 15 x 15 mm
 - Peso: 4 g
 
-![KY-038 Sensor Microfono 2](https://user-images.githubusercontent.com/89493045/144693234-335c253d-6ca0-499c-b89c-dc2603838877.jpg)
+<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 2.jpg"></p>
 
 **El esquema del sensor de latido KY-037 es el siguiente:**
 Datased: https://electropeak.com/learn/download/ky-037-datasheet/
