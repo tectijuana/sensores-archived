@@ -11,7 +11,7 @@ a = Pin(22, Pin.IN)
 # GPIO.setup(GPIO_PIN, GPIO.IN)
    
 # This outputFunction will be executed on signal detection
-def outputFunction(null):
+def outputFunction(null): 
    print("Signal detected")
    
 # When a signal is detected (falling signal edge) the output function is executed
