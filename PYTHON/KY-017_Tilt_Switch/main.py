@@ -5,22 +5,19 @@ import time
    
 # GPIO.setmode(GPIO.BCM)
    
-a = Pin(24, Pin.IN)
+a = Pin(22, Pin.IN)
 
+# GPIO_PIN = 22
 # GPIO.setup(GPIO_PIN, GPIO.IN)
    
 # This outputFunction will be executed on signal detection
 def outputFunction(null):
-        print("Signal detected")
+   print("Signal detected")
    
 # When a signal is detected (falling signal edge) the output function is executed
-GPIO.add_event_detect(a, GPIO.FALLING, callback=outputFunction, bouncetime=100) 
+# GPIO.add_event_detect(GPIO, GPIO.FALLING, callback=outputFunction, bouncetime=100)
+
+Pin.add_event_detect(a, Pin.IRQ_FALLING, callback=outputFunction, bouncetime=100)
    
-# main program loop
-try:
-    while True:
-        time.sleep(1)
-   
-# clean up after the program is finished
-except KeyboardInterrupt:
-    GPIO.cleanup()
+while True:
+   time.sleep(1)
