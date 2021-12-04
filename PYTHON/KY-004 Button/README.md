@@ -42,7 +42,7 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 ![](pinesbutton.jpg)
 
 ## Diagrama
-<img src="diagrama.png" width="500" height="500">
+<img src="diagramabutton.png" width="500" height="500">
 
 ## Código
 ```python
