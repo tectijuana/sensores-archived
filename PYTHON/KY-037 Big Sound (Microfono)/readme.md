@@ -1,6 +1,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png"> </p>
   
 <p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg"></p>
+
 **Sensor: KY-037 Big Sound**
 
 # Información
@@ -23,6 +24,18 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 
 Datased: https://electropeak.com/learn/download/ky-037-datasheet/
 
+# Características
+
+Los sensores de sonido KY-038 y KY-037 son muy similares, ya que ambos cuentan con un micrófono para la detección de sonidos, la única diferencia es la sensibilidad que tiene cada uno.
+
+<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 4.png"></p>
+
+El ajuste de la sensibilidad es a través del trimpot, siendo que en forma horaria aumenta la sensibilidad y de lado contrario se reduce.
+
+
+<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 3.png"></p>
+<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 5.png"></p>
+
 **ESPECIFICACIONES TÉCNICAS:**
 - Modelo: KY-038
 - Voltaje de funcionamiento: 5V DC
@@ -40,3 +53,6 @@ Datased: https://electropeak.com/learn/download/ky-037-datasheet/
 - RaspBerry pi
 - KY-037 Big Sound Sensor
 - 2x wires (Conectores)
+
+**Diagrama de conexión al protoboard**
+
