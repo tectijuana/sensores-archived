@@ -14,7 +14,7 @@ El sensor micrófono es útil para para encender o apagar alguna lampara, para d
 
 **¿Cómo funciona el sensor KY-037?**
 Este módulo tiene dos salidas de información:
-- Analógica (A0): Lleva toda la información que está detectando el micrófono
+- Analógica(A0): Lleva toda la información que está detectando el micrófono
 - Digital(D0): Obtendremos una salida de encendido o apagado que se activa cuando el sonido supera un cierto volumen. Dicha salida de alta o baja se puede configurar mediante el ajuste del umbral
 El sensor tiene 3 componentes principales en su placa de circuito. Primero, la unidad de sensor en la parte frontal del módulo que mide el área físicamente y envía una señal analógica a la segunda unidad, el amplificador. El LM396 amplificará la señal, de acuerdo con el valor resistente del potenciómetro, y envía la señal a la salida analógica del módulo. El tercer componente es un comparador que apaga la salida digital y el LED si la señal cae por debajo de un valor específico.
 - Tiene un indicador LED de encendido
@@ -53,4 +53,20 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 - 2x wires (Conectores)
 
 ## Diagrama de conexión al protoboard
+
+<p align="center"><img src="KY-038 Sensor Microfono 2.jpg"></p>
+
+Conexiones Raspberry Pi:
+Señal Digital(D0) = GPIO 24 [Pin 18 (RPi)]
++V = 3,3V [Pin 1 (RPi)]
+GND = GND [Pin 06 (RPi)]
+Señal Analógica(A0) = Analog 0 [Pin A0 (ADS1115 - KY-053)]
+
+```
+Code:
+
+```
+
+## Código
+
 
