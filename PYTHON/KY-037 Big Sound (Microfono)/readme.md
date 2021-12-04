@@ -2,9 +2,12 @@
   
 <p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg"></p>
 **Sensor: KY-037 Big Sound**
+
 # Información
+
 **¿Qué es el módulo KY-037?**
 El Módulo KY-037 Sensor de Sonido  permite detectar cualquier tipo de sonido. Incluye un trimpot con el cual se puede ajusta la sensibilidad del sensor la información de salida puede ser analógica y/o digital.
+
 **¿Para que sirve el sensor micrófono?**
 El sensor micrófono es útil para para encender o apagar alguna lampara, para detector de ruido en algún lugar de trabajo u hogar.
 
