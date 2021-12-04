@@ -1,6 +1,6 @@
 ![1](https://user-images.githubusercontent.com/2523851/143512880-d3d82c2c-cdc0-4f9d-ba33-f2233f813c73.png)
 <p align="center">
-  ![KY-038 Sensor Microfono 1](https://user-images.githubusercontent.com/89493045/144693229-25d3b7ae-53d7-49a2-8389-6c5b4b6fb1e6.jpg)
+  <img width="460" height="300" src="KY-038 Sensor Microfono 1.jpg">
 </p>
 **Sensor: KY-037 Big Sound**
 # Información
