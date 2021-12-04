@@ -45,3 +45,8 @@ while True:
     LED_Pin.value(Signal_Pin.value())
     time.sleep(0.05)
 ```
+
+## Conculsión
+El sensor puede tener bastante utilidad para proyectos en las que se requiera mantener una posición en un ángulo en concreto, o también puede detectar temblores inusuales debido a como parpadea cuando se pone a temblar.
+
+![](muestra_LightCup.gif)
