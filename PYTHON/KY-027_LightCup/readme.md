@@ -38,7 +38,7 @@ from machine import Pin
 import time
 
 Signal_Pin = Pin(20, Pin.IN)
-LED_Pin = Pin(21, Pin.IRQ_FALLING)
+LED_Pin = Pin(21, Pin.OUT)
 
 while True:
     print(Signal_Pin.value())
