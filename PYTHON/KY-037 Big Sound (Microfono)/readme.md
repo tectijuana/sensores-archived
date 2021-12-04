@@ -75,8 +75,9 @@ Conexiones Raspberry Pi:
 from Adafruit_ADS1x15 import ADS1x15
 from time import sleep
 
-import math, signal, sys, os
 import RPi.GPIO as GPIO
+
+# La opción GPIO.BCM se refiere a los pines por su numero de "Broadcom SOC channel"
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
@@ -85,7 +86,7 @@ GPIO.setwarnings(False)
 ADS1015 = 0x00 # 12-bit ADC
 ADS1115 = 0x01 # 16-bit
 
-# choosing the amplifing gain
+# Se escoge la ganancia de amplificación
 gain = 4096 # +/- 4.096V
 # gain = 2048 # +/- 2.048V
 # gain = 1024 # +/- 1.024V
@@ -105,9 +106,9 @@ adc_channel_0 = 0 # Channel 0
 adc_channel_1 = 1 # Channel 1
 adc_channel_2 = 2 # Channel 2
 adc_channel_3 = 3 # Channel 3
-# initialise ADC (ADS1115)
+# Inicializa el ADC (ADS1115)
 adc = ADS1x15(ic=ADS1115)
-# Input pin for the digital signal will be picked here
+# Pin de entrada para la señal digital se almacenará aqui
 Digital_PIN = 24
 GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 #############################################################################################################
@@ -117,7 +118,7 @@ GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 # y lo muestra en la terminal
 try:
  while True:
-    #Current values will be recorded
+    # Lee el pi
     analog = adc.readADCSingleEnded(adc_channel_0, gain, sps)
     # Output at the terminal
     if GPIO.input(Digital_PIN) == False:
