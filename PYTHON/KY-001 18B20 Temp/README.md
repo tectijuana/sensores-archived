@@ -11,15 +11,17 @@ El módulo de sensor de temperatura para Arduino Keyes KY-001 permite la medici�
 
 ## Especificaciones.
 
-Fabricante: Dallas 18B20
-Voltaje de funcionamiento : 3V a 5.5V
-Rango de medición de temperatura: -55 ° C a 125 ° C
-Rango de precisión de medición: ± 0.5 ° C
-Dimensiones: 18.5mm x 15mm
-Resolución en Modo Termómetro : 9 a 12 bits
-Interfaz: 1-Wire (OneWire)
-Peso: 2 gr
-Pines: GND, VCC y Señal
+| Descripcion | Valor |
+| --- | --- |
+| Fabricante| Dallas 18B20 |
+| Voltaje de funcionamiento | 3V a 5.5V |
+| Rango de medición de temperatura | -55 ° C a 125 ° C |
+| Rango de precisión de medición | ± 0.5 ° C |
+| Dimensiones | 18.5mm x 15mm |
+| Resolución en Modo Termómetro : 9 a 12 bits |
+| Interfaz | 1-Wire (OneWire) |
+| Peso | 2 gr |
+| Pines | GND, VCC y Señal |
 
 #### Imagen 2. Pines del sensor
 ![image](https://user-images.githubusercontent.com/84939760/144693689-b554dc31-3c78-4b22-bbac-46e9f54e507b.png)
