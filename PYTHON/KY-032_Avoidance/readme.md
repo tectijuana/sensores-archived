@@ -30,7 +30,7 @@
 
 ## Diagrama
 
-![Diagrama](KY-032_D.png)
+![Diagrama]()
 
 ### Código
 
