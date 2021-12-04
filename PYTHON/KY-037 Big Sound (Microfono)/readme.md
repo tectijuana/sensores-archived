@@ -29,7 +29,7 @@ El sensor tiene 3 componentes principales en su placa de circuito. Primero, la u
 - Dimensiones: 36 x 15 x 15 mm
 - Peso: 4 g
 
-<p align="center"><img width="460" height="300" src="KY-038 Sensor Microfono 2.jpg"></p>
+<p align="center"><img src="KY-038 Sensor Microfono 2.jpg"></p>
 
 **El esquema del sensor de latido KY-037 es el siguiente:**
 Datased: https://electropeak.com/learn/download/ky-037-datasheet/
