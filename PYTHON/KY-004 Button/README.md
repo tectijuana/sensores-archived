@@ -45,8 +45,8 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 <img src="diagrama.png" width="500" height="500">
 
 ## Código
-```
-python
+```python
+
 #EJERCICIO: Realizar un montaje que sea necesario pulsar 2 Botones para que se encienda el led. - Medina Beltran Carlos Alberto 18212216
 
 from machine import Pin
