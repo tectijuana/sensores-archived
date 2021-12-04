@@ -130,6 +130,7 @@ except KeyboardInterrupt:
   GPIO.cleanup()
 
 ```
+Otra version: https://sensorkit.joy-it.net/en/sensors/ky-037
 
 ## Ejecucion
 pi@raspberrypi~ python KY-037_microfono.py
