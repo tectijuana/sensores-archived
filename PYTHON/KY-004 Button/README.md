@@ -6,32 +6,31 @@
 
 ___
 ## Introducción
-El Sensor Interruptor Mercurio Módulo KY-017 es un módulo que te permitirá detectar la inclinación de un objeto para que puedas generar una acción de control, es una buena alternativa de bajo costo para remplazar un acelerómetro de 6 ejes.
+El Módulo ky-004 Sensor Push Button detecta una acción al momento de presionarlo, se utiliza para proyectos en donde se necesite una señal externa.
 
 ## ¿Para qué sirve?
-El KY-017 es el precursor de los ahora llamados acelerómetros utilizados en los dispositivos móviles como celulares inteligentes y tabletas. Cuando se ajusta o situada estratégicamente, puede ser muy sensible. Son útiles para nivelar sistemas.
+El Módulo ky-004 Sensor Push Button se utilizan en dispositivos mecánicos y/o electrónicos  para mandar una señal, interruptor o reiniciar un programa.
 
 ## ¿Cómo funciona?
-Este modulo consta de una resistencia de 680Ω y un LED que se enciende y se apaga cuando se detecta una inclinación, internamente el modulo cuenta con mercurio que cierra el circuito cuando se inclina el módulo. La clave para usar con éxito este interruptor está en la comprensión de los dos estados de funcionamiento:
+El ky-004 su funcionamiento interno consta de 2 contactos, los cuales al ser pulsado uno este activara una función la cual puede ser un NA (normal mente abierto) o NC (normalmente cerrado) dependiendo de las características y la programación.
 
-#### Posición no Inclinado: 
-No inclinado significa que los contactos del interruptor se interconectan por la bola de mercurio. En este estado, la salida será baja y el LED se encenderá.
+## ¿Cuáles son las diferencia entre interruptor  y pulsador?
+El ky-004 su funcionamiento interno consta de 2 contactos, los cuales al ser pulsado uno este activara una función la cual puede ser un NA (normal mente abierto) o NC (normalmente cerrado) dependiendo de las características y la programación.
 
-<img src="noinclinada.jpg" width="400">
+#### Un interruptor: 
+Tiene la capacidad de abrir un circuito con carga conectada, el interruptor tiene tres posiciones (on) que significa cerrado (off) que significa abierto y uno intermedio que indica falla (puede ser por corto circuito o por sobrecarga).
 
-#### Posición Inclinada: 
-Significa que la bola de mercurio no está conectada a los contactos del interruptor. En este estado, el LED está apagado, y la salida es ALTA.
-
-<img src="inclinada.jpg" width="400">
+#### Un pulsador:
+Tiene la característica de que solo conducen cuando están presionados a estos se les llama normalmente abiertos y hay otros que dejan de conducir cuando están presionados a estos se les llama normalmente cerrados. Estos tienen la capacidad de interrumpir el paso de una corriente con carga muy pequeña ya que por lo general no provocan arcos eléctricos y cuando controlan grandes cargas están conectados en un arreglo por medio de reveladores ya sean digitales, de estado sólido, o electromagnéticos. Están conectados de modo que la parte del control maneja poca tensión y/o corriente y la parte de fuerza controla una tensión y/o corrientes muy grandes.
 
 ## Especificaciones
-- Voltaje de funcionamiento: 3.3 Volts  a 5 Volts
-- Interruptor digital salida:  0 y 1
-- Dimensiones: 26 mm x 15 mm x 9 mm
-- Bajo consumo de energía
-- Peso: 2 g
-
-**NOTA:** El dispositivo contiene mercurio. Se recomienda un adecuado tratamiento para evitar romper la cobertura de vidrio y que el mercurio escape, ya que este elemento es contaminante y tóxico.
+- Voltaje de Funcionamiento 3.3V – 5V
+- Salida Digital: 0 / 1
+- Vida de Contacto 100.000 Ciclos
+- Pines
+- – : GND
+- VCC: 5V
+- S: Señal
 
 Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la siguiente tabla para **conectar una resistencia en el pin del LED**.
 | Voltaje | Resistencia |
