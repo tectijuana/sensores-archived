@@ -1,3 +1,6 @@
+# Revisado por Daniel Aquino Villegas 18212144
+# No es el sensor correcto 
+
 from machine import Pin, UART, I2C
 from ssd1306 import SSD1306_I2C
 
