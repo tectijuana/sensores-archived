@@ -40,7 +40,7 @@ Por lo tanto las salidas tienen como función:
 Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una señal ALTA encendiendo el LED en el Arduino (pin 13). Se podrá girar el potenciómetro en sentido horario para aumentar el máximo de detección y en sentido antihorario para disminuirlo. La interfaz analógica devuelve un valor numérico que depende de la temperatura y la posición del potenciómetro.
 
 ## Diagrama
-
+![Diagrama](DiagramaSistemas_bb.jpg)
 
 
 ## Código
