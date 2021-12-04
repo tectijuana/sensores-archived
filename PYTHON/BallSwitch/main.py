@@ -1,3 +1,9 @@
+# Revisado por Aquino Villegas Daniel 18212144
+## Error en la libreria
+#Traceback (most recent call last):
+#File "<stdin>", line 1, in <module>
+#ImportError: no module named 'RPi'
+
 import RPi.GPIO as GPIO
 import time
    
