@@ -36,4 +36,4 @@ Este sensor se piuede utilizar para proyectos que requieran la detección de rui
 ## Diagrama
 ![](Diagrama.PNG)
 ## Codigo
-
+![](code.PNG)
