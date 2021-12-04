@@ -54,7 +54,7 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 
 ## Diagrama de conexión al protoboard
 
-<p align="center"><img src="KY-038 Sensor Microfono 6.png"></p>
+<p align="center"><img src="KY-038 Sensor Microfono 6.PNG"></p>
 
 Conexiones Raspberry Pi:
 - Señal Digital(D0) = GPIO 24 [Pin 18 (RPi)]
