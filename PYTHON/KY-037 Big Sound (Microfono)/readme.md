@@ -33,7 +33,7 @@ Los sensores de sonido KY-038 y KY-037 son muy similares, ya que ambos cuentan c
 El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma horaria aumenta la sensibilidad y de lado contrario se reduce.
 
 
-<p align="center"><src="KY-038 Sensor Microfono 3.PNG"></p> <p align="center"><src="KY-038 Sensor Microfono 5.jpg"></p>
+<p align="center"><src="KY-038 Sensor Microfono 3.PNG"></p> 
 
 **ESPECIFICACIONES TÉCNICAS:**
 - Modelo: KY-038
