@@ -1,4 +1,4 @@
-# Codificado por Raul Alvarez Espinoza
+# Codificado por Raul Alvarez Espinoza - 18212141
 from machine import Pin
 import time
 
