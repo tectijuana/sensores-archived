@@ -60,3 +60,7 @@ while True:
     led.value(state)
     time.sleep(0.1)
 ```
+
+## Conclusión
+Buena muestra del uso de los botones. Bastante simple, pero con este ejemplo de da a entender mejor cómo funciona en concreto este sensor.
+![](muestra_button.gif)
