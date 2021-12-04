@@ -56,11 +56,7 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 
 <p align="center"><img src="KY-038 Sensor Microfono 6.PNG"></p>
 
-Conexiones Raspberry Pi:
-- Señal Digital(D0) = GPIO 24 [Pin 18 (RPi)]
-- +V = 3,3V [Pin 1 (RPi)]
-- GND = GND [Pin 06 (RPi)]
-- Señal Analógica(A0) = Analog 0 [Pin A0 (ADS1115 - KY-053)]
+<p align="center"><img src="KY-038 Sensor Microfono 7.PNG"></p>
 
 ## Código
 ```
