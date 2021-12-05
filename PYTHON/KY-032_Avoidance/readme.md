@@ -58,3 +58,11 @@ while True:
 	else:
 		led.value(1)
 ````
+
+## Evidencias
+
+Se muestran imagenes del funcionamiento del circuito.
+
+![Evidencia]()
+
+![Evidencia2]()
