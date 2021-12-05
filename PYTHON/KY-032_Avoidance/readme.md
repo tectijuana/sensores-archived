@@ -61,7 +61,7 @@ while True:
 
 ## Evidencias
 
-Se muestran imagenes del funcionamiento del circuito.
+Se muestran imágenes del funcionamiento del circuito.
 
 ![Evidencia](E1.jpg)
 
