@@ -15,4 +15,4 @@ Lo que realiza este programa es que al detectar movimiento, enciende el LED, en 
 * Señal digital de salida Inversa: Alta (HIGH) significa cuando no hay detección de vibración y un nivel bajo (LOW) es porque tenemos vibración.
 
 ## Diagrama 
-![image](https://user-images.githubusercontent.com/89440798/144731918-f6a0264d-5eb1-4ec9-8c72-afed70d1925f.png)
+
