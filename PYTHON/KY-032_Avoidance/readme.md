@@ -63,6 +63,6 @@ while True:
 
 Se muestran imagenes del funcionamiento del circuito.
 
-![Evidencia]()
+![Evidencia](E1.jpg)
 
-![Evidencia2]()
+![Evidencia2](E2.jpg)
