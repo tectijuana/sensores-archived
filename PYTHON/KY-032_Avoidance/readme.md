@@ -45,6 +45,7 @@ sensor = Pin(15, Pin.IN)
 
 while True:
 	print(sensor.value())
+	utime.sleep_ms(20)
 	if sensor.value() == 1:
 		led.value(0)
 	else:
