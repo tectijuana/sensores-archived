@@ -16,4 +16,4 @@ Lo que realiza este programa es que al detectar movimiento, enciende el LED, en 
 
 ## Diagrama 
 
-![ky002_diagrama](https://user-images.githubusercontent.com/89440798/144733184-fcee74be-b56d-4d04-b882-f32358e968e7.png)
+![ky002_diagrama](https://user-images.githubusercontent.com/89440798/144733252-07170c6a-69e0-42c4-89b2-d2620654cf57.png)
