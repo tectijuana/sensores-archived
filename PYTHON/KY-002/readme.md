@@ -2,7 +2,7 @@
 ![ky002](https://user-images.githubusercontent.com/89440798/144691038-c20e698e-3520-4910-87c0-a5825c90564b.png)
 
 ## Marco teórico 
-Este sensor detecta cualquier tipo de movimiento que se encuentre el sensor. Es implementado en máquinas expendedoras cuando detectan un forcejeo o intento de robo, también en el desbalance de un motor de un sistema de ventilación, o en golpes de cerraduras, candados entre otros. 
+Este sensor detecta cualquier tipo de movimiento que se encuentre en el switch. Es implementado en máquinas expendedoras cuando detectan un forcejeo o intento de robo, también en el desbalance de un motor de un sistema de ventilación, o en golpes de cerraduras, candados entre otros. 
 
 ## Ficha técnica
 
