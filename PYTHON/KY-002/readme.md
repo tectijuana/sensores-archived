@@ -4,6 +4,8 @@
 ## Marco teórico 
 Este sensor detecta cualquier tipo de movimiento que se encuentre en el switch. Es implementado en máquinas expendedoras cuando detectan un forcejeo o intento de robo, también en el desbalance de un motor de un sistema de ventilación, o en golpes de cerraduras, candados entre otros. 
 
+Lo que realiza este programa es que al detectar movimiento, enciende el LED, en caso de que el LED esté encendido, se apaga. Es útil para seguridad donde se requiera conectar una alarma donde se active si se detecta forcejeo de una puerta.
+
 ## Ficha técnica
 
 * Tensión de trabajo 3.3 V  – 5 V
