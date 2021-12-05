@@ -45,26 +45,36 @@ Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una se
 
 ## Código
 ````python
-int Led = 13 ;/ / definición del pin para el LED
-int buttonpin = 3; / / Definicion del pin para el sensor
-int val ;/ / definición de variables numericad
-void setup ()
+int led = 13; // define LED pin
+int digitalPin = 2; // KY-028 digital 
+int analogPin = A0; // KY-028 analog 
+int digitalVal; // digital readings
+int analogVal; //analog readings
+
+void setup()
 {
-pinMode (Led, OUTPUT) ;/
-pinMode (buttonpin, INPUT) ;
+  pinMode(led, OUTPUT);
+  pinMode(digitalPin, INPUT);
+  Serial.begin(9600);
 }
-void loop ()
+
+void loop()
 {
-val = digitalRead (buttonpin) ;
-value of 3 to read val
-if (val == HIGH)
-signal, LED flashes
-{ 
-digitalWrite (Led, HIGH);
-}
-else
-{
-digitalWrite (Led, LOW);
-}
+  // Read the digital interface
+  digitalVal = digitalRead(digitalPin); 
+  if(digitalVal == HIGH) 
+  {
+    digitalWrite(led, HIGH);
+  }
+  else
+  {
+    digitalWrite(led, LOW);
+  }
+
+  // Read the analog interface
+  analogVal = analogRead(analogPin); 
+  Serial.println(analogVal);
+
+  delay(100);
 }
 ````
