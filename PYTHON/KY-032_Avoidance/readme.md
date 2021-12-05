@@ -34,6 +34,15 @@
 
 ![Diagrama](DiagramaKY032.png)
 
+### Conexiones
+
+|   Raspberry Pi Pico  | Sensor (KY-032) |
+|:--------------------:|:---------------:|
+|           -          |   EN (Enable)   |
+|       3V3(OUT)       |      + (+V)     |
+|          GND         |       GND       |
+| GP15/SPI1_TX/I2C_SCL |   OUT (Signal)  |
+
 ### Código
 
 El programa lee el estado actual del pin del sensor y emite en la consola en serie si el detector de obstáculos se encuentra actualmente frente a un obstáculo o no.
