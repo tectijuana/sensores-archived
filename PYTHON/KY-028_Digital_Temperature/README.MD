@@ -45,11 +45,11 @@ Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una se
 
 ## Código
 ````python
-int led = 13; // define LED pin
-int digitalPin = 2; // KY-028 digital 
-int analogPin = A0; // KY-028 analog 
-int digitalVal; // digital readings
-int analogVal; //analog readings
+int led = 13;
+int digitalPin = 2;
+int analogPin = A0;
+int digitalVal;
+int analogVal;
 
 void setup()
 {
@@ -60,7 +60,6 @@ void setup()
 
 void loop()
 {
-  // Read the digital interface
   digitalVal = digitalRead(digitalPin); 
   if(digitalVal == HIGH) 
   {
@@ -71,7 +70,6 @@ void loop()
     digitalWrite(led, LOW);
   }
 
-  // Read the analog interface
   analogVal = analogRead(analogPin); 
   Serial.println(analogVal);
 
