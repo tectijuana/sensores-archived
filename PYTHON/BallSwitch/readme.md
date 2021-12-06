@@ -22,25 +22,28 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 ## Código en MicroPython
 
 ```phyton
-import RPi.GPIO as GPIO
-import time
-   
-GPIO.setmode(GPIO.BCM)
-GPIO_PIN = 27
-GPIO.setup(GPIO_PIN, GPIO.IN)
-   
-print("Sensor-test [press ctrl+c para finalizar]")
-  
-def outFunction(null):
-        print("Señal detectada")
-   
-GPIO.add_event_detect(GPIO_PIN, GPIO.FALLING, callback=outFunction, bouncetime=100) 
-   
-try:
-        while True:
-                time.sleep(1)
-except KeyboardInterrupt:
-        GPIO.cleanup()
+# Codigo por Rivera Perez Alex 18212259 
+# Revisado por Aquino Villegas Daniel 18212144
+## Error en la libreria
+#Traceback (most recent call last):
+#File "<stdin>", line 1, in <module>
+#ImportError: no module named 'RPi'
+
+from machine import Pin
+import utime
+
+pin=27
+sensor=Pin(pin, Pin.IN)
+utime.sleep(1)
+
+while True:
+    if sensor.value()==1:
+        print("Sensor detectado")
+        utime.sleep(2)    
+    else:
+        print("No detectado")
+        utime.sleep(2)
+utime.sleep(1)
 ```
 
 ## Diagrama
