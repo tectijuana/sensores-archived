@@ -21,13 +21,15 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 
 ## Código en MicroPython
 
-```phyton
+```python
 # Codigo por Rivera Perez Alex 18212259 
 # Revisado por Aquino Villegas Daniel 18212144
 ## Error en la libreria
 #Traceback (most recent call last):
 #File "<stdin>", line 1, in <module>
 #ImportError: no module named 'RPi'
+
+# Al inclinar el sensor se despliega el mensaje "Sensor detectado"
 
 from machine import Pin
 import utime
