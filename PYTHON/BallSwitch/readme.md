@@ -28,7 +28,7 @@ Este módulo tiene 3 pines o terminales de salida, el primer pin está marcado c
 #Traceback (most recent call last):
 #File "<stdin>", line 1, in <module>
 #ImportError: no module named 'RPi'
-
+#Codigo Corregido
 # Al inclinar el sensor se despliega el mensaje "Sensor detectado"
 
 from machine import Pin
