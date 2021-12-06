@@ -55,5 +55,20 @@ Sin conexion
 Datos
 
 # Codigo
+```python
+#  Verificado y corregido por Alvarez Espinoza Raul - 18212141
+from machine import Pin
+import time
 
-https://github.com/tectijuana/sensores/blob/master/PYTHON/Sensor-Laser/lasertripbeam.py
+laser = Pin(18, Pin.OUT)
+
+while True:
+    laser.value(1)
+    time.sleep(0.2)
+    laser.value(0)
+    time.sleep(0.2)
+```
+
+# Conclusion
+De este sensor se pueden esperar muchas cosas puesto a que las aplicaciones que pueden involucrar este sensor son bastante variados.
+![](demo_laser.gif)
