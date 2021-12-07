@@ -31,7 +31,7 @@ Esté fenómeno fue descubierto por Edwin Hall en 1879, el noto que cuando un fl
 ![](pinesLinear_Hall.jpg)
 
 ## Diagrama
-<img src="diagrama.png" width="500" height="500">
+<img src="diagramaLinear_Hall.png" width="500" height="500">
 
 ## Código
 ```python
