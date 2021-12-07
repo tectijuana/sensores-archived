@@ -2,134 +2,47 @@
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Información
-El módulo KY-033 Tracking es un modulo GPS que consta de 3 componentes Ublox Neo-6M GPS Module, Oled 0.96 inch 128X64 LCD Display el software sería Thonny IDE y 
-el lenguaje utilizado es MicroPython.
+El Sensor de Obstáculos KY-033 infrarrojo o detector de línea es un dispositivo que detecta la presencia de un objeto mediante la reflexión que produce en la luz. El uso de luz infrarroja (IR) es simplemente para que esta no sea visible para los humanos. Actúa a distancias cortas, típicamente de 2 a 40 cm.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## ¿Para que sirve?
-Es como un GPS comun y corriente en el que se hace un tracking utilizando el Rasperry Pi Pico
+El Sensor de Obstáculos Módulo KY-033 te permitirá realizar una detección de línea de forma fácil, rápida y precisa, es compatible con cualquier microcontrolador que posea un pin de 5 V.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Diagrama
 
 
-![Diagrama Pico Tracking](https://user-images.githubusercontent.com/42977905/144701654-4cab81db-2bda-49a0-a4df-fcd73b1fdb21.png)
+![Captura de pantalla 2021-12-07 144056](https://user-images.githubusercontent.com/42977905/145117189-97d92061-dc45-4866-a3cc-5f9a5d183458.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##Código
 
 ```
-from machine import Pin, UART, I2C
-from ssd1306 import SSD1306_I2C
+# Los módulos necesarios se importarán y configurarán
+import RPi.GPIO as GPIO
+import time
 
-# Importar biblioteca utime para implementar retraso
-import utime, time
+GPIO.setmode(GPIO.BCM)
 
-# Conexión Oled I2C
-i2c=I2C(0,sda=Pin(0), scl=Pin(1), freq=400000)
-oled = SSD1306_I2C(128, 64, i2c)
+# Declaración del pin de entrada que está conectado con el sensor
+GPIO_PIN = 18
+GPIO.setup(GPIO_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
 
-# Conexión UART del módulo GPS
-gps_module = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5))
+# La ruptura entre los resultados se definirá aquí (en segundos)
+delayTime = 0.2
 
-# Imprimir detalles de conexión del módulo gps
-print(gps_module)
+print "#--- Proyecto de Tracking ---#"
 
-# Se utiliza para almacenar sentencias NMEA
-buff = bytearray(255)
+# Bucle principal
+try:
+        while True:
+            if GPIO.input(GPIO_PIN) == False:
+                print "Linea detectada"
 
-TIMEOUT = False
+            # Reset + Delay
+            time.sleep(delayTime)
 
-# Almacenar el estado del satélite es fijo o no
-FIX_STATUS = False
-
-# Almacenar coordenadas GPS
-latitude = ""
-longitude = ""
-satellites = ""
-gpsTime = ""
-
-
-# Función para obtener coordenadas gps
-def getPositionData(gps_module):
-    global FIX_STATUS, TIMEOUT, latitude, longitude, satellites, gpsTime
-    
-    # Ejecutar while loop para obtener datos gps
-    # o terminar el ciclo while después de 5 segundos de tiempo de espera
-    timeout = time.time() + 8   # 8 segundos a partir de ahora
-    while True:
-        gps_module.readline()
-        buff = str(gps_module.readline())
-        # Analizar el término $ GPGGA
-        # b'$GPGGA,094840.000,2941.8543,N,07232.5745,E,1,09,0.9,102.1,M,0.0,M,,*6C\r\n'
-        # print(buff)
-        parts = buff.split(',')
-        
-        # si no se muestra ningún gps, elimine "y len (partes) == 15" de abajo si la condición
-        if (parts[0] == "b'$GPGGA" and len(parts) == 15):
-            if(parts[1] and parts[2] and parts[3] and parts[4] and parts[5] and parts[6] and parts[7]):
-                print(buff)
-                # print("Message ID  : " + parts[0])
-                # print("UTC time    : " + parts[1])
-                # print("Latitude    : " + parts[2])
-                # print("N/S         : " + parts[3])
-                # print("Longitude   : " + parts[4])
-                # print("E/W         : " + parts[5])
-                # print("Position Fix: " + parts[6])
-                # print("n sat       : " + parts[7])
-                
-                latitude = convertToDigree(parts[2])
-                # Las partes [3] contienen 'N' o 'S'
-                if (parts[3] == 'S'):
-                    latitude = -latitude
-                longitude = convertToDigree(parts[4])
-                # Las partes [5] contienen 'E' o 'W'
-                if (parts[5] == 'W'):
-                    longitude = -longitude
-                satellites = parts[7]
-                gpsTime = parts[1][0:2] + ":" + parts[1][2:4] + ":" + parts[1][4:6]
-                FIX_STATUS = True
-                break
-                
-        if (time.time() > timeout):
-            TIMEOUT = True
-            break
-        utime.sleep_ms(500)
-        
-# Función para convertir latitud y longitud sin procesar
-# a la latitud y longitud reales
-def convertToDigree(RawDegrees):
-
-    RawAsFloat = float(RawDegrees)
-    firstdigits = int(RawAsFloat/100) #degrees
-    nexttwodigits = RawAsFloat - float(firstdigits*100) #minutes
-    
-    Converted = float(firstdigits + nexttwodigits/60.0)
-    Converted = '{0:.6f}'.format(Converted) # to 6 decimal places
-    return str(Converted)
-    
-    
-while True:
-    
-    getPositionData(gps_module)
-
-    # Si se encuentran datos gps, imprímalos en lcd
-    if(FIX_STATUS == True):
-        print("fix......")
-        oled.fill(0)
-        oled.text("Lat: "+latitude, 0, 0)
-        oled.text("Lng: "+longitude, 0, 10)
-        oled.text("No of Sat: "+satellites, 0, 20)
-        oled.text("Time: "+gpsTime, 0, 30)
-        oled.show()
-        print(latitude)
-        print(longitude)
-        print(satellites)
-        print(gpsTime)
-        
-        FIX_STATUS = False
-        
-    if(TIMEOUT == True):
-        print("Request Timeout: No GPS data is found.")
-        TIMEOUT = False
+# Trabajo de recolección de residuos una vez finalizado el programa
+except KeyboardInterrupt:
+        GPIO.cleanup()
  ```
  
