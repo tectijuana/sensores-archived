@@ -2,7 +2,7 @@
 ![](TituloSMD_RGB.png)
 
 ## Logo
-<img src="logo.jpg" width="300">
+<img src="logoSMD_RGB.jpg" width="300">
 
 ___
 ## Introducción
@@ -30,7 +30,7 @@ Para el funcionamiento del KY-009 , es recomendable usar resistencias para no da
 - Voltaje de alimentación: Red (1.8 V a 2.4 V), verde (2.8 V a 3.6 V) y Azul (2.8 V a 3.6 V)
 
 ## Asignación de pines
-![](pines.jpg)
+![](pinesSMD_RGB.jpg)
 
 ## Diagrama
 <img src="diagrama.png" width="500" height="500">
