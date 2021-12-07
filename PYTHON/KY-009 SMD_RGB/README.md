@@ -1,5 +1,5 @@
 ## Titulo
-![](Titulo.png)
+![](TituloSMD_RGB.png)
 
 ## Logo
 <img src="logo.jpg" width="300">
