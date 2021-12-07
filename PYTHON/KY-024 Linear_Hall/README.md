@@ -2,7 +2,7 @@
 ![](TituloLinear_Hall.png)
 
 ## Logo
-<img src="logo.jpg" width="300">
+<img src="logoLinear_Hall.jpg" width="300">
 
 ___
 ## Introducción
@@ -28,7 +28,7 @@ Esté fenómeno fue descubierto por Edwin Hall en 1879, el noto que cuando un fl
 - Peso: 4 g
 
 ## Asignación de pines
-![](pines.jpg)
+![](pinesLinear_Hall.jpg)
 
 ## Diagrama
 <img src="diagrama.png" width="500" height="500">
