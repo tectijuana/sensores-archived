@@ -6,26 +6,28 @@
 
 ___
 ## Introducción
-El módulo KY-024 Sensor de Campo Magnético Lineal se activa cuando detecta un campo magnético proveniente de un imán natural o de algún material ferromagnético, sus principales partes son un potenciometro para ajustar la sensibilidad y un sensor de Efecto Hall Lineal . Así mismo en su salida los da como resultado señales analógicas y digitales.
-
-El sensor de campo magnético se compone de un circuito integrado 49E, comparador voltaje LM393, dos leds, seis resistencias y un header macho de ángulo de 4 pines.
+El Sensor Led RGB Módulo KY-009 es un Led SMD que tiene los 3 colores primarios (Azul, Verde, Rojo) ,los cuales, con la programación adecuada permiten generar más colores. El módulo KY-009 se pueden conectar a un Arduino,ESP8266 o microcontrolador.
 
 ## ¿Para qué sirve?
-Una aplicación típica del Sensor de Campo Magnético KY-024 es que se puede utilizar para el realizar el cálculo de la velocidad de un mecanismo en rotación o como un interruptor de proximidad. También hay sensores de tipo interruptor, que están limitados a solo intervenir para alcanzar un umbral de intensidad (ver KY003) y, por lo tanto, proporcionan solo un estado de encendido / apagado de salida.
+Este módulo se utiliza para indicar estados, iluminar o simple decoración; ya que se puede controlar varios efectos de iluminación juntando los colores primarios.
 
 ## ¿Cómo funciona?
-El módulo KY-024, la intensidad del punto 0 debería corresponder aproximadamente a 2.5 Volts con una excursión a 0 Volts y + 5 Volts en el paso 1024 Si se alimenta con precisión a 5 Volts. A pesar de que este sensor tiene una respuesta lineal, sin embargo, no es adecuado para ser utilizado como una medida de la intensidad de un campo magnético debido a la baja precisión.
+Para el funcionamiento del KY-009 , es recomendable usar resistencias para no dañar con el tiempo el LED,  se pueden usar resistencias de 330 Ω en cada uno de los pines de los led del KY o usar los siguientes valores sugeridos:
 
-#### ¿Que es el Efecto Hall?
-Esté fenómeno fue descubierto por Edwin Hall en 1879, el noto que cuando un flujo de electrones circula a través de un conductor y es expuesta a un campo magnético, produce un voltaje saliente proporcional al producto de la magnitud de la fuerza del campo magnético y del flujo de electrones.
+- Azul    (B)       120 Ω
+- Verde   (G)       120 Ω
+- Rojo    (R)       180 Ω
+- GND
 
 ## Especificaciones
-- Voltaje de alimentación: 3.3 a 5 V
-- Comparador de salida de corriente: 16 mA
-- Tipo de Salida: Digital y Analógica
-- Temperatura de operación:  – 40 °C a 85 °C
-- Dimensiones: 40mm x 26mm x 32 mm
-- Peso: 4 g
+- Voltaje de Funcionamiento: 5 V
+- Corriente alimentación: 30mA a 60 mA DC
+- Consumo de energía: 90 mW
+- Temperatura de funcionamiento: -25 °C a 80 °C
+- Dimensiones: 18.5 mm x 15 mm
+- Peso: 2 g
+- Utiliza el 5050 SMD, LED de 3 colores con corriente máxima de 20 mA
+- Voltaje de alimentación: Red (1.8 V a 2.4 V), verde (2.8 V a 3.6 V) y Azul (2.8 V a 3.6 V)
 
 ## Asignación de pines
 ![](pines.jpg)
