@@ -39,7 +39,7 @@ Es un diodo emisor de luz, qué tiene la peculiaridad de mostrarnos dos fuentes 
 ![](pinesMini_Two-color.jpg)
 
 ## Diagrama
-<img src="diagrama.png" width="500" height="500">
+<img src="diagramaMini_Two-color.png" width="500" height="500">
 
 ## Código
 ```python
