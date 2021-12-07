@@ -33,7 +33,7 @@ Para el funcionamiento del KY-009 , es recomendable usar resistencias para no da
 ![](pinesSMD_RGB.jpg)
 
 ## Diagrama
-<img src="diagrama.png" width="500" height="500">
+<img src="diagramaSMD_RGB.png" width="500" height="500">
 
 ## Código
 ```python
