@@ -2,7 +2,7 @@
 ![](TituloMini_Two-Color.png)
 
 ## Logo
-<img src="logo.jpg" width="300">
+<img src="logoMini_Two-color.jpg" width="300">
 
 ___
 ## Introducción
@@ -36,7 +36,7 @@ Es un diodo emisor de luz, qué tiene la peculiaridad de mostrarnos dos fuentes 
 **NOTA:** Requiere resistencias de 330 o e 220 ohm.
 
 ## Asignación de pines
-![](pines.jpg)
+![](pinesMini_Two-color.jpg)
 
 ## Diagrama
 <img src="diagrama.png" width="500" height="500">
