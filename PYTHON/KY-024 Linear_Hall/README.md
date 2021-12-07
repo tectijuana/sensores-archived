@@ -2,7 +2,7 @@
 ![](TituloLinear_Hall.png)
 
 ## Logo
-<img src="logoLinear_Hall.jpg" width="300">
+<img src="logoLinear_Hall.png" width="300">
 
 ___
 ## Introducción
