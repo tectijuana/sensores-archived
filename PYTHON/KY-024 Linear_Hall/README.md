@@ -1,5 +1,5 @@
 ## Titulo
-![](Titulo.png)
+![](TituloLinear_Hall.png)
 
 ## Logo
 <img src="logo.jpg" width="300">
