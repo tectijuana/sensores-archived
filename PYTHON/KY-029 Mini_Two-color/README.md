@@ -1,5 +1,5 @@
 ## Titulo
-![](Titulo.png)
+![](TituloMini_Two-Color.png)
 
 ## Logo
 <img src="logo.jpg" width="300">
