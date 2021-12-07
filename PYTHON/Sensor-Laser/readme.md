@@ -71,4 +71,6 @@ while True:
 
 # Conclusion
 De este sensor se pueden esperar muchas cosas puesto a que las aplicaciones que pueden involucrar este sensor son bastante variados.
+
+
 ![](demo_laser.gif)
