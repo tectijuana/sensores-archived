@@ -28,5 +28,9 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 
 ## Conexion de pines
 
+  - Pin A0 (KY-025) a pin A0 (Arduino)
+  - G (KY-025) a GND (Arduino)
+  - + (KY-025) a +5V (Arduino)
+  - D0 (KY-025) a Pin 3 (Arduino)
 
 <img src="image_2021-12-07_194950.png" width="500">
