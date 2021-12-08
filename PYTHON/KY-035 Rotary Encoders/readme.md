@@ -1,4 +1,4 @@
-##Marco Teorico
+## Marco Teorico
 
 Un <u>codificador rotatorio</u>, también llamado "codificador del eje" o "generador de pulsos".
 Suele ser un dispositivo electromecánico usado para convertir la posición angular de un eje a un código digital, lo que lo convierte en una clase de transductor. 
