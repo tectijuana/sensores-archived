@@ -21,3 +21,8 @@ Suele ser un dispositivo electromecánico usado para convertir la posición angu
 
 ## Diagramas
 ![image](https://user-images.githubusercontent.com/79485246/144543260-97e09c03-6092-4ff0-a6f3-98debacaff9e.png)
+
+## Codigo
+https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-035%20Rotary%20Encoders/main.py
+
+
