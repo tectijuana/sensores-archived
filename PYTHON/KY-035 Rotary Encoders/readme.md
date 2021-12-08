@@ -1,3 +1,9 @@
+<a href="https://es.cooltext.com"><img src="https://images.cooltext.com/5568078.png" width="522" height="97" alt="Rotary Encoders" /></a>
+<br />Image by <a href="https://es.cooltext.com">Cool Text: Free Graphics Generator</a> - <a href="https://es.cooltext.com/Edit-Logo?LogoID=3990886918">Edit Image</a>
+
+![image](https://www.prometec.net/wp-content/uploads/2018/01/rotary-encoder.jpg)
+
+
 ## Marco Teorico
 
 Un <u>codificador rotatorio</u>, también llamado "codificador del eje" o "generador de pulsos".
