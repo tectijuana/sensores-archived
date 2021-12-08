@@ -13,4 +13,6 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 
 | Voltaje de funcionamiento | 3.3V a 5.5V             |
 |---------------------------|-------------------------|
-| Dimensiones               |1.5cm x 3.6cm            |
+| Dimensiones               | 1.5cm x 3.6cm           |
+| Salidas                   | Analógica y digital     |
+|Sensor magnético           | Alta sensibilidad       |
