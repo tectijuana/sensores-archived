@@ -18,3 +18,15 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 |Sensor magnético                 | Alta sensibilidad       |
 |Comparador de salida de corriente| 16 mA                   |
 |Peso                             | 3 g                     |
+
+
+## Material para testing
+
+  - Tarjeta arduino 
+  - KY-025 Reed Swtich
+  - 4 wires(Conectores)
+
+## Conexion de pines
+
+
+<img src="image_2021-12-07_194950.png" width="250">
