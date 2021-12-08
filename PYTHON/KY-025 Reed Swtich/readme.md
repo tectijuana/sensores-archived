@@ -29,4 +29,4 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 ## Conexion de pines
 
 
-<img src="image_2021-12-07_194950.png" width="250">
+<img src="image_2021-12-07_194950.png" width="500">
