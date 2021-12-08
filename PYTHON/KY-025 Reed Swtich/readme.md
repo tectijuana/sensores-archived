@@ -20,13 +20,13 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 |Peso                             | 3 g                     |
 
 
-## Material para testing
+### Material para testing
 
   - Tarjeta arduino 
   - KY-025 Reed Swtich
   - 4 wires(Conectores)
 
-## Conexion de pines
+### Conexion de pines
 
   - Pin A0 (KY-025) a pin A0 (Arduino)
   - G (KY-025) a GND (Arduino)
@@ -34,3 +34,6 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
   - D0 (KY-025) a Pin 3 (Arduino)
 
 <img src="image_2021-12-07_194950.png" width="500">
+
+
+### Codigo
