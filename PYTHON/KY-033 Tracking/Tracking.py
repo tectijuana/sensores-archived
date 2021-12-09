@@ -1,4 +1,5 @@
 # Se importan los pines y utime
+# Revisado por Aquino Villegas Daniel 18212144
 from machine import Pin
 import utime
 
