@@ -10,39 +10,27 @@ El Sensor de Obstáculos Módulo KY-033 te permitirá realizar una detección de
 ## Diagrama
 
 
-![Captura de pantalla 2021-12-07 144056](https://user-images.githubusercontent.com/42977905/145117189-97d92061-dc45-4866-a3cc-5f9a5d183458.png)
+![Captura de pantalla 2021-12-07 144056](https://user-images.githubusercontent.com/42977905/145349633-08bc6329-d536-4399-8002-63054d1cf93c.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##Código
 
 ```
-# Los módulos necesarios se importarán y configurarán
-import RPi.GPIO as GPIO
-import time
+# Se importan los pines y utime
+from machine import Pin
+import utime
 
-GPIO.setmode(GPIO.BCM)
+sensor = Pin(18, Pin.IN)
+utime.sleep(2)
 
-# Declaración del pin de entrada que está conectado con el sensor
-GPIO_PIN = 18
-GPIO.setup(GPIO_PIN, GPIO.IN, pull_up_down = GPIO.PUD_UP)
-
-# La ruptura entre los resultados se definirá aquí (en segundos)
-delayTime = 0.2
-
-print "#--- Proyecto de Tracking ---#"
-
-# Bucle principal
-try:
-        while True:
-            if GPIO.input(GPIO_PIN) == False:
-                print "Linea detectada"
-
-            # Reset + Delay
-            time.sleep(delayTime)
-
-# Trabajo de recolección de residuos una vez finalizado el programa
-except KeyboardInterrupt:
-        GPIO.cleanup()
+while True:
+# Se imprime un mensaje en función del valor del sensor
+    if sensor.value() == 1:
+        print("Libre")
+    else:
+        print("Línea")
+    utime.sleep(2)
+    
  ```
  
