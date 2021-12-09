@@ -10,7 +10,7 @@ El Sensor de Obstáculos Módulo KY-033 te permitirá realizar una detección de
 ## Diagrama
 
 
-![Captura de pantalla 2021-12-07 144056](https://user-images.githubusercontent.com/42977905/145349633-08bc6329-d536-4399-8002-63054d1cf93c.png)
+![Captura de pantalla 2021-12-07 144056](https://user-images.githubusercontent.com/42977905/145350368-20256cd6-c8dd-4a7c-9cf9-82accff284bf.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
