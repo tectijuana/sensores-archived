@@ -37,5 +37,61 @@ Para el funcionamiento del KY-009 , es recomendable usar resistencias para no da
 
 ## Código
 ```python
-#EJERCICIO:
+# Codigo hecho y verificado por Alvarez Espinoza Raul - 18212141
+
+from machine import Pin
+import time
+
+'''
+Don't forget the resistors for the leds
+'''
+
+red = Pin(19, Pin.OUT)
+green = Pin(18, Pin.OUT)
+blue = Pin(20, Pin.OUT)
+
+while True:
+    red.value(1)
+    green.value(0)
+    blue.value(0)
+    time.sleep(1)
+    
+    red.value(0)
+    green.value(1)
+    blue.value(0)
+    time.sleep(1)
+    
+    red.value(0)
+    green.value(0)
+    blue.value(1)
+    time.sleep(1)
+    
+    red.value(1)
+    green.value(1)
+    blue.value(0)
+    time.sleep(1)
+    
+    red.value(0)
+    green.value(1)
+    blue.value(1)
+    time.sleep(1)
+    
+    red.value(1)
+    green.value(0)
+    blue.value(1)
+    time.sleep(1)
+    
+    red.value(1)
+    green.value(1)
+    blue.value(1)
+    time.sleep(1)
+    
+    red.value(0)
+    green.value(0)
+    blue.value(0)
+    time.sleep(1)
 ```
+
+## Conclusion
+Este es un buen modulo para probar los colores de un led RGB, y debido a que, natualmente como componente SMD, las luces emitidas estan muy juntas, los colores que se emiten en conjunto son mas claros de diferencias a los colores primarios. Buen modulo para probar colores compuestos.
+![](demo_rgb.gif)
