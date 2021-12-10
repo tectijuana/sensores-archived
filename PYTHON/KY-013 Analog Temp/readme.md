@@ -1,4 +1,4 @@
-![cooltext399090049365437](https://user-images.githubusercontent.com/71294551/144157675-1cb85862-a237-4af1-8699-ecfd6762fe82.png)
+![](images/Logo.png)
 ## Sensor de Temperatura analogo
 
 -El componente MF52-103 es un sensor análogo de temperatura que normalmente es utilizado en equipos de aire acondicionado, equipos de calefacción, equipos médicos, instrumentación de control de temperatura, higrómetro electrónico, calendario electrónico de temperatura de la automoción, la batería recargable y cargador, batería del ordenador portátil
@@ -14,11 +14,11 @@
 |Tolerancia de resistencia: H (Â±3%)|
 |Valor B: 3950K|
 
-![Sensor](https://user-images.githubusercontent.com/71294551/145511988-fb180ace-ab6e-4efe-9954-7b126754df2b.png)
+![](images/Sensor.png)
 
 - El esquema de conexión de este sensor es el siguiente:
 - 
-![Esquematico](https://user-images.githubusercontent.com/71294551/145515771-5ec93c31-e70d-43c0-8ee6-c9577216b42d.png)
+![](images/Esquematico.png)
 
 ### Diagrama de conexión
 
@@ -28,7 +28,7 @@ Los correspondientes pines en la Pi Pico son:
 - Pin # 40 VSUS (3.3 V)
 - Pin # 26 para la lectura analoga
 
-![Diagrama](https://user-images.githubusercontent.com/71294551/145515787-1905f23e-53ab-4ec8-b655-ab51098c179e.png)
+![](images/Diagrama.png)
 
 # Código
 
