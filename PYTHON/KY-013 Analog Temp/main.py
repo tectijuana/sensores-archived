@@ -1,18 +1,19 @@
-# Revisado por Aquino Villegas Daniel 18212144
-# Sensor Incorrecto
+# Codificado por Avila Jimenez David Alfredo
+# Modificado por Alvarez Espinoza Raul
 
-import machine
+from machine import ADC
 from utime import sleep
+from math import log
 
-def main():
-    sensor_temperatura = machine.ADC(26)
-    factor_16 = 3.3 / (65535)
+sensor = ADC(26)
+factor = 5 / 65535
 
-    while True:
-        voltaje = sensor_temperatura.read_u16() * factor_16
-        temperatura = 27 - (voltaje - 0.706)/0.001721
-        print(temperatura)
-        sleep(2)
-
-if __name__ == '__main__':
-    main()
+while True:
+    voltaje = sensor.read_u16()
+    
+    ohms = 10000 * (65535 / voltaje - 1.0)
+    
+    temp_C = (1.0 / (0.001129148 + (0.000234125 * log(ohms)) + 0.0000000875741 * log(ohms) * log(ohms))) - 273.15
+    
+    print('Temp: ' + str(voltaje) + ' C')
+    sleep(0.5)
