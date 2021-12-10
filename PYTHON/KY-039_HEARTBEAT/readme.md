@@ -55,10 +55,10 @@ https://www.thegeekpub.com/wp-content/uploads/2019/07/KY-039-heartbeat-sensor-sc
 |--------|------------------|
 | Pin 38 | GND              |
 | Pin 36 | 3.3V a 5V        |
-| Pin 27 | Señal analógica  |
+| Pin 26 | Señal analógica  |
 
 # Diagrama
-![diagrama](https://user-images.githubusercontent.com/84552885/144535107-c9c8e5ff-9f4b-484d-97ae-09cdf2db0908.png)
+![HeartBeat_Diagrama](https://user-images.githubusercontent.com/84546168/145541310-a8a9903b-befe-4087-9bcb-ebca30a859d4.png)
 
 
 _**El diagrama fue realizado en Fritzing, no encontré la librería para el sensor. Encontré uno similar y le coloque etiquetas para identificar cada parte**_
