@@ -14,7 +14,7 @@
 |Tolerancia de resistencia: H (Â±3%)|
 |Valor B: 3950K|
 
-![](images/Sensor.png)
+![](images/Sensor_0.png)
 
 - El esquema de conexión de este sensor es el siguiente:
 - 
