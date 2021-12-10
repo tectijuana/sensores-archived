@@ -43,3 +43,46 @@ Board Size | 18.5mm x 15mm [0.728in x 0.591in]
 ![image](https://user-images.githubusercontent.com/59489846/145525022-07aab8f8-96dd-4a9a-90a8-50a19bfbc34d.png)
 
 
+## Código
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```python
+
+# inicio del programa del relevador
+
+# Needed modules will be imported and configured 
+import RPi.GPIO as GPIO
+import time
+  
+GPIO.setmode(GPIO.BCM)
+  
+# The input pin which is connected with the sensor
+GPIO_PIN = 21
+GPIO.setup(GPIO_PIN, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
+  
+print "KY-021 Sensor Test [press ctrl+c to end the test]"
+  
+def outputFunction(null):
+        print("Sensor is blocked")
+  
+# signal detection (raising edge).
+GPIO.add_event_detect(GPIO_PIN, GPIO.RISING, callback=outputFunction, bouncetime=100) 
+  
+# Main program loop
+try:
+        while True:
+                time.sleep(1)
+  
+# Scavenging work after the end of the program
+except KeyboardInterrupt:
+        GPIO.cleanup()
+
+# brychxpin was here
+
+```
+
+## COMO EJECUTAR 
+```pi@raspberrypi~ python main.py```
+
+
