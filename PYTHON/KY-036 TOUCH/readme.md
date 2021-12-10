@@ -12,6 +12,13 @@ Puede controlar la sensibilidad ajustando el potenciómetro.
 
 # Diagramas y tablas técnicas
 
+* GND --------------> Pin 38
+* (+) ----------------> Pin 36
+* Digital Output ----> Pin 21
+
+![KY-036-DIAGRAMA](https://user-images.githubusercontent.com/84304719/145517499-1fc80f30-7fe7-4651-a0a4-e0fbade6ac65.png)
+
+
 ![KY036 diagrama](https://user-images.githubusercontent.com/84552885/145514843-f738ff1b-a74d-4872-a8b5-f70edfa2db32.png)
 
 
