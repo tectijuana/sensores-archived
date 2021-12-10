@@ -1,5 +1,9 @@
 # Cortez Flores Adrián Alejandro 18212163
 
+#Revisado por Daniel García Chacón - 18212185
+#NOTA: la RPI Pico no soporta la libería RPi, solo es para la RPI 3
+
+
 import sys
 import RPi.GPIO as GPIO
 import time
