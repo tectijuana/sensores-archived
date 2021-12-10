@@ -50,4 +50,5 @@ while True:
 
 ## Conclusion
 Buen sensor para detectar campos magneticos.
+
 ![](demo_LinearHall.gif)
