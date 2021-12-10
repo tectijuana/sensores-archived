@@ -1,3 +1,6 @@
+# Revisado por Aquino Villegas Daniel 18212144
+# La placa que se esta usando el raspberry Pi Pico, la que estas mostrando es la placa Arduino Uno
+
 int led = 13; // define the LED pin
 int digitalPin = 3; // KY-025 digital interface
 int analogPin = A0; // KY-025 analog interface
