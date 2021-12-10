@@ -1,68 +1,53 @@
-![](images/Logo.png)
-## Sensor de Temperatura DS18B20
+![cooltext399090049365437](https://user-images.githubusercontent.com/71294551/144157675-1cb85862-a237-4af1-8699-ecfd6762fe82.png)
+## Sensor de Temperatura analogo
 
-Es un módulo con un sensor de temperatura digital tipo ‘One Wire’ (DS18B20). Un resistor tipo pullup de 4.7K ohm se incluye para la señal del bus. Se pueden agregar sensores adicionales al bus y direccionarlos de forma individual. Solo se debe conectar un sensor tipo pullup al bus, sin importar la cantidad de sensores que se conecten al mismo.
+-El componente MF52-103 es un sensor análogo de temperatura que normalmente es utilizado en equipos de aire acondicionado, equipos de calefacción, equipos médicos, instrumentación de control de temperatura, higrómetro electrónico, calendario electrónico de temperatura de la automoción, la batería recargable y cargador, batería del ordenador portátil
 
-- Rango de temperatura: -55 a +125°C
-- Precisión típica: 0.5°C
-- Solución: 9-12Bit, dependiendo del programación
 
-![](images/Modulo_temp.png)
+|Especificaciones|
+|:----|
+|Modelo: MF52-103|
+|Material aislante: Ceramica|
+|Color: Negor|
+|Potencia nominal: 0.05W|
+|Valor de resistencia: 10k|
+|Tolerancia de resistencia: H (Â±3%)|
+|Valor B: 3950K|
 
-### Datos Técnicos
+![Sensor](https://user-images.githubusercontent.com/71294551/145511988-fb180ace-ab6e-4efe-9954-7b126754df2b.png)
 
-El módulo DS18B20 utiliza un bus sencillo. El rango de la fuente de poder de 3.0 V a 5.5 V sin fuente de poder para tiempo de espera.
-
-Puede medir temperatura en un rango desde -55 grados a +125 grados, con una precisión de +/-0.5°C.
-
-El sensor de temperatura posee un DPI programable puede ajustarse entre 9 y 12. La - temperatura propiamente dicha se representa mediante 12 bits y puede registrarse a una tasa máxima de una vez cada 750 milisegundos.
-
-Cada DS18B20 contiene un número de serie único, de forma que puede haber múltiples chips DS18B20 en un bus.
-
-Este modulo tiene 3 pines los cuales son Output, VCC, GND, representados en la siguiente imagen
-
-![](images/Modulo_temperatura.png)
-
-- El esquema de este sensor es el siguiente:
-
-![](images/Esquema.png)
+- El esquema de conexión de este sensor es el siguiente:
+- 
+![Esquematico](https://user-images.githubusercontent.com/71294551/145515771-5ec93c31-e70d-43c0-8ee6-c9577216b42d.png)
 
 ### Diagrama de conexión
 
-Dentro de este diagrama se encontrara conectado en un protoboard una Pi Pico y un sensor DS18B20, se representa de color naranja todo cable de datos que conecte entre el sensor y la placa controladora, mientras que los otros 2 cables representan las conexiones electricas de alimentación, siendo tipico el rojo para el voltaje y el negro para la tierra.
-
+El siguiente diagrama de conexión es de un thermistor el cual necesita una resistencia de valor de 10k ohms
 Los correspondientes pines en la Pi Pico son:
-- Pin #8 Tierra
-- Pin #36 Corriente (3.3 V)
-- Pin #26 para entrada de datos
+- Pin # 28 Tierra
+- Pin # 40 VSUS (3.3 V)
+- Pin # 26 para la lectura analoga
 
-![](images/Diagrama.png)
-
-Hay que tener en cuenta que este diagrama se ha hecho en base al componente que viene en la caja, ya que si este viene solo (como esta en este diagrama) se tiene que agregar una resistencia de 4.7k ohm y conectarla entre el pin de datos y el pin de voltaje como se muestra a continuación.
-
-![](images/Diagrama1.png)
+![Diagrama](https://user-images.githubusercontent.com/71294551/145515787-1905f23e-53ab-4ec8-b655-ab51098c179e.png)
 
 # Código
 
-
 ```python
 # Avila Jimenez David Alfredo
-# Se necesita testear el codigo
+# Se necesita testear el código
 
 import machine
-import onewire
-import ds18x20
-import time
+from utime import sleep
 
-pin_modulo = machine.Pin(26)
-sensor = ds18x20.DS18X20(onewire.OneWire(pin_modulo))
+def main():
+    sensor_temperatura = machine.ADC(26)
+    factor_16 = 3.3 / (65535)
+    
+    while True:
+        voltaje = sensor_temperatura.read_u16() * factor_16
+        temperatura = 27 - (voltaje - 0.706)/0.001721
+        print(temperatura)
+        sleep(2)
 
-roms = sensor.scan()
-print("Buscando sensor!!")
-
-while True:
-    sensor.convert_temp()
-    time.sleep_ms(750)
-    for rom in roms:
-        print(sensor.read_temp(rom))
-    time.sleep(2)
+if __name__ == '__main__':
+    main()
