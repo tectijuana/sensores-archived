@@ -1,4 +1,5 @@
 #Cuevas Oliva Josue Emanuel 18212164
+# Revisado por Daniel Aquino Villegas 18212144
 
 from machine import Pin
 import time
