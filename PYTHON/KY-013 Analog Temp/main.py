@@ -1,19 +1,24 @@
 # Codificado por Avila Jimenez David Alfredo
 # Modificado por Alvarez Espinoza Raul
 
-from machine import ADC
+import machine
 from utime import sleep
 from math import log
 
-sensor = ADC(26)
-factor = 5 / 65535
+def main():
+    sensor_temperatura = machine.ADC(26)
+    c1 = 0.001129148
+    c2 = 0.000234125
+    R1 = 10000
+    c3 = 0.0000000876741
 
-while True:
-    voltaje = sensor.read_u16()
-    
-    ohms = 10000 * (65535 / voltaje - 1.0)
-    
-    temp_C = (1.0 / (0.001129148 + (0.000234125 * log(ohms)) + 0.0000000875741 * log(ohms) * log(ohms))) - 273.15
-    
-    print('Temp: ' + str(voltaje) + ' C')
-    sleep(0.5)
+    while True:
+        voltaje = sensor_temperatura.read_u16()
+        R2 = R1 * (65535.0 / voltaje - 1.0)
+        logR2 = log(R2)
+        temperatura = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2))
+        print('Temperatura: ' + temperatura + ' °C')
+        sleep(2)
+
+if __name__ == '__main__':
+    main()
