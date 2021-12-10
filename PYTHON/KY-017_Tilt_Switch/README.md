@@ -46,3 +46,20 @@ Para poder conectar el sensor al microcontrolador se necesita tomar en cuenta la
 <img src="diagrama.png" width="500" height="500">
 
 ## Código
+```python
+# Codigo hecho y verificado por Alvarez Espinoza Raul - 18212141
+
+from machine import Pin
+import time
+
+digital = Pin(18, Pin.IN)
+
+while True:
+    print(str(digital.value()))
+    time.sleep(1)
+```
+
+## Conclusion
+Un modulo bastante simple y funcional para pruebas chicas en las que se necesite un switch simple.
+
+![](demo_tilt,gif)
