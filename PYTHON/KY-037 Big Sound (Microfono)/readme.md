@@ -60,6 +60,12 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 
 ## Código
 ```
+# Revisado por: Daniel García - 18212185
+#NOTA: La RPI Pico no soporta la librería RPi, solo es para la RPI 3
+
+
+
+
 # El programa lee los valores actuales en los pines de entrada y los mostrará en la terminal en [mV].
 # Ademas, el estado del pin digital se mostrará en el terminal para mostrar si el valor extremo fue
 # excedido o no.
