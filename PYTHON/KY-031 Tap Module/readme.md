@@ -24,7 +24,8 @@ Este módulo consta de una resistencia de 10 kΩ y un sensor de resorte que env�
 
 ## Codigo
 
-```import RPi. GPIO  as  GPIO
+```
+import RPi. GPIO  as  GPIO
 import time
    
 GPIO.setmode (GPIO.BCM) 
