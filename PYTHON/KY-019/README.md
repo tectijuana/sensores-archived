@@ -43,4 +43,10 @@ Maximum DC | 10A 30VDC
 Contact Type | NC and NO
 Board Dimensions | 27mm x 34mm [1.063in x 1.338in]
 
+# Diagrama
 
+## Hoja de conexiones Raspberry pi pico
+![](https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-019/Screen%20Shot%202021-12-09%20at%2021.18.19.png)
+
+## Diagrama de conexión
+![](https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-019/Screen%20Shot%202021-12-09%20at%2021.17.08.png)
