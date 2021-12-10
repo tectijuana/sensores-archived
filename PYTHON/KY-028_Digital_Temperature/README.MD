@@ -45,7 +45,7 @@ Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una se
 
 ## Código
 ````python
-import machine
+from machine import Pin
 import utime
  
 sensor_temp = machine.ADC(4)
