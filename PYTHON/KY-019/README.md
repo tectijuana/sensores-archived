@@ -50,3 +50,40 @@ Board Dimensions | 27mm x 34mm [1.063in x 1.338in]
 
 ## Diagrama de conexión
 ![](https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-019/Screen%20Shot%202021-12-09%20at%2021.17.08.png)
+
+## Código
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```python
+
+# inicio del programa del relevador
+
+import RPi.GPIO as GPIO     # import GPIO librarie
+  
+GPIO.setmode(GPIO.BCM)
+  
+GPRelayPIN = 21
+GPIO.setup(GPRelayPIN, GPIO.OUT)
+GPIO.output(GPRelayPIN, False)
+  
+while True:
+    # activate the relay
+    # normally closed pin stops sending current
+    # normally open pin starts sending current
+    GPIO.output(GPRelayPIN, True) 
+    time.sleep(2) #sleep 2 seconds
+     
+    # deactive the relay
+    # normally closed pin starts sending current
+    # normally open pin stops sending current
+    GPIO.output(GPRelayPIN, False) # NC is now connected through
+    time.sleep(2)
+
+# brychxpin was here
+
+```
+
+## COMO EJECUTAR 
+```pi@raspberrypi~ python main.py```
+
