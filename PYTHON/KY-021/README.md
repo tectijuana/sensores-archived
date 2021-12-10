@@ -34,3 +34,12 @@ Output Type | Digital
 Board Size | 18.5mm x 15mm [0.728in x 0.591in]
 
 
+# DIAGRAMAS
+
+## Diagrama esquemático
+![image](https://user-images.githubusercontent.com/59489846/145524913-074cc2bd-ae3c-469d-a67b-fb8384f82931.png)
+
+## Diagrama Gráfico
+![image](https://user-images.githubusercontent.com/59489846/145525022-07aab8f8-96dd-4a9a-90a8-50a19bfbc34d.png)
+
+
