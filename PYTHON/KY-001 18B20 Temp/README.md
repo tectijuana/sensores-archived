@@ -37,18 +37,22 @@ Materiales:
 Si bien en la imagen 3 se muestra un protoboard no es necesario.
 
 #### Imagen 3. Circuito en Tinkercad
-![image](https://user-images.githubusercontent.com/84939760/144695219-109fa0bd-8e0f-42b6-8593-4372684578ee.png)
+ ![Diagrama](https://user-images.githubusercontent.com/84939760/145498921-46443096-3312-4319-bf41-e3c07906ccc8.png)
 
 ```python
-import machine
-import utime
- 
-sensor_temp = machine.ADC(4)
-conversion_factor = 3.3 / (65535)
- 
-while True:
-    reading = sensor_temp.read_u16() * conversion_factor 
-    temperature = 27 - (reading - 0.706)/0.001721
-    print(temperature)
-    utime.sleep(2)                          
+    import machine, onewire, ds18x20, time
+    
+    ds_pin = machine.Pin(4)
+    ds_sensor = ds18x20.DS18X20(onewire.OneWire(ds_pin))
+    
+    roms = ds_sensor.scan()
+    print('Found DS devices: ', roms)
+    
+    while True:
+      ds_sensor.convert_temp()
+      time.sleep_ms(750)
+      for rom in roms:
+        print(rom)
+        print(ds_sensor.read_temp(rom))
+      time.sleep(5)                      
 ```
