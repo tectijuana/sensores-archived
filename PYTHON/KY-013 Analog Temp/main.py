@@ -1,3 +1,6 @@
+# Revisado por Aquino Villegas Daniel 18212144
+# Sensor Incorrecto
+
 import machine
 from utime import sleep
 
