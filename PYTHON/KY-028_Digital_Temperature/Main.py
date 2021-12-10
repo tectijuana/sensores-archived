@@ -1,6 +1,4 @@
 ## Código
-
-````python
 # Revisado por Aquino Villegas Daniel 18212144
 
 from machine import Pin
@@ -14,4 +12,4 @@ while True:
     temperature = 27 - (reading - 0.706)/0.001721
     print(temperature)
     utime.sleep(2)
-````
+    
