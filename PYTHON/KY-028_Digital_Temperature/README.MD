@@ -37,7 +37,8 @@ Por lo tanto las salidas tienen como función:
 # Descripción del trabajo
 
 ## ¿Qué se busca hacer?
-Cuando se alcanza el máximo de temperatura, la interfaz digital enviará una señal ALTA encendiendo el LED en el Arduino (pin 13). Se podrá girar el potenciómetro en sentido horario para aumentar el máximo de detección y en sentido antihorario para disminuirlo. La interfaz analógica devuelve un valor numérico que depende de la temperatura y la posición del potenciómetro.
+Determinar la temperatura del ambiente gracias al sensor KY-028 Digital temperature, permitiendo imprimir un mensaje mostrando la temperatura actual.
+Todo esto usando una Raspberry Pi Pico, el cual ya cuenta con entradas análogas, permitiendo que sea más sencillo elaborar un circuito, pues no se necesita ningún convertir de Análogo a Digital. 
 
 ## Diagrama
 ![Diagrama](DiagramaSistemas_bb1.jpg)
