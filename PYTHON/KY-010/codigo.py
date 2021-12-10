@@ -1,5 +1,9 @@
 # Los módulos necesarios serán importados y configurados
 
+# Revisado por Aquino Villegas Daniel 18212144
+# La placa que se esta usando es la raspberry pi pico
+# La Libreria RPi No esta en funcionamiento, tienes que cambiarla por la libreria machine
+
 import RPi.GPIO as GPIO
 import time
   
