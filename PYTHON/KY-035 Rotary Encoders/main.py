@@ -1,4 +1,9 @@
 #Amador Garcia Fernando
+
+#Revisado por Daniel García Chacón - 18212185
+#NOTA: La RPI Pico no soporta la libería RPi, solo es para la RPI 3
+
+
 import RPi.GPIO as GPIO
 from time import sleep
  
