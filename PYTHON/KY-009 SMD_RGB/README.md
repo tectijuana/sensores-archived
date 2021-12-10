@@ -94,4 +94,5 @@ while True:
 
 ## Conclusion
 Este es un buen modulo para probar los colores de un led RGB, y debido a que, natualmente como componente SMD, las luces emitidas estan muy juntas, los colores que se emiten en conjunto son mas claros de diferencias a los colores primarios. Buen modulo para probar colores compuestos.
+
 ![](demo_rgb.gif)
