@@ -47,3 +47,6 @@ utime.sleep(1)
 
 ## Diagrama
 ![](diagrama.PNG)
+
+## Comprobación y ejecución
+![](Sensor.png)
