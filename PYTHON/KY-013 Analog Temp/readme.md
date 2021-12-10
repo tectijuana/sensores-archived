@@ -18,7 +18,7 @@
 
 - El esquema de conexión de este sensor es el siguiente:
 - 
-![](images/Esquematico.png)
+![](images/Esquema.png)
 
 ### Diagrama de conexión
 
@@ -28,7 +28,7 @@ Los correspondientes pines en la Pi Pico son:
 - Pin # 40 VSUS (3.3 V)
 - Pin # 26 para la lectura analoga
 
-![](images/Diagrama.png)
+![](images/Diagram.png)
 
 # Código
 
