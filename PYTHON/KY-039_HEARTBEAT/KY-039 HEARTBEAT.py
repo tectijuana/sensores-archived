@@ -1,49 +1,11 @@
-# Creador: Aquino Villegas Daniel 18212144
-# No logré hacer que arrojara datos
+from machine import ADC
+from utime import sleep
 
-import machine
-import time
+sensor = ADC(26)
 
-factor = 0.75
-maximo = 0.0
-minimoEntreLatidos = 300
-valorAnterior = 500
-valorverdadero = 0
-
-sensor = machine.ADC(27)
-
-print('iniciando mediciones')
+conversion_factor = 3.3 / (65535)
 
 while True:
-    valorticks = time.ticks_ms()
-    valorverdadero =  valorverdadero + (time.ticks_ms() - (valorticks - 1))
-    
-    
-    tiempoLPM = valorverdadero
-    entreLatidos = valorverdadero
-    
-    valorLeido = sensor.read_u16()
-    
-    valorFiltrado = factor * valorAnterior + (1 - factor) * valorLeido
-    cambio = valorFiltrado - valorAnterior
-    
-    valorAnterior = valorFiltrado
-    
-
-     
-    if((cambio >= maximo) & (valorverdadero > entreLatidos + minimoEntreLatidos)):
-        maximo = cambio
-        entreLatidos = valorverdadero
-        latidos = latidos + 1
-
-    
-    
-    maximo = maximo *0.97
-    
-    if (valorverdadero >= tiempoLPM + 15000):
-        print('Latidos por minuto: ')
-        print(latidos * 4)
-        latidos = 0;
-        tiempoLMP = valorverdadero
-        
-    time.sleep_ms(50)
+        lectura = sensor.read_u16() * conversion_factor
+	print(lectura)
+        sleep(0.09)
