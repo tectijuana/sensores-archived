@@ -1,4 +1,5 @@
 # Martinez Estrada Ana Karen
+# Revisado por Aquino Villegas Daniel
 
 import machine import pin
 import utime import sleep
