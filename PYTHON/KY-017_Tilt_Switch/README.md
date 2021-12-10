@@ -62,4 +62,4 @@ while True:
 ## Conclusion
 Un modulo bastante simple y funcional para pruebas chicas en las que se necesite un switch simple.
 
-![](demo_tilt,gif)
+![](demo_tilt.gif)
