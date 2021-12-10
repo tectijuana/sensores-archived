@@ -75,4 +75,4 @@ while True:
 
 ## Conclusion
 Buen modulo de led para probar que puede ser util puesto que es un led que maneja dos colores.
-![](demo_led.gif)
+![](demo_colores.gif)
