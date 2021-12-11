@@ -51,7 +51,7 @@ def main():
         voltaje = sensor_temperatura.read_u16()
         R2 = R1 * (65535.0 / voltaje - 1.0)
         logR2 = log(R2)
-        temperatura = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2))
+        temperatura = 1/(1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2))
         print('Temperatura: ' + temperatura + ' °C')
         sleep(2)
 
