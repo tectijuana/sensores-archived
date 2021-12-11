@@ -60,6 +60,7 @@ Componentes para el proyecto:
 
 [![Screenshot-9.png](https://i.postimg.cc/3NgXMkzd/Screenshot-9.png)](https://postimg.cc/Wq1Fg1Nv)
 
+## Codigo De Diagrama
 
 ```
 int LED = 7;
@@ -88,10 +89,7 @@ void loop()
   
   	delay (10);
 	
-}
-
-		
-
+}		
 ```
 
 
@@ -102,4 +100,3 @@ void loop()
 [![Screenshot-14.png](https://i.postimg.cc/WzGkYtHS/Screenshot-14.png)](https://postimg.cc/rRpsKyct)
 [![Screenshot-15.png](https://i.postimg.cc/8zP6wpBB/Screenshot-15.png)](https://postimg.cc/2VMySftV)
 
-## Codigo De Diagrama
