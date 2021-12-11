@@ -10,6 +10,8 @@
 
 *El primer sensor de temperatura reglado de la historia se atribuye a Daniel Gabriel Fahrenheit, y tenía una forma muy similar a la que se ha conservado hasta hace muy poco. Tras probar varios materiales (el I+D de la época), se decantó en 1714 por un termómetro de vidrio con mercurio en su interior.*
 
+*Durante más de un siglo, los termómetros fueron mejorando gracias a distintos científicos, generalmente franceses. Y colocados allí donde podían o les dejaban. Hasta el momento en que las primeras pruebas de radio llamaron la atención de estos científicos, que se preguntaron si merecía la pena conocer la temperatura de un punto alejado.*
+
 [![Christin-1743.jpg](https://i.postimg.cc/Z5vtzZV6/Christin-1743.jpg)](https://postimg.cc/HrmPQGGL)
 
 [![fahrenheit.jpg](https://i.postimg.cc/5NjD8bcD/fahrenheit.jpg)](https://postimg.cc/hfWCBFt0)
@@ -103,4 +105,11 @@ void loop()
 ## Conclusiones 
 
 Como vimos se logro exitosamente el uso del sensor de temperatura TMP36 al asiganerle las variables correctas para que este junto con el led, se lograra prender si este superaba la temperatura superada para que este se activara. 
+
+## Fuentes Apa
+
+- Carlos Pardo. (Noviembre 2021). Sensor de temperatura. 10 de diciembre del 2021, de Picuino Sitio web: https://www.picuino.com/es/control-sensor-temp.html
+- NA. (2021). Sensor de temperatura con su propio diagrama. Esquema de termostato simple y confiable para la incubadora. Gestión de temperatura casera: instrucción paso a paso Источник: https://newtravelers.ru/es/asus/datchik-temperatury-svoimi-rukami-shema-prostaya-i-nad-zhnaya-shema.html. 10 de diciembre del 2021 , de newtravelers.ru Sitio web: https://newtravelers.ru/es/asus/datchik-temperatury-svoimi-rukami-shema-prostaya-i-nad-zhnaya-shema.html
+- MARCOS MARTÍNEZ. (23 de agosto del 2021). ¿Sabes cuál fue el primer sensor conectado de la historia?. 10 de diciembre del 2021, de Nobbot Sitio web: https://www.nobbot.com/general/primer-sensor-conectado/
+- NA. (NA). El sensor de temperatura. 3 de diciembre del 2021, de Rechner Sensors Sitio web: https://www.rechner-sensors.com/es/documentacion/knowledge/el-sensor-de-temperatura
 
