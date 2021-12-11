@@ -21,6 +21,25 @@ El Sensor Foto Resistor por lo regular se utiliza en lamparas suburbanas que se 
 
 
 ## Código
-El codigo se encuentra en el siguiente enlace https://github.com/tectijuana/sensores/blob/master/PYTHON/KY-018/KY-018ejemplo.py
+En seguida se muestr el codigo que tambien se encuentra en el repositorio en el siguiente enlace https://github.com/tectijuana/sensores/blob/master/PYTHON/KY-018/KY-018ejemplo.py
 
+`import RPi.GPIO as GPIO
+import time
+from gpiozero import MCP3008
+
+led = 7
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(led,GPIO.OUT)
+GPIO.output(led,False)
+
+try: 
+	while True:
+		adc = MCP3008(channel=0)
+		voltage = 3.3 * adc.value
+		print("Measured voltage is ",voltage);
+		time.sleep(0.2)
+
+except KeyboardInterrupt:
+    GPIO.cleanup()`
 ## Ejecución o comprobación.
