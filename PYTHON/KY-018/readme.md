@@ -1,3 +1,5 @@
+![Cool Text - KY-018 Modulo fotoresistor 399893486965218](https://user-images.githubusercontent.com/89375469/145665863-7e52fb6a-bebb-489b-8f23-149d44421ea7.png)
+
 # MODULO FOTO RESISTOR
 
 Se explica la teoría para entender el funcionamiento y realizar pruebas con el módulo fotorresistor y la adquisición de datos por medio de un Raspberry pie Pico, el diagrama, y código para su uso.
