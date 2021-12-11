@@ -56,3 +56,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
+
+## Conclusión
+Este sensor puede ser bastante útil para el monitoreo de tempreratura, buena opción para aplicaciones de IoT.
+
+![](demo_tempo.gif)
