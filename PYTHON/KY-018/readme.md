@@ -38,7 +38,7 @@ try:
 	while True:
 		adc = MCP3008(channel=0)
 		voltage = 3.3 * adc.value
-		print("Measured voltage is ",voltage);
+		print("Voltaje medido es ",voltage);
 		time.sleep(0.2)
 
 except KeyboardInterrupt:
