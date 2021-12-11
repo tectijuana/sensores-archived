@@ -61,8 +61,7 @@ Componentes para el proyecto:
 [![Screenshot-9.png](https://i.postimg.cc/3NgXMkzd/Screenshot-9.png)](https://postimg.cc/Wq1Fg1Nv)
 
 
-## Codigo De Diagrama
-
+```
 int LED = 7;
 int TMP = 0;
 float temperatura = 0;
@@ -90,6 +89,11 @@ void loop()
   	delay (10);
 	
 }
+
+		
+
+```
+
 
 ## Diagrama Final Con Resultados
 
