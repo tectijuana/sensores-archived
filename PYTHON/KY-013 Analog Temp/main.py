@@ -1,8 +1,5 @@
 # Avila Jimenez David Alfredo
-# Se necesita testear el código
-
-# Avila Jimenez David Alfredo
-# Se necesita testear el código
+# Código perfeccionado por Alvarez Espinoza y Avila Jimenez
 
 import machine
 from utime import sleep
@@ -18,8 +15,8 @@ def main():
     while True:
         R2 = R1 / (65535 / (float(sensor_temperatura.read_u16()) - 1))
         logR2 = log(R2)
-        temperatura = (1/(1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2)))-273.0
-        print('Temperatura: ' + temperatura + ' °C')
+        temperatura = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2))-281.10
+        print('Temperatura: ' + str(temperatura) + ' °C')
         sleep(2)
 
 if __name__ == '__main__':
