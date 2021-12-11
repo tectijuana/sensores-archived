@@ -5,11 +5,15 @@
 ## ¿Qué es Sensor Receptor Infrarrojo IR?
 El Sensor Receptor Infrarrojo IR es un módulo KY-022 que esta construido de un receptor IR TL1838, el cual reacciona a la luz infrarroja de 38 KHz y funciona en conjunto con el emisor KY-005.
 
+![](IR-Receiver.jpg)
+
 ## ¿Para que sirve?
 Esté modulo KY-022 se utilizan en muchos equipos domésticos, para controles remoto universales, utiliza la codificación NEC, y funciona muy bien principalmente en vehículos con MP3, marco de fotos digital, iluminación equipada.
 
 ## ¿Como funciona?
 El funcionamiento de un detector infrarrojo se basa en que los rayos infrarrojos pasan al interior del fototransistor donde se encuentra un material piroeléctrico, que es el que reacciona a la presencia de los rayos infrarrojos.
+
+![](pinout.jpg)
 
 ## Especificaciones tecnicas 
 
