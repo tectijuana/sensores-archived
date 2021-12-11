@@ -3,34 +3,25 @@
 #Revisado por Daniel García Chacón - 18212185
 #NOTA: la RPI Pico no soporta la libería RPi, solo es para la RPI 3
 
+#Enterado
+
 
 import sys
-import RPi.GPIO as GPIO
-import time
-
-def toggle_led(null):  # Función para activar LED on/off cuando detecte una señal
-    if GPIO.input(LED):
-        GPIO.output(LED, GPIO.LOW)  # Si el LED está encendido, se apaga
-    else:
-        GPIO.output(LED, GPIO.HIGH)  # Si el LED está apagado, se enciende
+# import RPi.GPIO as GPIO
+from machine import Pin
 
 
-KY002 = 7 # Pin asignado para Sensor Vibración
-LED = 11 # Pin asignado para LED
+bool estadoKY = 0
+KY002 = Pin(7, Pin.IN) # Pin asignado para Sensor Vibración
+LED = Pin(11, Pin.OUT) # Pin asignado para LED
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(KY002, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-GPIO.setup(LED, GPIO.OUT)
+while True:
+    estadoKY = KY002.value() # Busca el valor del sensor KY002 booleano (si detecta movimiento)
+    if (estadoKY) == 1 # Si detecta movimiento 
+        if(LED.value == 0) # Si el LED está apagado
+            LED.value(1) #Se enciende
+        else  # Si no
+            LED.value(0) #Se apaga
 
 
 
-# Cuando una vibración es detectada, la función toggle_led será activada.
-GPIO.add_event_detect(KY002, GPIO.FALLING, callback=toggle_led, bouncetime=100)
-
-print("Use CTRL+C to exit.")
-
-try:
-    while True:
-        time.sleep(1)
-except KeyboardInterrupt:
-    GPIO.cleanup()
