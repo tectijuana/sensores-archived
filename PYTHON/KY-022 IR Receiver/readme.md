@@ -1,7 +1,7 @@
 
-![Titulo](imagen1 (2).png)
+![Titulo](imagenIR.png)
 
-# Sensor KY-022 IR Receiver
+
 
 ## ¿Para que sirve?
 
