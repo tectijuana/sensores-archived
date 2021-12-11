@@ -23,7 +23,7 @@ El Sensor Foto Resistor por lo regular se utiliza en lamparas suburbanas que se 
 ## Código
 En seguida se muestr el codigo que tambien se encuentra en el repositorio en el siguiente enlace https://github.com/tectijuana/sensores/blob/master/PYTHON/KY-018/KY-018ejemplo.py
 
-`import RPi.GPIO as GPIO
+```import RPi.GPIO as GPIO
 import time
 from gpiozero import MCP3008
 
@@ -41,5 +41,6 @@ try:
 		time.sleep(0.2)
 
 except KeyboardInterrupt:
-    GPIO.cleanup()`
+    GPIO.cleanup()```
+    
 ## Ejecución o comprobación.
