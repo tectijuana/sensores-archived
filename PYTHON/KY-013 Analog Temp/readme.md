@@ -17,7 +17,7 @@
 ![](images/Sensor_0.png)
 
 - El esquema de conexión de este sensor es el siguiente:
-- 
+
 ![](images/Esquema.png)
 
 ### Diagrama de conexión
