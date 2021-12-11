@@ -8,7 +8,7 @@
 |:----|
 |Modelo: MF52-103|
 |Material aislante: Ceramica|
-|Color: Negor|
+|Color: Negro|
 |Potencia nominal: 0.05W|
 |Valor de resistencia: 10k|
 |Tolerancia de resistencia: H (Â±3%)|
