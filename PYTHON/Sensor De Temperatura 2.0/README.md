@@ -49,7 +49,7 @@
 
 ## Diagrama
 
-El siguiente proyecto se realizo en la pagina Tinkerkad, donde se tratara de realizar e implementar usar el sensor de temperatura TMP36, tratando de compilarlo a la mano de un led, donde este se prendera si la temperatura del TMP36 es alta.
+*El siguiente proyecto se realizo en la pagina Tinkerkad, donde se tratara de realizar e implementar usar el sensor de temperatura TMP36, tratando de compilarlo a la mano de un led, donde este se prendera si la temperatura del TMP36 es alta.*
 
 Componentes para el proyecto:
 
@@ -63,6 +63,9 @@ Componentes para el proyecto:
 
 ## Codigo De Diagrama
 
-## Diagrama Final
+## Diagrama Final Con Resultados
 
-[![Screenshot-11.png](https://i.postimg.cc/63pgpXBW/Screenshot-11.png)](https://postimg.cc/sBbwTbBq)
+[![Screenshot-13.png](https://i.postimg.cc/26qdGkYX/Screenshot-13.png)](https://postimg.cc/tZjVCHYh)
+
+[![Screenshot-14.png](https://i.postimg.cc/WzGkYtHS/Screenshot-14.png)](https://postimg.cc/rRpsKyct)
+[![Screenshot-15.png](https://i.postimg.cc/8zP6wpBB/Screenshot-15.png)](https://postimg.cc/2VMySftV)
