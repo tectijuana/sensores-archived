@@ -31,4 +31,8 @@ El funcionamiento de un detector infrarrojo se basa en que los rayos infrarrojos
 
 ## Diagrama
 
+
+![](Diagrama.PNG)
+
+
 ## Codigo
