@@ -16,7 +16,7 @@ def main():
     R1 = 10000.0
 
     while True:
-        R2 = R1 / (65535 / float(sensor_temperatura.read_u16()) - 1)
+        R2 = R1 / (65535 / (float(sensor_temperatura.read_u16()) - 1))
         logR2 = log(R2)
         temperatura = (1/(1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2)))-273.0
         print('Temperatura: ' + temperatura + ' °C')
