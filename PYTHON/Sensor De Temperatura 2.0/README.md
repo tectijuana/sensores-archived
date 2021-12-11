@@ -63,9 +63,39 @@ Componentes para el proyecto:
 
 ## Codigo De Diagrama
 
+int LED = 7;
+int TMP = 0;
+float temperatura = 0;
+
+void setup()
+{
+ 	pinMode(LED, OUTPUT); 
+}
+
+void loop()
+{
+	temperatura = map(analogRead(TMP),0,1023,-50,450);
+
+
+	if (temperatura>= 25)
+	{
+  		digitalWrite(LED,HIGH);
+	}
+
+	else
+	{
+  		digitalWrite(LED,LOW);
+	}
+  
+  	delay (10);
+	
+}
+
 ## Diagrama Final Con Resultados
 
 [![Screenshot-13.png](https://i.postimg.cc/26qdGkYX/Screenshot-13.png)](https://postimg.cc/tZjVCHYh)
 
 [![Screenshot-14.png](https://i.postimg.cc/WzGkYtHS/Screenshot-14.png)](https://postimg.cc/rRpsKyct)
 [![Screenshot-15.png](https://i.postimg.cc/8zP6wpBB/Screenshot-15.png)](https://postimg.cc/2VMySftV)
+
+## Codigo De Diagrama
