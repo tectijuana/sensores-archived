@@ -100,3 +100,7 @@ void loop()
 [![Screenshot-14.png](https://i.postimg.cc/WzGkYtHS/Screenshot-14.png)](https://postimg.cc/rRpsKyct)
 [![Screenshot-15.png](https://i.postimg.cc/8zP6wpBB/Screenshot-15.png)](https://postimg.cc/2VMySftV)
 
+## Conclusiones 
+
+Como vimos se logro exitosamente el uso del sensor de temperatura TMP36 al asiganerle las variables correctas para que este junto con el led, se lograra prender si este superaba la temperatura superada para que este se activara. 
+
