@@ -36,8 +36,8 @@ GPIO.output(led,False)
 
 try: 
 	while True:
-		adc = MCP3008(channel=0)
-		voltage = 3.3 * adc.value
+		raw = MCP3008(channel=0)
+		voltage = 3.3 * raw.value
 		print("Voltaje medido es ",voltage);
 		time.sleep(0.2)
 
