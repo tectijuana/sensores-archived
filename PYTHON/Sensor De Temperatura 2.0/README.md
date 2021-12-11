@@ -42,3 +42,27 @@
 [![arduino-LM35-esquema-electrico.png](https://i.postimg.cc/Cxr1mFdD/arduino-LM35-esquema-electrico.png)](https://postimg.cc/BjD4vfTQ)
 
 [![ECT-02.jpg](https://i.postimg.cc/FK2KXDyH/ECT-02.jpg)](https://postimg.cc/gwHpvytC)
+
+## Especificaciones y caracteristicas
+
+[![Screenshot-8.png](https://i.postimg.cc/WpZ5VzvN/Screenshot-8.png)](https://postimg.cc/K4ZPrZjw)
+
+## Diagrama
+
+El siguiente proyecto se realizo en la pagina Tinkerkad, donde se tratara de realizar e implementar usar el sensor de temperatura TMP36, tratando de compilarlo a la mano de un led, donde este se prendera si la temperatura del TMP36 es alta.
+
+Componentes para el proyecto:
+
+1. Sensor De Temperatura TMP36
+2. Componente Led
+3. Placa De Protobot De Pruebas
+4. Ardurino Uno R3
+
+[![Screenshot-9.png](https://i.postimg.cc/3NgXMkzd/Screenshot-9.png)](https://postimg.cc/Wq1Fg1Nv)
+
+
+## Codigo De Diagrama
+
+## Diagrama Final
+
+[![Screenshot-11.png](https://i.postimg.cc/63pgpXBW/Screenshot-11.png)](https://postimg.cc/sBbwTbBq)
