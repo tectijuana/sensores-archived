@@ -43,4 +43,5 @@ try:
 except KeyboardInterrupt:
     GPIO.cleanup()```
     
+    
 ## Ejecución o comprobación.
