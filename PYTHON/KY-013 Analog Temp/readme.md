@@ -25,7 +25,7 @@
 El siguiente diagrama de conexión es de un thermistor el cual necesita una resistencia de valor de 10k ohms
 Los correspondientes pines en la Pi Pico son:
 - Pin # 28 Tierra
-- Pin # 40 VSUS (3.3 V)
+- Pin # 40 VSUS (5.0 V)
 - Pin # 26 para la lectura analoga
 
 ![](images/Diagram.png)
