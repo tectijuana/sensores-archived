@@ -55,7 +55,7 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 ## Diagrama de conexión al protoboard
 
 
-<p align="center"><img src="KY-038 Sensor Microfono 8.PNG"></p>
+<p align="center"><img src="KY-038 Sensor Microfono 8.png"></p>
 
 ## Código (Actualizado)
 ```
