@@ -43,3 +43,6 @@ El sensor ky-010 es un dispositivo electrónico que responde cuando se interrump
 codigo.py
 
 ### `4. Conclusion`
+Al buscar información sobre los sensores, nos podemos dar cuenta la variedad que existe en el mercado, y no solo eso, si no que se 
+encuentran a nuestros alrededor en diferentes dispositivos que  utilizamos día a día.
+Al realizar este tipo de practicas, nos ayudan a entender los componentes que tienen, así mismo conocer la manera correcta de  implementarlo, ya sea para poner una idea en practica que ayude a ciertas areas gracias a esto sensores.
