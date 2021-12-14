@@ -3,3 +3,6 @@
 
 
 ![](images/oled.png)
+
+* Programador: ERIK URIEL ESCOBAR PEREZ *
+
