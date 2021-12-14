@@ -1,3 +1,7 @@
+#Revisado por: Daniel Garcia - 18212185
+#NOTA: La libreria RPi no es detectada por la Pi Pico, solo por la RPI 3
+
+
 #starts the program KY-021 WOOD!
 
 # Needed modules will be imported and configured 
