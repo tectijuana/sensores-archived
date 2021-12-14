@@ -16,7 +16,7 @@ El sensor ky-010 es un dispositivo electrónico que responde cuando se interrump
 
 ### `2. Diagrama`
 
-![pi-and-ky-010-layout](https://user-images.githubusercontent.com/89493294/144686932-a7214c04-93d0-4a5b-bdfa-f63ba80bb3b4.jpg)
+![145525022-07aab8f8-96dd-4a9a-90a8-50a19bfbc34d](https://user-images.githubusercontent.com/89493294/145916088-b745d132-dd31-45a1-9e80-015ccf68440b.png)
 
 
 
