@@ -58,85 +58,29 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 
 <p align="center"><img src="KY-038 Sensor Microfono 7.PNG"></p>
 
-## Código
+<p align="center"><img src="KY-038 Sensor Microfono 8.PNG"></p>
+
+## Código (Actualizado)
 ```
-# Revisado por: Daniel García - 18212185
-#NOTA: La RPI Pico no soporta la librería RPi, solo es para la RPI 3
+import machine
+import utime
 
+sensor = machine.Pin(26, machine.Pin.IN) #entrada Analogica del sensor
+inDigital = machine.Pin(16, machine.Pin.IN) #entrada Digital del sensor
+led = machine.Pin(15, machine.Pin.OUT) #Salidad led
+adcIN = machine.ADC(sensor)
 
-
-
-# El programa lee los valores actuales en los pines de entrada y los mostrará en la terminal en [mV].
-# Ademas, el estado del pin digital se mostrará en el terminal para mostrar si el valor extremo fue
-# excedido o no.
-# Ejemplo:
-# Si aplaudes te mostrará los valores en la terminal y mostrará si los valores fueron excedidos o no,
-# en el caso de que no fuera excedido ajustaríamos los datos de ganancia para obtener el resultado deseado
-# así para que cada vez que detecte un aplauso, el sistema realice una acción.
-
-from Adafruit_ADS1x15 import ADS1x15
-from time import sleep
-
-import RPi.GPIO as GPIO
-
-# La opción GPIO.BCM se refiere a los pines por su numero de "Broadcom SOC channel"
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-
-# inicializacion de variables
-# assigning the ADS1x15 ADC
-ADS1015 = 0x00 # 12-bit ADC
-ADS1115 = 0x01 # 16-bit
-
-# Se escoge la ganancia de amplificación
-gain = 4096 # +/- 4.096V
-# gain = 2048 # +/- 2.048V
-# gain = 1024 # +/- 1.024V
-# gain = 512 # +/- 0.512V
-# gain = 256 # +/- 0.256V
-# choosing the sampling rate
-# sps = 8 # 8 Samples per second
-# sps = 16 # 16 Samples per second
-# sps = 32 # 32 Samples per second
-sps = 64 # 64 Samples per second
-# sps = 128 # 128 Samples per second
-# sps = 250 # 250 Samples per second
-# sps = 475 # 475 Samples per second
-# sps = 860 # 860 Samples per second
-# assigning the ADC-Channel (1-4)
-adc_channel_0 = 0 # Channel 0
-adc_channel_1 = 1 # Channel 1
-adc_channel_2 = 2 # Channel 2
-adc_channel_3 = 3 # Channel 3
-# Inicializa el ADC (ADS1115)
-adc = ADS1x15(ic=ADS1115)
-# Pin de entrada para la señal digital se almacenará aqui
-Digital_PIN = 24
-GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
-#############################################################################################################
-# loop principal
-
-# El programa lee el valor actual del pin de entrada
-# y lo muestra en la terminal
-try:
- while True:
-    # Lee el pin de entrada
-    analog = adc.readADCSingleEnded(adc_channel_0, gain, sps)
-    # Salida de la terminal
-    # Si la señal Digital == 1
-    if GPIO.input(Digital_PIN) == False:
-      print "Analogo (voltaje):", analog,"mV, ","valor extremo: no alcanzado"
-    else:
-      print "Analogo (voltaje)", analog, "mV, ", "valor extremo: alcanzado"
+while True:
     
-    print "---------------------------------------"
-    sleep(0.5)
-
-except KeyboardInterrupt:
-  GPIO.cleanup()
+    if inDigital.value() == 1: #leemos el valor de la entada digital y probamos si es true
+        led.value(1) #Activa led
+        print("1") #imprimo
+    if inDigital.value() == 0:
+        led.value(0)
+        print("0")
+    utime.sleep_ms(100)
 
 ```
-Otra version: https://sensorkit.joy-it.net/en/sensors/ky-037
 
 ## Ejecucion
 pi@raspberrypi~ python KY-037_microfono.py
