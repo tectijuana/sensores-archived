@@ -19,7 +19,7 @@ El valor del voltaje en el pin S dependería de la fuerza de un imán y la dista
 ![](https://i1.wp.com/www.notenoughtech.com/wp-content/uploads/2016/09/ky003.jpg?fit=265%2C300)
 
 ## Código
-https://raw.githubusercontent.com/Oscar-HM/KY-003-Hall-Magnetic/main/main.py
+https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-003%20Hall%20Magnetic/main.py
 
 ```
 import RPi.GPIO as GPIO
