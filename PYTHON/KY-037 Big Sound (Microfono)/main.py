@@ -1,24 +1,17 @@
-from machine import Pin
-from utime import sleep
-sound_sensor=Pin(28,Pin.IN)
-led=Pin(15,Pin.OUT)
-buzzer=Pin(16,Pin.OUT)
-clap_count=1
+import machine
+import utime
+
+sensor = machine.Pin(26, machine.Pin.IN) #entrada Analogica del sensor
+inDigital = machine.Pin(16, machine.Pin.IN) #entrada Digital del sensor
+led = machine.Pin(15, machine.Pin.OUT) #Salidad led
+adcIN = machine.ADC(sensor)
 
 while True:
-  led.value(1)
-  if sound_sensor.value()==1 and clap_count==1:
-  led.value(1)
-  sound_sensor.value(0)
-  sleep(0.50)
-  if sound_sensor.value()==1 and clap_count==2:
-  buzzer.value(1)
-  clap_count=3
-  sound_sensor.value(0)
-  sleep(0.5)
-  if sound_sensor.value()==1 and clap_count==3:
-  led.value(0)
-  buzzer.value(0)
-  clap_count=1
-  sound_sensor.value(0)
-  sleep(0.5)
+    
+    if inDigital.value() == 1: #leemos el valor de la entada digital y probamos si es true
+        led.value(1) #Activa led
+        print("1") #imprimo
+    if inDigital.value() == 0:
+        led.value(0)
+        print("0")
+    utime.sleep_ms(100)
