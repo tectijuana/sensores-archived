@@ -42,7 +42,6 @@ El sensor ky-010 es un dispositivo electrónico que responde cuando se interrump
 ### `3. Codigo`
 codigo.py
 
-### `4. Conclusion`
+### `4. Conclusión `
 Al buscar información sobre los sensores, nos podemos dar cuenta la variedad que existe en el mercado, y no solo eso, si no que se 
-encuentran a nuestros alrededor en diferentes dispositivos que  utilizamos día a día.
-Al realizar este tipo de practicas, nos ayudan a entender los componentes que tienen, así mismo conocer la manera correcta de  implementarlo, ya sea para poner una idea en practica que ayude a ciertas areas gracias a esto sensores.
+encuentran a nuestros alrededor en diferentes dispositivos que  utilizamos día a día.Al realizar este tipo de practicas, nos ayudan a entender los componentes que tienen, así mismo conocer la manera correcta de  implementarlo, ya sea para poner una idea en practica que ayude a ciertas areas como la medicina o la educacion al crear proyectos que faciliten ciertas tareas, el mundo de los sensores abre grande posibilidades de implementacion, es por eso la importancia de aplicarlos y conocer las bases de programacion para darle forma a la idea y como parte de esta materia los sistemas programablque abarcan muchos areas de programacion y circuitos, y algunas de los materiales como los sensores nos permiten abarcar grandeas areas. 
