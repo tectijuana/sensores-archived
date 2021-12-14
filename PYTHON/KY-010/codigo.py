@@ -4,7 +4,7 @@
 # La placa que se esta usando es la raspberry pi pico
 # La Libreria RPi No esta en funcionamiento, tienes que cambiarla por la libreria machine
 
-import RPi.machine as machine
+import machine
 import time
   
 machine.setmode(machine.BCM)
