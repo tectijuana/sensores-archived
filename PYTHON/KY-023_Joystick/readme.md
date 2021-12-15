@@ -74,5 +74,3 @@ while True:
     utime.sleep(0.1)
 ```
 
-## COMO EJECUTAR 
-```pi@raspberrypi~ python KY-023_Joystick.py```
