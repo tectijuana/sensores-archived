@@ -21,10 +21,12 @@ Este sensor es perfectamente compatible con muchas placas de desarrollo como Ard
 
 **Codigo Python**
 ```python
-Palacios Sotelo Ignacio Josafat
-L21210894@tectijuana.edu.mx
-"""
-#Programa para KY-005
+#
+# Programa para KY-005
+# Palacios Sotelo Ignacio Josafat
+# L21210894@tectijuana.edu.mx
+#
+
 import machine
 import utime
  
