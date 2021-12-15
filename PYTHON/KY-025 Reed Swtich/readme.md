@@ -39,6 +39,9 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 ### Codigo
 
 ```
+//Revisado por Daniel Garcia - 18212185
+//No tendran la version con un Raspberry Pico?
+
 
 int led = 13; // define the LED pin
 int digitalPin = 3; // KY-025 digital interface
