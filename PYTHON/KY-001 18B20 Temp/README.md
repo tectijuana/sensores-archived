@@ -40,6 +40,9 @@ Si bien en la imagen 3 se muestra un protoboard no es necesario.
  ![Diagrama](https://user-images.githubusercontent.com/84939760/145498921-46443096-3312-4319-bf41-e3c07906ccc8.png)
 
 ```python
+#
+# Por: ERIK URIEL ESCOBAR PEREZ
+#
     import machine, onewire, ds18x20, time
     
     ds_pin = machine.Pin(4)
