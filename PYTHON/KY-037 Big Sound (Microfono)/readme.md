@@ -58,7 +58,7 @@ El ajuste de la sensibilidad es a través de **trimpot**, siendo que en forma ho
 <p align="center"><img src="KY-038 Sensor Microfono 8.png"></p>
 
 ## Código (Actualizado)
-```
+```python
 import machine
 import utime
 
