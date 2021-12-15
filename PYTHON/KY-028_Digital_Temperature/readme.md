@@ -46,6 +46,12 @@ Todo esto usando una Raspberry Pi Pico, el cual ya cuenta con entradas análogas
 
 ## Código
 ````python
+#
+# LUIS DAVID HERNANDEZ MUÑOZ
+#
+
+
+
 from machine import Pin
 import utime
  
