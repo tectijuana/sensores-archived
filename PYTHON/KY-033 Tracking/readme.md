@@ -14,9 +14,10 @@ El Sensor de Obstáculos Módulo KY-033 te permitirá realizar una detección de
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-##Código
+## Código
 
-```
+
+```python
 # Se importan los pines y utime
 from machine import Pin
 import utime
