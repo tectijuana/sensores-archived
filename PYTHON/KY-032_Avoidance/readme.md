@@ -48,6 +48,11 @@
 El programa lee el estado actual del pin del sensor y emite en la consola en serie si el detector de obstáculos se encuentra actualmente frente a un obstáculo o no.
 
 ````python
+#
+# Por: JESUS ANTONIO ARELLANO HERNANDEZ
+#
+
+
 # Se importan los pines y utime.
 from machine import Pin
 import utime
