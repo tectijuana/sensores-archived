@@ -23,6 +23,7 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 ### Material para testing
 
   - RASPBERRY PI
+  - KY-053
   - KY-025 Reed Swtich
   - 8 wires(Conectores)
 
