@@ -1,36 +1,38 @@
-# Revisado por Aquino Villegas Daniel 18212144
-# La placa que se esta usando el raspberry Pi Pico, la que estas mostrando es la placa Arduino Uno
+//Revisado por Daniel Garcia - 18212185
+//ACTUALIZADO ADRIANA PEREA
 
-int led = 13; // define the LED pin
-int digitalPin = 3; // KY-025 digital interface
-int analogPin = A0; // KY-025 analog interface
-int digitalVal; // digital readings
-int analogVal; //analog readings
+import time
+import board
+import busio
+import adafruit_ads1x15.ads1115 as ADS
+from adafruit_ads1x15.analog_in import AnalogIn
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
 
-void setup()
-{
-  pinMode(led, OUTPUT);
-  pinMode(digitalPin, INPUT);
-  //pinMode(analogPin, OUTPUT);
-  Serial.begin(9600);
-}
+i2c = busio.I2C(board.SCL, board.SDA)
 
-void loop()
-{
-  // Read the digital interface
-  digitalVal = digitalRead(digitalPin); 
-  if(digitalVal == HIGH) // if magnetic field is detected
-  {
-    digitalWrite(led, HIGH); // turn ON Arduino's LED
-  }
-  else
-  {
-    digitalWrite(led, LOW); // turn OFF Arduino's LED
-  }
+ads = ADS.ADS1115(i2c)
 
-  // Read the analog interface
-  analogVal = analogRead(analogPin); 
-  Serial.println(analogVal); // print analog value to serial
+chan0 = AnalogIn(ads, ADS.P0)
+chan1 = AnalogIn(ads, ADS.P1)
+chan2 = AnalogIn(ads, ADS.P2)
+chan3 = AnalogIn(ads, ADS.P3)
 
-  delay(100);
-}
+delayTime = 1
+Digital_PIN = 24
+
+GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
+
+while True:
+    analog = '%.2f' % chan0.voltage
+ 
+    
+    if GPIO.input(Digital_PIN) == False:
+        print ("Analog voltage value:", analog, "V, ", "Limit: not yet reached")
+    else:
+        print ("Analog voltage value:", analog, "V, ", "Limit: reached")
+    print ("---------------------------------------")
+
+    button_pressed = False
+    time.sleep(delayTime)
