@@ -22,59 +22,58 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 
 ### Material para testing
 
-  - Tarjeta arduino 
+  - RASPBERRY PI
   - KY-025 Reed Swtich
-  - 4 wires(Conectores)
+  - 8 wires(Conectores)
 
-### Conexion de pines
+  
+### Conexión
 
-  - Pin A0 (KY-025) a pin A0 (Arduino)
-  - G (KY-025) a GND (Arduino)
-  - (+) (KY-025) a +5V (Arduino)
-  - D0 (KY-025) a Pin 3 (Arduino)
-
-<img src="image_2021-12-07_194950.png" width="500">
-
+We use pin 40 (GPIO 21) in this example, you can use another GPIO pin.
+<img src="https://sensorkit.joy-it.net/files/files/sensors/KY-024/024-RPi.svg" width="500">
 
 ### Codigo
 
 ```
 //Revisado por Daniel Garcia - 18212185
 //No tendran la version con un Raspberry Pico?
+//ACTUALIZADO ADRIANA PEREA
 
+import time
+import board
+import busio
+import adafruit_ads1x15.ads1115 as ADS
+from adafruit_ads1x15.analog_in import AnalogIn
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
 
-int led = 13; // define the LED pin
-int digitalPin = 3; // KY-025 digital interface
-int analogPin = A0; // KY-025 analog interface
-int digitalVal; // digital readings
-int analogVal; //analog readings
+i2c = busio.I2C(board.SCL, board.SDA)
 
-void setup()
-{
-  pinMode(led, OUTPUT);
-  pinMode(digitalPin, INPUT);
-  //pinMode(analogPin, OUTPUT);
-  Serial.begin(9600);
-}
+ads = ADS.ADS1115(i2c)
 
-void loop()
-{
-  // Read the digital interface
-  digitalVal = digitalRead(digitalPin); 
-  if(digitalVal == HIGH) // if magnetic field is detected
-  {
-    digitalWrite(led, HIGH); // turn ON Arduino's LED
-  }
-  else
-  {
-    digitalWrite(led, LOW); // turn OFF Arduino's LED
-  }
+chan0 = AnalogIn(ads, ADS.P0)
+chan1 = AnalogIn(ads, ADS.P1)
+chan2 = AnalogIn(ads, ADS.P2)
+chan3 = AnalogIn(ads, ADS.P3)
 
-  // Read the analog interface
-  analogVal = analogRead(analogPin); 
-  Serial.println(analogVal); // print analog value to serial
+delayTime = 1
+Digital_PIN = 24
 
-  delay(100);
-}
+GPIO.setup(Digital_PIN, GPIO.IN, pull_up_down = GPIO.PUD_OFF)
 
+while True:
+    analog = '%.2f' % chan0.voltage
+ 
+    
+    if GPIO.input(Digital_PIN) == False:
+        print ("Analog voltage value:", analog, "V, ", "Limit: not yet reached")
+    else:
+        print ("Analog voltage value:", analog, "V, ", "Limit: reached")
+    print ("---------------------------------------")
+
+    button_pressed = False
+    time.sleep(delayTime)
 ```
+###Ejecución
+sudo python3 KY024-RPi.py
