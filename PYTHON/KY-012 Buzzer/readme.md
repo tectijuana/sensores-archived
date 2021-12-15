@@ -42,7 +42,7 @@ Para conectarlos a la placa tenemos lo siguiente:
 
 ### Codigo
 
-```
+```python
 import RPi.GPIO as GPIO
 import time
 
@@ -74,6 +74,6 @@ GPIO.cleanup()
 
 ### Ejecucion
 
-```
+```bash
 pi@raspberrypi~ python KY-012_buzzer.py
 ```
