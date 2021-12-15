@@ -36,7 +36,7 @@ Este sensor se piuede utilizar para proyectos que requieran la detección de rui
 ## Diagrama
 ![](Diagrama.PNG)
 ## Codigo
-```
+```python
 # Martinez Estrada Ana Karen
 # Revisado por Aquino Villegas Daniel
 
