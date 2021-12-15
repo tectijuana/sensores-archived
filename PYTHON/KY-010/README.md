@@ -47,3 +47,44 @@ codigo.py
 ### `4. Conclusión `
 Al buscar información sobre los sensores, nos podemos dar cuenta la variedad que existe en el mercado, y no solo eso, si no que se 
 encuentran a nuestros alrededor en diferentes dispositivos que  utilizamos día a día.Al realizar este tipo de practicas, nos ayudan a entender los componentes que tienen, así mismo conocer la manera correcta de  implementarlo, ya sea para poner una idea en practica que ayude a ciertas areas como la medicina o la educacion al crear proyectos que faciliten ciertas tareas, el mundo de los sensores abre grande posibilidades de implementacion, es por eso la importancia de aplicarlos y conocer las bases de programacion para darle forma a la idea y como parte de esta materia los sistemas programablque abarcan muchos areas de programacion y circuitos, y algunas de los materiales como los sensores nos permiten abarcar grandeas areas. 
+
+
+
+````python
+# Los módulos necesarios serán importados y configurados
+
+# Revisado por Aquino Villegas Daniel 18212144
+# La placa que se esta usando es la raspberry pi pico
+# La Libreria RPi No esta en funcionamiento, tienes que cambiarla por la libreria machine
+
+import machine
+import time
+  
+machine.setmode(machine.BCM)
+  
+# El pin de entrada que está conectado con el sensor
+
+machine_PIN = 21
+machine.setup(machine_PIN, GPIO.IN, pull_up_down = machine.PUD_DOWN)
+  
+print "KY-010 Sensor Test [press ctrl+c to end the test]"
+  
+def outputFunction(null):
+        print("Sensor is blocked")
+  
+# detección de señal (flanco ascendente).
+
+machine.add_event_detect(machine_PIN, GPIO.RISING, callback=outputFunction, bouncetime=100) 
+  
+# Bucle del programa principal
+
+try:
+        while True:
+                time.sleep(1)
+  
+# Trabajo de recolección de residuos una vez finalizado el programa
+
+except KeyboardInterrupt:
+        machine.cleanup()
+
+````
