@@ -22,9 +22,9 @@ Este módulo consta de una resistencia de 10 kΩ y un sensor de resorte que env�
 | Pin 6        | GND    |
 <img src="https://raw.githubusercontent.com/tectijuana/sensores/master/PYTHON/KY-031%20Tap%20Module/imagenes/2021-12-02%2019_57_16-Untitled%20Sketch.fzz_%20-%20Fritzing%20-%20%5BBreadboard%20View%5D.png" alt="KY-031" style="height: 300px; width:500px;"/>
 
-## Codigo
+## Codigo URGENTE A PICO
 
-```
+```python
 import RPi. GPIO  as  GPIO
 import time
    
@@ -48,5 +48,4 @@ try:
 except KeyboardInterrupt:
     GPIO.cleanup ()
 ```
-## Como ejecutarlo
-      sudo python3 KY031-RPi.py
+
