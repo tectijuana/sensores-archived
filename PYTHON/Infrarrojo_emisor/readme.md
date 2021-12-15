@@ -20,7 +20,7 @@ Este sensor es perfectamente compatible con muchas placas de desarrollo como Ard
 ![circuito](https://user-images.githubusercontent.com/80190387/145470044-afb68a51-4dc3-4b71-bb5f-5f7408036408.png)
 
 **Codigo Python**
-"""
+```python
 Palacios Sotelo Ignacio Josafat
 L21210894@tectijuana.edu.mx
 """
@@ -32,4 +32,4 @@ led = machine.Pin(16,machine.Pin.OUT)
 
 while True:
     led.value(1)
-
+```
