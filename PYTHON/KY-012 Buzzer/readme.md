@@ -43,6 +43,8 @@ Para conectarlos a la placa tenemos lo siguiente:
 ### Codigo
 
 ```python
+# CESAR ANDRES TRUJILLO GARAY
+
 import RPi.GPIO as GPIO
 import time
 
