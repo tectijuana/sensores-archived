@@ -36,7 +36,11 @@ El funcionamiento de un detector infrarrojo se basa en que los rayos infrarrojos
 
 
 ## Codigo
-```
+```python
+#
+# Por: ANA KAREN MARTINEZ ESTRADA
+#
+
 import time
 from machine import Pin
 from ir_rx import NEC_16
