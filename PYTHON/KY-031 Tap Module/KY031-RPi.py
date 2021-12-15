@@ -1,3 +1,6 @@
+#Revisado por Daniel Garcia - 18212185
+#NOTA: La libreria de RPI no es aceptada por la Pi Pico, solo por la RP3
+
 import RPi. GPIO  as  GPIO
 import time
    
