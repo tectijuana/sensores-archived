@@ -29,7 +29,7 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
   
 ### Conexión
 
-We use pin 40 (GPIO 21) in this example, you can use another GPIO pin.
+
 <img src="https://sensorkit.joy-it.net/files/files/sensors/KY-024/024-RPi.svg" width="500">
 
 ### Codigo
@@ -75,5 +75,7 @@ while True:
     button_pressed = False
     time.sleep(delayTime)
 ```
-###Ejecución
+##Ejecución
+```bash
 sudo python3 KY024-RPi.py
+```
