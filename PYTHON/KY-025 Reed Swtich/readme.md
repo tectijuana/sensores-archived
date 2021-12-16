@@ -37,8 +37,7 @@ _Compatible con Arduino, Raspberry Pi, ESP32 y otros microcontroladores._
 
 ```
 //Revisado por Daniel Garcia - 18212185
-//No tendran la version con un Raspberry Pico?
-//ACTUALIZADO ADRIANA PEREA
+// NOTA: No tendran un diagrama que use la Pico? ese diagrama utiliza un convertidor ADC con el que no cuento :/
 
 import time
 import board
