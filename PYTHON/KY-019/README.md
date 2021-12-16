@@ -59,6 +59,9 @@ Board Dimensions | 27mm x 34mm [1.063in x 1.338in]
 
 # inicio del programa del relevador
 
+#Revisado por: Daniel Garcia - 18212185
+#NOTA: No tendras un codigo que no use la libreria de RPi? no es soportada por la Pico
+
 import RPi.GPIO as GPIO     # import GPIO librarie
   
 GPIO.setmode(GPIO.BCM)
