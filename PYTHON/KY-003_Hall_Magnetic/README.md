@@ -16,7 +16,6 @@ El valor del voltaje en el pin S dependería de la fuerza de un imán y la dista
 ![](https://arduinomodules.info/wp-content/uploads/KY-003_hall_magnetic_sensor_arduino_module-300x300.jpg)
 
 ## Diseño
-![](https://i1.wp.com/www.notenoughtech.com/wp-content/uploads/2016/09/ky003.jpg?fit=265%2C300)
 ![](https://github.com/tectijuana/sensores/blob/74f2e97c91f8306d8f9de4a0e29e710dfd39fb5b/PYTHON/KY-003_Hall_Magnetic/diagrama/diagrama.png)
  
  ## Código
