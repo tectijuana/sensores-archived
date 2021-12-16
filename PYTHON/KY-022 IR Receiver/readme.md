@@ -39,6 +39,9 @@ El funcionamiento de un detector infrarrojo se basa en que los rayos infrarrojos
 ```python
 #
 # Por: ANA KAREN MARTINEZ ESTRADA
+
+  Revisado por: Daniel Garcia - 18212185
+  NOTA: Me dice que el modulo ir_rx no existe. Probablemente es por culpa de la libreria. Tendras la libreria que me puedas pasar?
 #
 
 import time
