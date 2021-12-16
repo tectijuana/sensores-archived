@@ -1,5 +1,8 @@
 #INICIO DEL EJEMPLO PARA UN RELEVADOR EN RASPBERRY PI PICO
 
+#Revisado por: Daniel Garcia - 18212185
+#NOTA: No tendras un codigo que no use la libreria de RPi? no es soportada por la Pico
+
 import RPi.GPIO as GPIO     # import GPIO librarie
   
 GPIO.setmode(GPIO.BCM)
