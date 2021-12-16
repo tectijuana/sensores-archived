@@ -60,6 +60,12 @@ Mass [ Pin 6 ] | GND
 
 # inicio del programa del sensor mágnetico
 
+# Revisado por Daniel Garcia - 18212185
+# NOTA: De pura casualidad no tendras el diagrama con la Pi Pico? es que el diagrama que tienes
+# utiliza un convertidor ADC que no tengo en la caja.
+
+#NOTA: Creo que las librerías de adafruit no las detecta la Pico 
+
 # ! /usr/bin/python
 #  coding = utf-8
 
