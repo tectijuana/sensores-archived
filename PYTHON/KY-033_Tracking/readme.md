@@ -20,7 +20,7 @@ El Sensor de Obstáculos Módulo KY-033 te permitirá realizar una detección de
 ```python
 #
 # Progamador: ERIK ISSAC MELENDREZ PEREZ
-# Tester: ___
+# Tester: Daniel Garcia - 18212185
 #
 
 # Se importan los pines y utime
