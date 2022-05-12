@@ -6,6 +6,7 @@ Usar el archivo **flash_nuke.uf2** proporcionado para reseteo de fábrica.
 # Instalación de Mu-Editor en Linux
 
 Entrar con Linux en la PC de laboratorio, la clave es 123
+
 https://codewith.mu/en/howto/1.1/install_with_python
 
 ```bash
@@ -17,6 +18,7 @@ $ shortcut mu-editor
 ---
 ![](images/raspberry-pi-pico-blinking-led.gif)
 # BLINK en CircuitPython
+
 https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/blinky-and-a-button
 
 ```python
