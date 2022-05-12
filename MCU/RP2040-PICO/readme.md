@@ -12,6 +12,7 @@ $ pip3 install shortcut
 $ shortcut mu-editor
 ```
 ---
+![](images/raspberry-pi-pico-blinking-led.gif)
 # BLINK en CircuitPython
 https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/blinky-and-a-button
 
