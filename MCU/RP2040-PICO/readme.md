@@ -1,1 +1,37 @@
-.
+# Factory RESET "Pico RP2040"
+
+Usar el archivo .ELF proporcionado para reseteo de fábrica.
+
+---
+
+Instalación de Mu-Editor en Linux Laboratorio TEC
+
+https://codewith.mu/en/howto/1.1/install_with_python
+
+Entrar con Linux en la PC de laboratorio, la clave es 123
+
+```bash
+$ apt install python3-pip
+$ pip3 install mu-editor
+$ pip3 install shortcut
+$ shortcut mu-editor
+```
+
+************************
+BLINK básico para CircuitPython
+***************************
+```python
+"""Example for Pico. Blinks the built-in LED."""
+import time
+import board
+import digitalio
+
+led = digitalio.DigitalInOut(board.LED)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+```
