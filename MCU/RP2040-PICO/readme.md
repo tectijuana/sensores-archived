@@ -1,6 +1,6 @@
 # Factory RESET "Pico RP2040"
 
-Usar el archivo .ELF proporcionado para reseteo de fábrica.
+Usar el archivo **flash_nuke.uf2** proporcionado para reseteo de fábrica.
 
 ---
 
