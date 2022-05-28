@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -70,
+      "left": -26,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper1",
+      "top": -73.71,
+      "left": -269.16,
+      "attrs": { "display": "angle" }
+    },
+    {
+      "type": "wokwi-a4988",
+      "id": "drv1",
+      "top": 211.3,
+      "left": -184.17,
+      "rotate": -90,
+      "attrs": {}
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": 232.96, "left": -109.83, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 256.3,
+      "left": 38.38,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 187.35,
+      "left": -43.21,
+      "rotate": -90,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "drv1:2B", "stepper1:A-", "#8f4814", [ "v0" ] ],
+    [ "drv1:2A", "stepper1:A+", "orange", [ "v0" ] ],
+    [ "drv1:1A", "stepper1:B+", "gold", [ "v0" ] ],
+    [ "drv1:1B", "stepper1:B-", "blue", [ "v0" ] ],
+    [ "drv1:SLEEP", "drv1:RESET", "green", [ "v14.53", "h-4.17" ] ],
+    [ "sw1:2", "drv1:DIR", "magenta", [ "v20.4", "h-55.04" ] ],
+    [ "pico:GND.5", "r1:2", "black", [ "h74.8", "v93.98" ] ],
+    [ "pico:GND.5", "sw1:3", "black", [ "h74.8", "v181.31", "h-250.67" ] ],
+    [ "sw1:1", "pico:3V3", "red", [ "v36.4", "h240.46", "v-226" ] ],
+    [ "btn1:1.r", "drv1:STEP", "yellow", [ "v-23.48", "h-39.6", "v158.08", "h-58.97" ] ],
+    [ "btn1:1.l", "r1:1", "green", [ "v0" ] ],
+    [ "sw1:1", "btn1:2.l", "red", [ "v36.2", "h247.87" ] ]
+  ]
+}
