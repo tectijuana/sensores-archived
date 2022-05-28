@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -105.58, "left": 165.09, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "pot1:SIG", "pico:GP26", "green", [ "v0" ] ],
+    [ "pot1:GND", "pico:GND.7", "black", [ "v0" ] ]
+  ]
+}

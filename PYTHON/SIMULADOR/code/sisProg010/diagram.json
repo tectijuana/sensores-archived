@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 53.83,
+      "left": -14.54,
+      "attrs": { "env": "circuitpython-20210914-8520c43" }
+    },
+    {
+      "type": "wokwi-led-ring",
+      "id": "ring1",
+      "top": -126.46,
+      "left": 104.97,
+      "attrs": { "pixels": "16" }
+    },
+    {
+      "type": "wokwi-neopixel-meter",
+      "id": "ring2",
+      "top": -198.66,
+      "left": -101.1,
+      "attrs": { "pixels": "16" }
+    }
+  ],
+  "connections": [
+    [ "ring1:DIN", "pico:GP16", "green", [ "v0" ] ],
+    [ "ring1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "ring1:GND", "pico:GND.8", "black", [ "v0" ] ]
+  ]
+}

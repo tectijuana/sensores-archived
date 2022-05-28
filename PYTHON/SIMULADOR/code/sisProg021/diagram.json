@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Abdul Muqeet",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -70.67,
+      "left": 103.33,
+      "attrs": { "env": "micropython-20210902-v1.17" }
+    },
+    { "type": "wokwi-ssd1306", "id": "oled1", "top": -32.57, "left": -96.98, "attrs": {} }
+  ],
+  "connections": [
+    [ "oled1:VIN", "pico:3V3", "red", [ "v-102.11", "h234.5", "v102.67", "h-4" ] ],
+    [ "oled1:GND", "pico:GND.8", "black", [ "v-90.27", "h211.17", "v72", "h-6" ] ],
+    [ "oled1:DATA", "pico:GP0", "yellow", [ "v-44.11", "h128.83", "v4" ] ],
+    [ "oled1:CLK", "pico:GP1", "orange", [ "v-32.11", "h133.83", "v5.33" ] ]
+  ]
+}

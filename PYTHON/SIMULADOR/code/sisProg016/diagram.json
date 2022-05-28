@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -26,
+      "left": 178.1,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "lcd1:SDA", "pico:GP0", "cyan", [ "h-12.67", "v-66.85", "h-212.61", "v51.66" ] ],
+    [ "lcd1:SCL", "pico:GP1", "yellow", [ "h-20.91", "v-67.37", "h-194.65", "v58.39" ] ],
+    [ "lcd1:VCC", "pico:3V3", "red", [ "h-83.79", "v33.24" ] ],
+    [ "lcd1:GND", "pico:GND.8", "black", [ "h-71.07", "v26.27" ] ]
+  ]
+}

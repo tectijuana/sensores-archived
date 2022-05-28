@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -166.41, "left": -120.83, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -78.41,
+      "left": -2.83,
+      "attrs": { "value": "1000" }
+    }
+  ],
+  "connections": [
+    [ "dht1:GND", "pico:GND.1", "black", [ "v0" ] ],
+    [ "dht1:VCC", "pico:3V3", "red", [ "v17.5", "h210", "v22" ] ],
+    [ "pico:3V3", "r1:2", "red", [ "h50.84", "v-103.93" ] ],
+    [ "dht1:SDA", "r1:1", "green", [ "v34.17", "h60.27", "v-52.67" ] ],
+    [ "dht1:SDA", "pico:GP2", "yellow", [ "v0" ] ]
+  ]
+}

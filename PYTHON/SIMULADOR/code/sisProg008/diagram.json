@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 53.83,
+      "left": -14.54,
+      "attrs": { "env": "circuitpython-20210914-8520c43" }
+    },
+    {
+      "type": "wokwi-neopixel-matrix",
+      "id": "neopixels",
+      "top": -58.17,
+      "left": -108.89,
+      "attrs": { "rows": "1", "cols": "1", "matrixLayout": "serpentine" }
+    }
+  ],
+  "connections": [
+    [ "pico:GND.5", "neopixels:VSS", "black", [] ],
+    [ "neopixels:DIN", "pico:GP16", "green", [ "v230", "h122", "v21" ] ],
+    [ "neopixels:VCC", "pico:3V3", "red", [ "v28", "h138", "v44" ] ],
+    [ "neopixels:GND", "pico:GND.1", "black", [ "v0" ] ]
+  ]
+}

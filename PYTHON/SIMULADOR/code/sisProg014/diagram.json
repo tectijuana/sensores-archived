@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot2",
+      "top": -121.2,
+      "left": 155.7,
+      "attrs": { "travelLength": "30" }
+    }
+  ],
+  "connections": [
+    [ "pot2:SIG", "pico:GP26", "green", [ "v0" ] ],
+    [ "pot2:GND", "pico:GND.7", "black", [ "v0" ] ],
+    [ "pot2:VCC", "pico:3V3", "red", [ "h-40.4", "v25.82" ] ]
+  ]
+}

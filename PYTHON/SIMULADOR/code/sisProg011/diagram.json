@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Lance Harvey",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20210902-v1.17" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -42,
+      "left": -139.34,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [ [ "bz1:2", "pico:GP7", "green", [ "v0" ] ], [ "bz1:1", "pico:GND.3", "black", [ "v0" ] ] ]
+}

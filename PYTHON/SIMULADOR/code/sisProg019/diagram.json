@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Álvaro G.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": -19.62, "left": 137.44, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:GND", "pico:GND.8", "black", [ "h0" ] ],
+    [ "servo1:V+", "pico:3V3", "green", [ "h-17.27", "v8.96" ] ],
+    [ "servo1:PWM", "pico:GP1", "yellow", [ "h-13.03", "v-55.63", "h-138.02", "v16.95" ] ]
+  ]
+}
