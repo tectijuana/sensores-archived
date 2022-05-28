@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 200.57,
+      "left": -42.52,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -126.3,
+      "left": -159.19
+    }
+  ],
+  "connections": [
+    [ "pico:GP6", "keypad1:C4", "blue", [ "v-8", "h0" ] ],
+    [ "pico:GP7", "keypad1:C3", "blue", [ "v-12", "h0" ] ],
+    [ "pico:GP8", "keypad1:C2", "blue", [ "v-16", "h0" ] ],
+    [ "pico:GP9", "keypad1:C1", "blue", [ "v-20", "h0" ] ],
+    [ "pico:GP10", "keypad1:R4", "purple", [ "v-24", "h0" ] ],
+    [ "pico:GP11", "keypad1:R3", "purple", [ "v-28", "h0" ] ],
+    [ "pico:GP12", "keypad1:R2", "purple", [ "v-32", "h0" ] ],
+    [ "pico:GP13", "keypad1:R1", "purple", [ "v-36", "h0" ] ]
+  ]
+}
