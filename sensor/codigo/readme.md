@@ -1,0 +1,1 @@
+aqui specs del sensor
