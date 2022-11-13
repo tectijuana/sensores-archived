@@ -17,3 +17,18 @@ print('Channel: ',wlan.config('channel'))
 print('essid', wlan.config('essid'))
 print('txpower',wlan.config('txpower'))
 
+# Choose View -> Plotter in Thonny to see a graph of the results
+
+from time import sleep
+from picozero import pico_temp_sensor
+# LED
+from picozero import pico_led
+from time import sleep
+
+while True:
+    print(pico_temp_sensor.temp)
+    sleep(0.1)
+    pico_led.on()
+    sleep(0.5)
+    pico_led.off()
+    sleep(0.5)
