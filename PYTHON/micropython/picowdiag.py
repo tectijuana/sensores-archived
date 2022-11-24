@@ -1,4 +1,6 @@
+# Archivo de diagnostico cuando recibe una pico desauseada del Sistemas Programables 22AB
 
+# Quitar el ahorro de energia del CHIP, full power
 import rp2
 rp2.country('MX')
 import network
@@ -6,6 +8,7 @@ wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.config(pm = 0xa11140)
 
+# Preparar el templete del diagnostico
 import ubinascii
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
