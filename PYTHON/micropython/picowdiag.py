@@ -1,4 +1,5 @@
 # Archivo de diagnostico cuando recibe una pico desauseada del Sistemas Programables 22AB
+# previamente importe el PICOZERO a la libreria manualmente en el Thonny
 
 # Quitar el ahorro de energia del CHIP, full power
 import rp2
