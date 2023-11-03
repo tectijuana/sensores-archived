@@ -36,3 +36,5 @@ En esta sección, documenta los resultados de tus prácticas. Incluye capturas d
 // Ejemplo de código para obtener la hora del servidor NTP
 
 ![](NTPServer.png)
+
+### Ver el archivo ZIP para Simulador Wokwi
