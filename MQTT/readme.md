@@ -15,3 +15,5 @@ En 2013, IBM presentó MQTT v3.1 ante el cuerpo de especificaciones de OASIS, es
 Posteriormente, OASIS asumió la responsabilidad de mantenimiento y lanzó v3.1.1 en 2014.
 En 2019, se lanzó la última versión de MQTT, v5, que agrega varias características empresariales, como intervalo de caducidad de sesión/mensaje, código de motivo, alias de tema, propiedades de usuario y opciones de autenticación extendidas.
 Además de las versiones mencionadas, existen otras versiones del protocolo MQTT diseñadas para aplicaciones de baja potencia, ancho de banda reducido y redes de sensores: MQTT-SN y MQTT-SN sobre UDP.
+
+Continua el curso gratis por Mosquitto en https://cedalo.com/mqtt-academy/ completamente gratis y con animaciones
